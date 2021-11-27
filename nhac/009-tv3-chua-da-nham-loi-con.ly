@@ -13,7 +13,19 @@
 nhacPhienKhucSop = \relative c'' {
   \partial 4 a8 _(b16 a) |
   g4. f8 |
-  f g g g |
+  f
+  <<
+    {
+      \voiceOne
+      g
+    }
+    \new Voice = "splitpart" {
+      \voiceTwo
+      \once \override NoteColumn.force-hshift = #1
+      \once \tiny e
+    }
+  >>
+  g g |
   a4. f16 a |
   g8 g e f |
   d4 r8 d |
@@ -75,7 +87,9 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
-	    Khiến con chẳng sợ thù nhân vây kín,
+	    Khiến con chẳng sợ
+	    \markup { \underline \italic "thù" }
+	    nhân vây kín,
 	    vì Chúa ban ân lộc cứu độ,
 	    Bao kẻ tác hại con,
 	    Chúa trở tay quất ngã.
