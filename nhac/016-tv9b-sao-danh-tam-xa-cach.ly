@@ -3,103 +3,112 @@
 \include "english.ly"
 
 \header {
-  title = "Chúa Đã Nhậm Lời Con"
-  composer = "Tv. 3"
+  title = "Sao Đành Tâm Xa Cách"
+  composer = "Tv. 9B"
   %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
-  \partial 4 a8 _(b16 a) |
-  g4. f8 |
-  f
+  \partial 8 c8 |
+  b4. a8 |
+  gs a4 b8 |
+  c2 ~ |
+  c8 b d d |
+  e4. b8 |
+  c8. b16 gs8 e |
+  a2 ~ |
+  a4 \bar "||"
+  
+  e8. e16 |
+  a8 d,4 d8 |
+  c8. b16 d8
   <<
     {
       \voiceOne
-      g
+      d
     }
     \new Voice = "splitpart" {
       \voiceTwo
-      \once \override NoteColumn.force-hshift = #1
+      \once \override NoteColumn.force-hshift = #2
       \once \tiny e
     }
   >>
-  g g |
-  a4. f16 a |
-  g8 g e f |
-  d4 r8 d |
-  b8. _(a16) f'8 d |
-  g4. e16 _(f) |
-  d8 g4 a8 |
-  a2 \bar "||" \break
-  
-  \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
-  \key d \major
-  fs4. g16 (fs) |
-  e2 |
-  r8 d d fs |
-  g4 e8 e |
-  a4 r8 b |
-  b8. cs16 cs8 b |
-  a4. a8 |
-  e' e r e |
-  e4 cs8 cs |
-  d2 \bar "|."
+  \oneVoice
+  e2 ~ |
+  e4 e8. e16 |
+  b'8 c4 c8 |
+  e8. f16 b,8 c |
+  a2 ~ |
+  a4 \bar "|."
 }
 
-nhacPhienKhucAlto = \relative c' {
-  r4
-  R2*9
-  
-  \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
-  \key d \major
-  d4. e16 (d) |
-  cs2 |
-  r8 d d d |
-  e4 d8 d |
-  cs4 r8 e |
-  g8. a16 a8 g |
-  fs4. fs8 |
-  g g r gs |
-  a4 e8 e |
-  fs2
+nhacPhienKhucAlto = \relative c'' {
+  a8 |
+  e4. c8 |
+  e f4 e8 |
+  a2 ~ |
+  a8 e b' a |
+  gs4. gs8 |
+  a8. d,16 e8 d |
+  c2 ~ |
+  c4
 }
 
 % Lời phiên khúc
 loiPhienKhucSop = \lyrics {
+  \set stanza = "ĐK:"
+  Chúa ơi, sao đành tâm xa cách,
+  ngày con nguy khốn sao nỡ ngoảnh mặt làm ngơ.
   <<
     {
       \set stanza = "1."
-      Chúa ơi, địch thù con sao đông thế,
-      người chống con ôi thực quá nhiều,
-      Bao kẻ nói về con:
-      Chúa Trời đâu cứu hắn.
+      Này người khó nghèo luôn bị địch quân uy hiếp
+      Còn bọn kiêu hãnh ngạo nghễ xúc phạm đến Ngài.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
-	    Mỗi khi lời miệng con kêu lên Chúa,
-	    Ngài lắng nghe, thương tình đáp lời,
-	    tôi nằm thiếp ngủ đi,
-	    thức dậy tay Chúa đỡ.
+	    Bọn họ nói rằng: ta sợ gì, đâu
+	    \markup { \italic \underline "có" }
+	    Chúa,
+	    Việc họ toan tính thực phán quyết Ngài xa vời.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
-	    Khiến con chẳng sợ
-	    \markup { \underline \italic "thù" }
-	    nhân vây kín,
-	    vì Chúa ban ân lộc cứu độ,
-	    Bao kẻ tác hại con,
-	    Chúa trở tay quất ngã.
+	    Địch thù nhủ thầm:
+	    ta chẳng hề chi nao núng,
+	    Trọn đời ta đấy chẳng có lúc nào khốn cùng.
+    }
+    \new Lyrics {
+	    \set associatedVoice = "beSop"
+	    \set stanza = "4."
+	    Miệng họ rủa nguyền, lưỡi gian tà gây tai biến,
+	    Phục cạnh thôn ấp, rình bắt giết người vô tội.
+    }
+    \new Lyrics {
+	    \set associatedVoice = "beSop"
+	    \set stanza = "5."
+	    Họ từng nhủ lòng:
+	    Chúa đâu còn lưu tâm nữa,
+	    ngài đà che mắt nào có thấy chi nữa mà.
+    }
+    \new Lyrics {
+	    \set associatedVoice = "beSop"
+	    \set stanza = "6."
+	    Nguyện Ngài chỗi dậy, sao bỏ người lâm nguy khốn,
+	    Kìa bọn gian ác cả dám xúc phạm đến Ngài.
+    }
+    \new Lyrics {
+	    \set associatedVoice = "beSop"
+	    \set stanza = "7."
+	    Người nghèo khấn cầu,
+	    mong Ngài thuận cho như ý,
+	    Nhờ Ngài bên đỡ họ mãi vững dạ an lòng.
     }
   >>
-  \set stanza = "ĐK:"
-  Nhưng Chúa ơi,
-  Ngài là khiên thuẫn độ trì con,
-  Khi con cất tiếng kêu cầu,
-  từ núi thánh Chúa đã nhậm lời con.
 }
 
 % Dàn trang
@@ -116,6 +125,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
+  %page-count = #1
 }
 
 TongNhip = {
@@ -155,7 +165,7 @@ notBePhu =
   >>
   \layout {
     %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #1.5
+    \override Lyrics.LyricSpace.minimum-distance = #1
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

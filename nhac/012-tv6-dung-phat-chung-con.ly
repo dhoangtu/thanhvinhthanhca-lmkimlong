@@ -3,110 +3,107 @@
 \include "english.ly"
 
 \header {
-  title = "Chúa Đã Nhậm Lời Con"
-  composer = "Tv. 3"
+  title = "Đừng Phạt Chúng Con"
+  composer = "Tv. 6"
   %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
-  \partial 4 a8 _(b16 a) |
-  g4. f8 |
-  f
-  <<
-    {
-      \voiceOne
-      g
-    }
-    \new Voice = "splitpart" {
-      \voiceTwo
-      \once \override NoteColumn.force-hshift = #1
-      \once \tiny e
-    }
-  >>
-  g g |
-  a4. f16 a |
-  g8 g e f |
-  d4 r8 d |
-  b8. _(a16) f'8 d |
-  g4. e16 _(f) |
-  d8 g4 a8 |
-  a2 \bar "||" \break
+  g8 f g a |
+  d,4. a8 |
+  d4 bf'8 (a) |
+  g4 r8 d |
+  d'2 |
+  r8 c c c |
+  bf8. d16 g,8 g |
+  a2 |
+  f!?8 f g f |
+  d4. d8 |
+  a' a4 g8 |
+  bf2 |
+  a8 a bf g |
+  a4. d,8 |
+  a' a4 bf8 |
+  g2 \bar "||"
   
-  \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
-  \key d \major
-  fs4. g16 (fs) |
-  e2 |
-  r8 d d fs |
-  g4 e8 e |
-  a4 r8 b |
-  b8. cs16 cs8 b |
-  a4. a8 |
-  e' e r e |
-  e4 cs8 cs |
-  d2 \bar "|."
+  g4. a16 (g) |
+  f8. d16 \tuplet 3/2 { a'8 a g }
+  bf2 |
+  a4. bf16 (a) |
+  g4 \tuplet 3/2 { f8 ef ef } |
+  d2 |
+  bf8 ef ef c |
+  d8. d16 \tuplet 3/2 { d8 g a } |
+  a2 |
+  a8 c ef d |
+  d8. d16 \tuplet 3/2 { c8 bf f } |
+  g2 \bar "|."
 }
 
-nhacPhienKhucAlto = \relative c' {
-  r4
-  R2*9
+nhacPhienKhucAlto = \relative c'' {
+  g8 f g a |
+  d,4. a8 |
+  d4 bf'8 (a) |
+  g4 r8 d |
+  bf'2 |
+  r8 a a a |
+  g8. f16 ef8 ef |
+  d2 |
+  f!?8 f g f |
+  d4. d8 |
+  c d4 d8 |
+  g2 |
+  a8 a bf g |
+  a4. d,8 |
+  c d4 c8 |
+  bf2
   
-  \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
-  \key d \major
-  d4. e16 (d) |
-  cs2 |
-  r8 d d d |
-  e4 d8 d |
-  cs4 r8 e |
-  g8. a16 a8 g |
-  fs4. fs8 |
-  g g r gs |
-  a4 e8 e |
-  fs2
+  R2*9
 }
 
 % Lời phiên khúc
 loiPhienKhucSop = \lyrics {
+  \set stanza = "ĐK:"
+  Xin đừng theo nghĩa nộ mà phạt chúng con,
+  Lạy Chúa, trong cơn lôi đình chớ trừng trị con.
+  Xin thương xót con cùng, vì thân con kiệt sức,
+  Xin thương chữa trị con vì xương cốt rã rời.
   <<
     {
       \set stanza = "1."
-      Chúa ơi, địch thù con sao đông thế,
-      người chống con ôi thực quá nhiều,
-      Bao kẻ nói về con:
-      Chúa Trời đâu cứu hắn.
+      Xin đoái lại mà ban ơn giải thoát,
+      Xin cứu con theo lượng hải hà.
+      Vì giữa chốn tử vong nào còn ai nhớ Chúa,
+      Và trong cõi âm ty có ai ca tụng Ngài?
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
-	    Mỗi khi lời miệng con kêu lên Chúa,
-	    Ngài lắng nghe, thương tình đáp lời,
-	    tôi nằm thiếp ngủ đi,
-	    thức dậy tay Chúa đỡ.
+	    Con mỏi mòn vì kêu van thảm thiết,
+	    Đêm, mỗi đêm châu lệ chảy dài,
+	    Dòng nước mắt hòa chan,
+	    giường mền con ướt đẫm,
+	    Vì muôn nỗi thương đau, mắt con lu mờ rồi.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
-	    Khiến con chẳng sợ
-	    \markup { \underline \italic "thù" }
-	    nhân vây kín,
-	    vì Chúa ban ân lộc cứu độ,
-	    Bao kẻ tác hại con,
-	    Chúa trở tay quất ngã.
+	    Quân ác thù hãy mau mau tẩu thoát,
+	    Nay Chúa nghe ta khẩn nguyện rồi.
+	    Ngài đã đáp lời tôi,
+	    làm địch quân khiếp hãi,
+	    Vội quay bước theo nhau rút lui trong tủi nhục.
     }
   >>
-  \set stanza = "ĐK:"
-  Nhưng Chúa ơi,
-  Ngài là khiên thuẫn độ trì con,
-  Khi con cất tiếng kêu cầu,
-  từ núi thánh Chúa đã nhậm lời con.
 }
 
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 10\mm
-  bottom-margin = 10\mm
+  top-margin = 5\mm
+  bottom-margin = 5\mm
   left-margin = 10\mm
   right-margin = 10\mm
   indent = #0
@@ -116,10 +113,11 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
+  %page-count = #1
 }
 
 TongNhip = {
-  \key c \major \time 2/4
+  \key bf \major \time 2/4
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment = #(ly:make-moment 1/4)
 }
@@ -155,7 +153,7 @@ notBePhu =
   >>
   \layout {
     %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #1.5
+    \override Lyrics.LyricSpace.minimum-distance = #0.6
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

@@ -3,103 +3,103 @@
 \include "english.ly"
 
 \header {
-  title = "Chúa Đã Nhậm Lời Con"
-  composer = "Tv. 3"
+  title = "Khi Con Kêu Cầu Chúa"
+  composer = "Tv. 4"
   %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
-  \partial 4 a8 _(b16 a) |
-  g4. f8 |
-  f
-  <<
-    {
-      \voiceOne
-      g
-    }
-    \new Voice = "splitpart" {
-      \voiceTwo
-      \once \override NoteColumn.force-hshift = #1
-      \once \tiny e
-    }
-  >>
-  g g |
-  a4. f16 a |
-  g8 g e f |
-  d4 r8 d |
-  b8. _(a16) f'8 d |
-  g4. e16 _(f) |
-  d8 g4 a8 |
-  a2 \bar "||" \break
+  \partial 4. a8 a a |
+  e8. c'16 c8 c |
+  b2 ~ |
+  b8 c b b |
+  a8. d16
+  \afterGrace c8 ({
+    \override Flag.stroke-style = #"grace"
+    d16)}
+  \revert Flag.stroke-style
+  e8 |
+  e2 ~ |
+  e4 r8 e, |
+  c'4. a8 |
+  a a4 c8 |
+  b4 r8 b |
+  d c4 e,8 |
+  b' c4 b8 |
+  a2 \bar "||" 
   
-  \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
-  \key d \major
-  fs4. g16 (fs) |
-  e2 |
-  r8 d d fs |
-  g4 e8 e |
-  a4 r8 b |
-  b8. cs16 cs8 b |
-  a4. a8 |
-  e' e r e |
-  e4 cs8 cs |
-  d2 \bar "|."
+  g!?4. g8 |
+  a4 \tuplet 3/2 { g8 a g } |
+  e8. c16 c8 d |
+  e2 ~ |
+  e4 r8 e |
+  b' c4 a16 b |
+  b4 b |
+  d8 e4 e16 (d) |
+  e2 ~ |
+  e8 \bar "|."
 }
 
-nhacPhienKhucAlto = \relative c' {
-  r4
-  R2*9
-  
-  \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
-  \key d \major
-  d4. e16 (d) |
-  cs2 |
-  r8 d d d |
-  e4 d8 d |
-  cs4 r8 e |
-  g8. a16 a8 g |
-  fs4. fs8 |
-  g g r gs |
-  a4 e8 e |
-  fs2
+nhacPhienKhucAlto = \relative c'' {
+  a8 a a |
+  e8. a16 a8 a |
+  e2 ~ |
+  e8 a g!? g |
+  f8. f16 a8 [a] |
+  gs2 ~ |
+  gs4 r8 e |
+  a4. f8 |
+  f f4 a8 |
+  e4 r8 e |
+  f e4 e8 |
+  d e4 d8 |
+  c2
 }
 
 % Lời phiên khúc
 loiPhienKhucSop = \lyrics {
+  \set stanza = "ĐK:"
+  Khi con kêu cầu, Chúa đáp tiếng con,
+  Lúc con cơ cùng, xin mở lối thoát.
+  Lạy Chúa, là đền trời xét soi,
+  nguyện đoái thương và nghe tiếng con cầu.
   <<
     {
       \set stanza = "1."
-      Chúa ơi, địch thù con sao đông thế,
-      người chống con ôi thực quá nhiều,
-      Bao kẻ nói về con:
-      Chúa Trời đâu cứu hắn.
+      Này phàm nhân, cho đến bao giờ lòng còn chai đá,
+      còn ưa thích chuyện hư không,
+      chạy theo điều giả dối.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
-	    Mỗi khi lời miệng con kêu lên Chúa,
-	    Ngài lắng nghe, thương tình đáp lời,
-	    tôi nằm thiếp ngủ đi,
-	    thức dậy tay Chúa đỡ.
+	    Này hồn tôi chứa chan ân lộc kỳ diệu của Chúa
+	    Lời tôi mới vừa kêu lên,
+	    Ngài mau lẹ trả đáp.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
-	    Khiến con chẳng sợ
-	    \markup { \underline \italic "thù" }
-	    nhân vây kín,
-	    vì Chúa ban ân lộc cứu độ,
-	    Bao kẻ tác hại con,
-	    Chúa trở tay quất ngã.
+	    Này người ơi, hãy mau run sợ,
+	    đừng phạm tội nữa,
+	    nằm yên đó, hôi tâm đi,
+	    và tin cậy ở Chúa.
+    }
+    \new Lyrics {
+	    \set associatedVoice = "beSop"
+	    \set stanza = "4."
+	    Người người than: ai sẽ ban tặng một đời hạnh phúc?
+	    phần con những chỉ trông mong Thần Nhan Ngài tỏa sáng.
+    }
+    \new Lyrics {
+	    \set associatedVoice = "beSop"
+	    \set stanza = "5."
+	    Lòng mừng vui hơn lúc thiên hạ được mùa lúa mới,
+	    Nhờ ơn Chúa, được an tâm, này con nằm ngủ thiếp.
     }
   >>
-  \set stanza = "ĐK:"
-  Nhưng Chúa ơi,
-  Ngài là khiên thuẫn độ trì con,
-  Khi con cất tiếng kêu cầu,
-  từ núi thánh Chúa đã nhậm lời con.
 }
 
 % Dàn trang
@@ -116,6 +116,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
+  %page-count = #1
 }
 
 TongNhip = {
@@ -155,7 +156,7 @@ notBePhu =
   >>
   \layout {
     %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #1.5
+    \override Lyrics.LyricSpace.minimum-distance = #0.8
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

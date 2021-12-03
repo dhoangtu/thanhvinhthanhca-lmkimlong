@@ -3,103 +3,90 @@
 \include "english.ly"
 
 \header {
-  title = "Chúa Đã Nhậm Lời Con"
-  composer = "Tv. 3"
+  title = "Con Van Xin Ngài"
+  composer = "Tv. 5"
   %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
-  \partial 4 a8 _(b16 a) |
-  g4. f8 |
-  f
-  <<
-    {
-      \voiceOne
-      g
-    }
-    \new Voice = "splitpart" {
-      \voiceTwo
-      \once \override NoteColumn.force-hshift = #1
-      \once \tiny e
-    }
-  >>
-  g g |
-  a4. f16 a |
-  g8 g e f |
-  d4 r8 d |
-  b8. _(a16) f'8 d |
-  g4. e16 _(f) |
-  d8 g4 a8 |
-  a2 \bar "||" \break
+  \partial 4 a8. a16 |
+  a8 gs4 e8 |
+  c'4 b8 e |
+  e8. e16 e8 c |
+  a b4. ~ |
+  b4 e,8 c' |
+  c8. b16 a8 gs |
+  b e,4 e8 |
+  b' c gs4 |
+  a2 \bar "||"
   
-  \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
-  \key d \major
-  fs4. g16 (fs) |
-  e2 |
-  r8 d d fs |
-  g4 e8 e |
-  a4 r8 b |
-  b8. cs16 cs8 b |
-  a4. a8 |
-  e' e r e |
-  e4 cs8 cs |
-  d2 \bar "|."
+  a8. a16 b8 a |
+  gs4. e16 c' |
+  c8. a16 d8 d |
+  e2 ~ |
+  e4 d8 c16 (d) |
+  e8 (d16 c) a8 b |
+  b4. b16 b |
+  e,8 b' c16 (b) gs8 |
+  a2 ~ |
+  a4 \bar "|."
 }
 
-nhacPhienKhucAlto = \relative c' {
-  r4
-  R2*9
-  
-  \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
-  \key d \major
-  d4. e16 (d) |
-  cs2 |
-  r8 d d d |
-  e4 d8 d |
-  cs4 r8 e |
-  g8. a16 a8 g |
-  fs4. fs8 |
-  g g r gs |
-  a4 e8 e |
-  fs2
+nhacPhienKhucAlto = \relative c'' {
+  a8. a16 |
+  a8 gs4 e8 |
+  a4 a8 a |
+  gs8. gs16 a8 a |
+  f e4. ~ |
+  e4 e8 a |
+  a8. e16 f8 e |
+  d c4 c8 |
+  e e e4 |
+  c2
 }
 
 % Lời phiên khúc
 loiPhienKhucSop = \lyrics {
+  \set stanza = "ĐK:"
+  Con van xin Ngài,
+  lạy Chúa, từ sáng sớm Chúa đã nhậm lời con,
+  từ sáng sớm con thân trình ước nguyện,
+  rồi chăm chú đợi trông.
   <<
     {
       \set stanza = "1."
-      Chúa ơi, địch thù con sao đông thế,
-      người chống con ôi thực quá nhiều,
-      Bao kẻ nói về con:
-      Chúa Trời đâu cứu hắn.
+      Xin nghe tiếng van nài
+      và thấu suốt điều con rên xiết,
+      Ôi lạy Chúa là Vua con,
+      xin nghe lời kêu cứu của con.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
-	    Mỗi khi lời miệng con kêu lên Chúa,
-	    Ngài lắng nghe, thương tình đáp lời,
-	    tôi nằm thiếp ngủ đi,
-	    thức dậy tay Chúa đỡ.
+	    Do ân nghĩa cao dầy,
+	    được tiến bước vào nơi cung thánh,
+	    Con phục bái và suy tôn,
+	    Uy Danh Ngài con kính sợ liên.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
-	    Khiến con chẳng sợ
-	    \markup { \underline \italic "thù" }
-	    nhân vây kín,
-	    vì Chúa ban ân lộc cứu độ,
-	    Bao kẻ tác hại con,
-	    Chúa trở tay quất ngã.
+	    Xin theo đức công bình mà hướng dẫn
+	    để con đưa bước,
+	    Quân thù vẫn rình theo con,
+	    manh tâm bày mưu kế hại con.
+    }
+    \new Lyrics {
+	    \set associatedVoice = "beSop"
+	    \set stanza = "4."
+	    Ai nương náu bên Ngài
+	    nguyện ước sẽ được luôn vui sướng,
+	    Ai mộ mến Thần Danh luôn,
+	    hân hoan nhờ tay Chúa chờ che.
     }
   >>
-  \set stanza = "ĐK:"
-  Nhưng Chúa ơi,
-  Ngài là khiên thuẫn độ trì con,
-  Khi con cất tiếng kêu cầu,
-  từ núi thánh Chúa đã nhậm lời con.
 }
 
 % Dàn trang
@@ -116,6 +103,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
+  %page-count = #1
 }
 
 TongNhip = {
