@@ -13,7 +13,21 @@
 nhacPhienKhucSop = \relative c' {
   \partial 8 f16 e |
   d4. d8 |
-  a'4 \tuplet 3/2 { f8 f a } |
+  a'4 \tuplet 3/2 { f8
+  <<
+    {
+      \voiceOne
+      f
+    }
+    \new Voice = "splitpart" {
+      \voiceTwo
+      \once \override NoteColumn.force-hshift = #2
+      \parenthesize
+      g
+    }
+  >>
+  \oneVoice
+  a } |
   e4 \tuplet 3/2 { a8 a d } |
   g,4. bf8 |
   a4 r8 bf16 g |
