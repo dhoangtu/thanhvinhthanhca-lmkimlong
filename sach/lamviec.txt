@@ -1,111 +1,13 @@
-\markup {
-  \fill-line {
-    \hspace #1
-    \column {
-      \line { O sacrum convivium }
-      \line { in quo Christus sumitur, }
-      \line { recolitur memoria passionis ejus, }
-      \line { mens impletur gratia, }
-      \line { futurae gloriae nobis pignus datur. }
-      \line { Amen. }
-    }
-    \hspace #2
-    \column \italic {
-      \line { O sacred feast }
-      \line { in which Christ is received, }
-      \line { the memory of His Passion is renewed, }
-      \line { the mind is filled with grace, }
-      \line { and a pledge of future glory is given to us. }
-      \line { Amen. }
-    }
-    \hspace #1
-  }
-}
 
-\markup {
-  \fill-line {
-    \column {
-      \huge \line { \bold "chú ý:" \normal-text " dịp Ngân Khánh Hôn Phối, lần trở lại," }
-      \huge \line { "xin hát với những chưữ in nghiêng ở dòng thứ ba." }
-    }
-    \hspace #2
-    \column \italic {
-    }
-  }
-}
-
-
-#(define-markup-list-command (paragraph layout props args) (markup-list?)
-  (interpret-markup-list layout props
-   (make-justified-lines-markup-list (cons (make-hspace-markup 2) args))))
-
-% Candide, Voltaire
-\markuplist {
-  \override-lines #'(baseline-skip . 2.5) {
-    \paragraph {
-      Monsieur le baron était un des plus puissants seigneurs de la
-    }
-  }
-}
-
- \markup {
-   "A simple tune"
-   \footnote "*" \italic "* By me"
-   "is shown below.  It is a recent"
-   \footnote \super &dagger; \concat {
-     \super &dagger; \italic " Aug 2012"
-   }
-   "composition."
- }
-
-===tách bè
-Tù sion được dẫn về
-hát lên mừng Chúa
-
-====
 <>^\markup { \fontsize #6 \box \bold A }
 <>^\markup { \halign #-2 \fontsize #2 \bold "Tận" }
 \set Staff.explicitClefVisibility = #end-of-line-invisible
 \override Staff.TimeSignature.break-visibility = #end-of-line-invisible
 \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
 
-  poet = \markup {
-    \column {
-      \line { "Ý: Lc 22,42. 23,46. Mc 15,14" }
-      \line { "    Dt 10,8-9. Ga 5,30. 6,38"  }
-    }
-  }
 
 c8 \repeatTie
 
-\set Score.currentBarNumber = #16
-
-  <<
-    {
-      r8 c ^> c4 ~ |
-      c4 r
-    }
-    {
-      \new Staff = "oasis" \with {
-        alignAboveContext = #"1"
-        \override VerticalAxisGroup.staff-staff-spacing = #'((basic-distance . 6))
-        \remove "Time_signature_engraver"
-        fontSize = #-3
-        \override StaffSymbol.staff-space = #(magstep -3)
-        firstClef = ##f
-      } {
-          %\startStaff
-          r4
-          _\markup { \italic "(Đàn)" }
-          r8 c |
-          a f16 f g8 g
-          %\stopStaff
-      }
-    }
-  >>
-
-\autoPageBreaksOff
-\pageBreak
 
 \once \phrasingSlurDashed
 a \(g\)
@@ -138,30 +40,7 @@ a \(g\)
 \set Score.repeatCommands = #'((volta #f) (volta "2") end-repeat)
 \set Score.repeatCommands = #'((volta #f))
 
-  <<
-  { chết }
-  \new Lyrics {
-	  \set associatedVoice = "beBas"
-	  \override Lyrics.LyricText.font-shape = #'italic
-	  lặn
-	}
-  >>
 
-% Đổi kích thước nốt cho bè phụ
-notBePhu =
-#(define-music-function (font-size music) (number? ly:music?)
-   (for-some-music
-     (lambda (m)
-       (if (music-is-of-type? m 'rhythmic-event)
-           (begin
-             (set! (ly:music-property m 'tweaks)
-                   (cons `(font-size . ,font-size)
-                         (ly:music-property m 'tweaks)))
-             #t)
-           #f))
-     music)
-   music)
-   
 \mergeDifferentlyHeadedOn
 \mergeDifferentlyDottedOn
 
@@ -170,56 +49,24 @@ notBePhu =
 \mergeDifferentlyHeadedOn
 \override NoteColumn.ignore-collision = ##t
 
-\compressEmptyMeasures
-^\markup { \rest #"4" }
-
 \mark "Tận"
 
 \mark \markup { "Tận" }
 <>^\markup { \halign #-2 \fontsize #2 \bold "Tận" }
 
-\change Staff = "alto"
 
 <>^\markup { \halign #35 " " }
 
 \once \override NoteColumn.X-offset = 1 <>
 \tweak extra-offset #'(1 . 0)
-
-layout
-    \context {
-      \Staff \RemoveEmptyStaves
-      \override VerticalAxisGroup.remove-first = ##t
-    }
-
-  <<
-    {
-      \voiceOne
-      d2 |
-    }
-
-    \new Voice = "splitpart" {
-      \voiceTwo
-      a,2 |
-    }
-  >>
-  \oneVoice
   
-\set Staff.printKeyCancellation = ##f
 
 ^\tweak control-points #'((-2 . 3) (-1 . 3.1) (0 . 3.2) (1 . 2.4)) ( <> )
 
 \once \override NoteColumn.X-offset = 5 <>
 
-<>^\markup { \fontsize #6 \box \bold A }
-
 \override Lyrics.LyricText.font-shape = #'italic
 
-#(define afterGraceFraction (cons 1 4))
-
-  \afterGrace d4 ({
-    \override Flag.stroke-style = #"grace"
-    e16)}
-  \revert Flag.stroke-style
 
   \set Staff.keyAlterations = #`(((0 . 6) . ,NATURAL)
                                  ((1 . 2) . ,NATURAL)
@@ -234,17 +81,275 @@ layout
 \revert Flag.stroke-style
 
 \override Score.SpacingSpanner packed-spacing = ##t
-	
+
+
+
+
+===@034. Tác giả bài hát có nhiều dòng
+  poet = \markup {
+    \column {
+      \line { "Ý: Lc 22,42. 23,46. Mc 15,14" }
+      \line { "    Dt 10,8-9. Ga 5,30. 6,38"  }
+    }
+  }
+
+
+===@033. Đặt lại số của ô nhịp hiện tại
+\set Score.currentBarNumber = #16
+
+
+===@032. Thêm dòng nhạc phụ độc lập (ốc đảo) vào trên/dưới dòng nhạc chính
+  <<
+    {
+      r8 c ^> c4 ~ |
+      c4 r
+    }
+    {
+      \new Staff = "oasis" \with {
+        alignAboveContext = #"1"
+        \override VerticalAxisGroup.staff-staff-spacing = #'((basic-distance . 6))
+        \remove "Time_signature_engraver"
+        fontSize = #-3
+        \override StaffSymbol.staff-space = #(magstep -3)
+        firstClef = ##f
+      } {
+          %\startStaff
+          r4
+          _\markup { \italic "(Đàn)" }
+          r8 c |
+          a f16 f g8 g
+          %\stopStaff
+      }
+    }
+  >>
+
+
+===@031. Tắt chế độ sang trang tự động, sang trang thủ công
+\autoPageBreaksOff
+\pageBreak
+
+
+===@030. Chữ đánh dấu nằm trong khung hình chữ nhật
+<>^\markup { \fontsize #6 \box \bold A }
+
+
+===@029. Thêm ghi chú vào cuối bài nhạc
+\markup {
+  \fill-line {
+    \column {
+      \huge \line { \bold "chú ý:" \normal-text " dịp Ngân Khánh Hôn Phối, lần trở lại," }
+      \huge \line { "xin hát với những chưữ in nghiêng ở dòng thứ ba." }
+    }
+    \hspace #2
+    \column \italic {
+    }
+  }
+}
+
+
+===@028. Gộp nhiều ô nghỉ thành một ô
+\compressEmptyMeasures
+
+
+===@027. Lời song song (nhiều lời khác nhau trên cùng một dòng nốt)
+  <<
+    { muôn }
+    \new Lyrics {
+	    \set associatedVoice = "beBas"
+      \override Lyrics.LyricText.font-shape = #'italic
+	    ngàn
+	  }
+  >>
+
+
+===@026. Chuyển nốt từ bè hiện tại sang một bè khác
+\change Staff = "alto"
+
+
+===@025. Bỏ không in dòng nhạc trống (trong bản hợp xướng, nếu bè nào có dòng trống sẽ không được in ra)
+  \layout
+    \context {
+      \Staff \RemoveEmptyStaves
+      \override VerticalAxisGroup.remove-first = ##t
+    }
+
+
+===@024. Nốt bè chính và bè phụ không song song (không cùng giai điệu)
+  <<
+    {
+      \voiceOne
+      d2 |
+    }
+    \new Voice = "splitpart" {
+      \voiceTwo
+      a,2 |
+    }
+  >>
+  \oneVoice
+
+
+===@022. Không in ký hiệu bỏ thăng/giáng (dấu bình) khi bài nhạc đổi khóa
+\set Staff.printKeyCancellation = ##f
+
+
+===@021. Lời lặp lại nhiều lần	
+\repeat unfold 13 { hm }
 \repeat unfold 13 { _ }
 
-_\markup { \rest #"8" }
 
-\tweak extra-offset #'(0 . 3)
-
--\markup { \raise #5 \rest #"4" }
-
+===@020. Điều chỉnh vị trí của chữ (lời của nốt)
 \override LyricText.extra-offset = #'(0 . 1)
 
+
+===@019. Chữ đánh dấu (ký hiệu đánh dấu) là dấu nghỉ
+_\markup { \rest #"8" }
+-\markup { \raise #5 \rest #"4" }
+^\markup { \raise #5 \rest #"4" }
+<> \tweak extra-offset #'(0 . 3) ^\markup { \raise #5 \rest #"4" }
+
+
+===@018. Dấu hoa mỹ ở trước nốt chính trong bộ liên ba
+\slashedGrace { fs8 (} a4) \tuplet 3/2 { a8 b a }
+
+
+===@017. Dấu hoa mỹ ở phía trước nốt chính
+\slashedGrace {e8 (} d2)
+
+===@016. Điều chỉnh khoảng cách giữa nốt chính và nốt hoa mỹ ở phía sau
+#(define afterGraceFraction (cons 1 4))
+
+
+===@015. Dấu hoa mỹ ở phía sau nốt chính
+\afterGrace d4 ({
+  \override Flag.stroke-style = #"grace"
+  e16)}
+\revert Flag.stroke-style
+
+
+===@014. Canh chữ sao cho nốt ở trung tâm của chữ
+\once \override LyricText.self-alignment-X = #CENTER
+
+@Canh chữ bên trái nốt
+\once \override LyricText.self-alignment-X = #LEFT
+
+@Canh chữ bên phải nốt
+\once \override LyricText.self-alignment-X = #RIGHT
+
+
+===@013. Dàn trải nốt cho đầy dòng nhạc, không để dòng nhạc lồi lõm
+\layout { ragged-right = ##f }
+
+@Để dòng nhạc lồi lõm (dòng nhạc kết thúc tự nhiên, không dàn trải nốt để lấp đầy dòng nhạc)
+\layout { ragged-right = ##t }
+
+
+===@012. Điều chỉnh vị trí của cột nốt (gồm cả nốt và lời tương ứng với nốt)
+\once \override NoteColumn.X-offset = 3
+
+
+===@011. Điều chỉnh độ dài của dấu nối (trong lời nhạc)
+\override LyricHyphen.minimum-distance = #2.0
+
+
+===@010. Điều chỉnh vị trí của dấu tái đoạn
+\once \override Score.RehearsalMark.extra-offset = #'( -2 . 1.75 )
+
+
+===@009. In dấu tái đoạn ở cuối dòng nhạc thay vì xuống đầu dòng nhạc mới
+\once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
+
+
+===@008. Tạo ký hiệu tái đoạn
+\once \override Score.RehearsalMark.font-size = #0.1
+\mark \markup { \musicglyph #"scripts.segno" }
+
+
+===@007. Tạo ký hiệu CODA
+\once \override Score.RehearsalMark.font-size = #2
+\mark \markup { \musicglyph #"scripts.coda" }
+
+
+===@006. Tạo chữ đánh dấu "Al CODA"
+  <>^\markup { "Al" \bold " CODA" }
+
+
+===@005. Định nghĩa tông và nhịp để dùng chung cho điệp khúc và các phiên khúc
+TongNhip = {
+  \key c \major \time 2/2 
+  \set Timing.beamExceptions = #'()
+  \set Timing.baseMoment = #(ly:make-moment 1/4)
+  \set Timing.beatStructure = #'(1 1 1 1)
+}
+
+
+===@004. Tạo một dòng trống (ví dụ thêm vào khoảng cách giữa điệp khúc và phiên khúc)
+\markup { \vspace #0.5 }
+
+
+===@003. Điều chỉnh vị trí của một phần tử bất kỳ (nốt, dấu luyến, chữ đánh dấu markup, v.v...)
+\tweak extra-offset #'(0 . 3) a4
+\tweak extra-offset #'(0 . -2) _\markup { \large \halign #-0.5 "(ĐÁP 1)" }
+c4 \tweak extra-offset #'(0 . 3) ^~ c4
+<> \tweak extra-offset #'(-15 . 0.5) ^\markup { \fontsize #2 \bold "qua PK." }
+
+
+===@002. Tạo chữ đánh dấu (markup)
+@Tạo chữ bên dưới nốt
+_\markup { \lower #3.3 \halign #-0.3 \italic \underline "(Intro)" }
+
+@Tạo chữ bên trên nốt
+^\markup { \lower #3.3 \halign #-0.3 \italic \underline "(Intro)" }
+
+@Tạo chữ độc lập với nốt (tạo một cột nốt trống và tạo chữ trên đó)
+<>\markup { \lower #3.3 \halign #-0.3 \italic \underline "(Intro)" }
+
+
+===@001. Macro điều chỉnh kích thước nốt cho bè phụ
+notBePhu =
+#(define-music-function (font-size music) (number? ly:music?)
+   (for-some-music
+     (lambda (m)
+       (if (music-is-of-type? m 'rhythmic-event)
+           (begin
+             (set! (ly:music-property m 'tweaks)
+                   (cons `(font-size . ,font-size)
+                         (ly:music-property m 'tweaks)))
+             #t)
+           #f))
+     music)
+   music)
+
+@Cách dùng:
+\notBePhu -2 { e8 g }
+\notBePhu -2 { \nhacPhienKhucAlto }
+
+
+
+
+===
+#(define-markup-list-command (paragraph layout props args) (markup-list?)
+  (interpret-markup-list layout props
+   (make-justified-lines-markup-list (cons (make-hspace-markup 2) args))))
+
+% Candide, Voltaire
+\markuplist {
+  \override-lines #'(baseline-skip . 2.5) {
+    \paragraph {
+      Monsieur le baron était un des plus puissants seigneurs de la
+    }
+  }
+}
+
+ \markup {
+   "A simple tune"
+   \footnote "*" \italic "* By me"
+   "is shown below.  It is a recent"
+   \footnote \super &dagger; \concat {
+     \super &dagger; \italic " Aug 2012"
+   }
+   "composition."
+ }
+ 
 dropLyrics =
 {
     \override LyricText.extra-offset = #'(0 . -5)
@@ -259,18 +364,9 @@ raiseLyrics =
     \revert LyricExtender.extra-offset
 }
 
-\override LyricHyphen.minimum-distance = #2.0
-  \once \override LyricText.self-alignment-X = #CENTER
-  
-  \layout { ragged-right = ##f }
-  
-    \override LyricText.extra-offset = #'(0 . 8.6)
-    \override LyricExtender.extra-offset = #'(0 . 8.6)
-    \override LyricHyphen.extra-offset = #'(0 . 8.6)
-	
-\once \override NoteColumn.X-offset = 3
-  
-\override LyricHyphen.minimum-distance = #2.0
+\override LyricText.extra-offset = #'(0 . 8.6)
+\override LyricExtender.extra-offset = #'(0 . 8.6)
+\override LyricHyphen.extra-offset = #'(0 . 8.6)
 
 \override Staff.TimeSignature.transparent = ##t
 %\override Lyrics.LyricText.font-size = #+2
@@ -283,36 +379,9 @@ raiseLyrics =
 ragged-last = ##f
 
 
-\once \override Score.RehearsalMark.extra-offset = #'( -2 . 1.75 )
-
-\once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
-
-  \once \override Score.RehearsalMark.font-size = #0.1
-  \mark \markup { \musicglyph #"scripts.segno" }
-  
-  \once \override Score.RehearsalMark.font-size = #2
-  \mark \markup { \musicglyph #"scripts.coda" }
-  <>^\markup { "Al" \bold " CODA" }
-
-
-%\markup { \vspace #0.5 }
-	
-\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
-
-TongNhip = {
-  \key c \major \time 2/2 
-  \set Timing.beamExceptions = #'()
-  \set Timing.baseMoment = #(ly:make-moment 1/4)
-  \set Timing.beatStructure = #'(1 1 1 1)
-}
-
 \once \override Slur #'extra-offset = #'(0 . 2)
 \once \override Slur #'control-points = #'((x . y) (x . y) (x . y) (x . y))
 \once \override Slur #'extra-offset = #'(x . y)
-
-\tweak extra-offset #'(0 . 3)
-
-_\markup { \lower #3.3 \halign #-0.3 \italic "(Intro)" }
 
 
   system-system-spacing = #'((basic-distance . 11.5)
@@ -374,33 +443,18 @@ slurShiftx=
    #}
    )
 
-notBePhu =
-#(define-music-function (font-size music) (number? ly:music?)
-   (for-some-music
-     (lambda (m)
-       (if (music-is-of-type? m 'rhythmic-event)
-           (begin
-             (set! (ly:music-property m 'tweaks)
-                   (cons `(font-size . ,font-size)
-                         (ly:music-property m 'tweaks)))
-             #t)
-           #f))
-     music)
-   music)
-
+===
 Find and replace
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.BarNumber.break-visibility = ##(#f #f #f)\r    \override Score.SpacingSpanner.uniform-stretching = ##t
 
-
+======
 Latex file
 	{\lhead[]{} \rhead{\rmfamily\bfseries\fontsize{14pt}{14pt}\selectfont\thepage} \includepdf[pagecommand={\thispagestyle{fancy}},pages=\thepage,noautoscale=true,offset=0.3cm -0.3cm]{bai-hat.pdf}}
 	{\lhead{\rmfamily\bfseries\fontsize{14pt}{14pt}\selectfont\thepage} \rhead[]{} \includepdf[pagecommand={\thispagestyle{fancy}},pages=\thepage,noautoscale=true,offset=0.3cm -0.3cm]{bai-hat.pdf}}
 
-- sua loi not nhac
-- table of content
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
 
-- setup ssh key
 
 git remote remove origin
 git remote set-url origin git@github.com:dhoangtu/tuyentaphopca-lmkimlong.git
@@ -436,23 +490,6 @@ git config --global core.sshCommand "'C:\\Program Files\\Git\\usr\\bin\\ssh.exe'
 git config core.sshCommand "'C:\\Program Files\\Git\\usr\\bin\\ssh.exe' -i C:/Home/.ssh/id_rsa_name"
 
 
----CRITERIA
-1. copyright: ". For non-commercial use"
-    copyright text size
-2. Top margin
-3. Bottom margin
-4. Left margin
-5. Right margin
-6. Page number Size
-7. Page number position
-8. Distance between Title and notes (when no composer)
-9. No ident
-10. System-spacing: prefer 3, not prefer 5
-11. table of content
-12. Introduction/Preface/Acknowledgement
-13. Compare beam-up vs auto-beam
-14. TRANSPOSE if necessary
-
 //*** manually default system-distance = 3 padding = 3
 * table of content
 * Introduction/Preface/Acknowledgement
@@ -478,36 +515,3 @@ git config core.sshCommand "'C:\\Program Files\\Git\\usr\\bin\\ssh.exe' -i C:/Ho
 
 - pdf page size
     pdfinfo song-odd-even.pdf | grep "Page size" | grep -Eo '[-+]?[0-9]*\.?[0-9]+' | awk -v x=0.3528 '{print $1*x}'
-
-============================================
-088 cung cao len
-134 hiệp thông và phục vụ
-138 bên lòng Chúa
-142 tín thác lòng thương xót
-144 hãy xót thương
-145 như Cha trên trời
-162 bờ sông babylon
-216 hôm nay
-247 trong cánh đồng belem 1 (3 bè)
-253 nơi belem
-254 bên máng cỏ
-256-Say-Noel-Kim-Long.pdf                          #2
-270 này con Thiên Chúa
-305 bờ sông babylong (ko tìm đc)
-322 bước theo Thần Khí
-330 giáo xứ của Mẹ
-349 quỳ đây
-352 ca mừng Mẹ vô nhiễm nguyên tội
-356 Mẹ đẹp
-359 Ave Maria
-361 kìa Bà nào
-363 kính chào Đức Mẹ Tàpao
-382 tình yêu Thiên Chúa
-384 từ trước muôn đời
-396 phục vụ trong đức ái
-398 trong Thánh Thần và chân lý
-402 dâng lời cảm tạ
-406 năm mươi năm hồng phúc
-
-
-/d/download/qpdf-10.1.0/bin/qpdf --empty --pages  086-Nen-nhu-be-tho.pdf 090-turangdong-kl.pdf 093-xin-bieu-duong-uy-phong-lm-kim-long.pdf 106-Bai-ca-moi.pdf 107-Tu-Sion-duoc-chua-dan-ve-Thanh-vinh-125.pdf 109-tinhyeumanhliet.pdf 110-Chua-xet-do-con-Thanh-vinh-138.pdf 111-Cứ-dấu-này-Kim-Long-MPS.pdf 112-Hat-len-mung-Chua-hop-xuong.pdf 113-Tu-vuc-sau-Kim-Long.pdf 113-Xin-Chua-la-ngon-duoc-thieng-thanh-vinh-17.pdf 115-Loi-ca-vien-khach.pdf 117-Khuc-nhac-toi-ca.pdf 119-di-tim-nguoi-yeu.pdf 120-TimNguoi.pdf 126-Vi-con-la-cua-Chua.pdf 129-huongveChua.pdf 132-Khiêm-nhường-phục-vụ-Linh-mục-Kim-Long-TH.pdf 136-xin-theo-thay-kim-long.pdf 140-connayselaygi.pdf 149-neuchuakhongxaynha_kl.pdf 151-ngayve3_kl.pdf 154-XIn-gieo-suong-mai-hop-xuong.pdf "156-MongChuaDen(Tv114)_kl.pdf" 158-Hoa-binh-vien-man.pdf 163-Ngoi-tua-dong-song-Thanh-vinh-36.pdf -- in20210903.pdf
