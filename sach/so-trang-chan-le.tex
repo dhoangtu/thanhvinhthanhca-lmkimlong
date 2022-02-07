@@ -1,5 +1,5 @@
 \documentclass[twoside]{article}
-\usepackage[a5paper,left=1.6cm,right=1.6cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[a5paper,left=0.8cm,right=0.8cm,top=2cm,bottom=1.5cm]{geometry}
 \usepackage{pdfpages}
 \usepackage{fancyhdr}
 \usepackage{ifthen,changepage}
@@ -23,7 +23,7 @@
   \foreach \x in {1,...,\value{pdfpages}} {
   	\checkoddpage
 	\ifthenelse{\boolean{oddpage}}
-		{\lhead[]{} \rhead{\rmfamily\bfseries\fontsize{10pt}{10pt}\selectfont\thepage} \includepdf[pagecommand={\thispagestyle{fancy}},pages=\thepage,scale=0.9,offset=0.2cm 0cm]{nhac.pdf}}
-		{\lhead{\rmfamily\bfseries\fontsize{10pt}{10pt}\selectfont\thepage} \rhead[]{} \includepdf[pagecommand={\thispagestyle{fancy}},pages=\thepage,scale=0.9,offset=0.2cm 0cm]{nhac.pdf}}
+		{\lhead[]{} \rhead{\rmfamily\bfseries\fontsize{10pt}{10pt}\selectfont\thepage} \includepdf[pagecommand={\thispagestyle{fancy}},pages=\thepage,scale=0.92,offset=0.2cm 0cm]{nhac.pdf}}
+		{\lhead{\rmfamily\bfseries\fontsize{10pt}{10pt}\selectfont\thepage} \rhead[]{} \includepdf[pagecommand={\thispagestyle{fancy}},pages=\thepage,scale=0.92,offset=0.2cm 0cm]{nhac.pdf}}
   }
 \end{document}
