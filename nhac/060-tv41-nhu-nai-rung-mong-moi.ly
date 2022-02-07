@@ -3,7 +3,7 @@
 \include "english.ly"
 
 \header {
-  title = "Như Nai Rừng Mong Mỏi"
+  title = \markup { \fontsize #1 "Như Nai Rừng Mong Mỏi" }
   composer = "Tv. 41"
   %arranger = "Lm. Kim Long"
   tagline = ##f
@@ -18,7 +18,7 @@ nhacPhienKhucSop = \relative c'' {
   bf bf4 b!8 |
   c4. a8 |
   c c4 cs8 |
-  d2 \bar "||"
+  d2 \bar "||" \break
   
   g,8 g a a |
   bf4 a8 (g) |
@@ -165,7 +165,7 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
