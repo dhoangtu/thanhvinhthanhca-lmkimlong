@@ -3,9 +3,8 @@
 \include "english.ly"
 
 \header {
-  title = "Xin Dò Xét Con"
+  title = \markup { \fontsize #1 "Xin Dò Xét Con" }
   composer = "Tv. 25"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -23,7 +22,7 @@ nhacPhienKhucSop = \relative c'' {
   d8. d16 ef8 c ~ |
   c d bf4 |
   a8. a16 bf8 g ~ |
-  g4 \bar "||"
+  g4 \bar "||" \break
   
   g8 g |
   ef4 c8 c |
@@ -103,10 +102,10 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 10\mm
-  bottom-margin = 10\mm
-  left-margin = 10\mm
-  right-margin = 10\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -114,7 +113,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  %page-count = #1
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 2))
 }
 
 TongNhip = {
@@ -153,8 +152,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.45
+    \override Lyrics.LyricSpace.minimum-distance = #1.2
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

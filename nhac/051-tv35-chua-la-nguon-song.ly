@@ -3,9 +3,8 @@
 \include "english.ly"
 
 \header {
-  title = "Chúa Là Nguồn Sống"
+  title = \markup { \fontsize #1 "Chúa Là Nguồn Sống" }
   composer = "Tv. 35"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -23,7 +22,7 @@ nhacPhienKhucSop = \relative c' {
   g4. g8 |
   b d4 b8 |
   c2 ~ |
-  c4 \bar "||"
+  c4 \bar "||" \break
   
   g8 c, |
   c8. f16 e8 d |
@@ -114,10 +113,10 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 10\mm
-  bottom-margin = 10\mm
-  left-margin = 10\mm
-  right-margin = 10\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -158,14 +157,13 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.6
+    \override Lyrics.LyricSpace.minimum-distance = #1.2
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

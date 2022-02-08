@@ -3,9 +3,8 @@
 \include "english.ly"
 
 \header {
-  title = "Hãy Vui Mừng Trong Chúa"
+  title = \markup { \fontsize #1 "Hãy Vui Mừng Trong Chúa" }
   composer = "Tv. 36"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -200,8 +199,8 @@ loiPhienKhucSop = \lyrics {
   #(set-paper-size "a5")
   top-margin = 3\mm
   bottom-margin = 3\mm
-  left-margin = 5\mm
-  right-margin = 5\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -211,7 +210,7 @@ loiPhienKhucSop = \lyrics {
   print-page-number = ##f
   ragged-last-bottom = ##t
   ragged-bottom = ##t
-  %page-count = 3
+  page-count = 2
 }
 
 TongNhip = {
@@ -244,14 +243,13 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    %\override Lyrics.LyricSpace.minimum-distance = #1.5
+    \override Lyrics.LyricSpace.minimum-distance = #0.6
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

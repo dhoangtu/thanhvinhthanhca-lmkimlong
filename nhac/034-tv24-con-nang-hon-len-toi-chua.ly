@@ -3,9 +3,8 @@
 \include "english.ly"
 
 \header {
-  title = "Con Nâng Hồn Lên Tới Chúa"
+  title = \markup { \fontsize #1 "Con Nâng Hồn Lên Tới Chúa" }
   composer = "Tv. 24"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -25,7 +24,7 @@ nhacPhienKhucSop = \relative c'' {
   c'8. [b16] b8 [a] ~ |
   a2 \bar "||"
   
-  \slashedGrace { e16 ( } a8.) f16 e8 b |
+  \slashedGrace { e16 _( } a8.) [f16] e8 b |
   \slashedGrace { e16 (f } e4.) e16 e |
   f8 c16 (e) a8 c |
   b2 ~ |
@@ -51,6 +50,7 @@ nhacPhienKhucAlto = \relative c'' {
   a8 e4 e8 |
   a8. <a d,>16 <gs e>8 c, ~ |
   c2
+  \hide R2*9
 }
 
 % Lời phiên khúc
@@ -123,10 +123,10 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 10\mm
-  bottom-margin = 10\mm
-  left-margin = 10\mm
-  right-margin = 10\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -134,7 +134,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  %page-count = #1
+  page-count = #1
 }
 
 TongNhip = {
@@ -167,14 +167,13 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #1.5
+    \override Lyrics.LyricSpace.minimum-distance = #0.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
