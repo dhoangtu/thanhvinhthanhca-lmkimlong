@@ -3,9 +3,8 @@
 \include "english.ly"
 
 \header {
-  title = "Chúa Là Nơi Ẩn Náu"
+  title = \markup { \fontsize #1 "Chúa Là Nơi Ẩn Náu" }
   composer = "Tv. 45"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -21,7 +20,7 @@ nhacPhienKhucSop = \relative c' {
   a4. a8 |
   e d g e16 (d) |
   c2 ~ |
-  c4 r8 \bar "||"
+  c4 r8 \bar "||" \break
   
   g'8 ~ |
   g c c c |
@@ -111,10 +110,10 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 8\mm
-  bottom-margin = 8\mm
-  left-margin = 10\mm
-  right-margin = 10\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -122,6 +121,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 2))
 }
 
 TongNhip = {
@@ -154,14 +154,13 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #1.5
+    \override Lyrics.LyricSpace.minimum-distance = #2
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
