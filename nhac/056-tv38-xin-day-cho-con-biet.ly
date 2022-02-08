@@ -3,9 +3,8 @@
 \include "english.ly"
 
 \header {
-  title = "Xin Dạy Cho Con Biết"
+  title = \markup { \fontsize #1 "Xin Dạy Cho Con Biết" }
   composer = "Tv. 38"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -25,7 +24,7 @@ nhacPhienKhucSop = \relative c' {
     b16)}
   \revert Flag.stroke-style
   g8 a4 g8 |
-  c2 \bar "||"
+  c2 \bar "||" \break
   
   c8. c,16 c (e) f8 ~ |
   f f e f |
@@ -116,8 +115,8 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 5\mm
-  bottom-margin = 5\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
   left-margin = 3\mm
   right-margin = 3\mm
   indent = #0
@@ -166,8 +165,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.5
+    \override Lyrics.LyricSpace.minimum-distance = #0.7
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

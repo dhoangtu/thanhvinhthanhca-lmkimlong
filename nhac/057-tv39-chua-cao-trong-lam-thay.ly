@@ -3,9 +3,8 @@
 \include "english.ly"
 
 \header {
-  title = "Chúa Cao Trọng Lắm Thay"
+  title = \markup { \fontsize #1 "Chúa Cao Trọng Lắm Thay" }
   composer = "Tv. 39"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -19,7 +18,7 @@ nhacPhienKhucSop = \relative c'' {
   g4 \slashedGrace { d16 _( } g8) e16 (d) |
   c4 e' ~ |
   e8 d b d |
-  c2 \bar "||"
+  c2 \bar "||" \break
   
   g8. c,16 d8 e |
   f (e) d g |
@@ -119,8 +118,8 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 5\mm
-  bottom-margin = 5\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
   left-margin = 3\mm
   right-margin = 3\mm
   indent = #0
@@ -163,13 +162,12 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
     %\override Lyrics.LyricSpace.minimum-distance = #0.8
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
