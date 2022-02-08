@@ -3,9 +3,8 @@
 \include "english.ly"
 
 \header {
-  title = "Chính Chúa Là Vua"
+  title = \markup { \fontsize #1 "Chính Chúa Là Vua" }
   composer = "Tv. 43"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -17,9 +16,9 @@ nhacPhienKhucSop = \relative c'' {
   a8. c16 d,8 d16 (g) |
   d2 |
   c8. d16 c8 d |
-  g4. g8 |
+  g4. \once \stemDown g8 |
   a8 c e16 (d) c8 |
-  d4 r8 \bar "||" \break
+  d4 r8 \bar "||"
   e8 |
   e4. c8 |
   d4 g,8 g |
@@ -29,7 +28,7 @@ nhacPhienKhucSop = \relative c'' {
   g,4. f8 |
   e4 g8 a |
   g4. e'8 |
-  d8. b16 c (d) c8 |
+  d8. b16 c _(d) c8 |
   g4 g8 a |
   g4. e'8 |
   d8. b16 b8 d |
@@ -128,10 +127,10 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 10\mm
-  bottom-margin = 10\mm
-  left-margin = 10\mm
-  right-margin = 10\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -139,8 +138,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  system-system-spacing = #'((basic-distance . 0.1)
-                             (padding . 1))
+  page-count = 1
 }
 
 TongNhip = {
@@ -173,14 +171,13 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #1.5
+    \override Lyrics.LyricSpace.minimum-distance = #0.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
