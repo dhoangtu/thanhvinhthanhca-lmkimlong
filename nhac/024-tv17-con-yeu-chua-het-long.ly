@@ -3,9 +3,8 @@
 \include "english.ly"
 
 \header {
-  title = "Con Yêu Chúa Hết Lòng"
+  title = \markup { \fontsize #1 "Con Yêu Chúa Hết Lòng" }
   composer = "Tv. 17"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -156,9 +155,9 @@ loiPhienKhucSop = \lyrics {
 \paper {
   #(set-paper-size "a5")
   top-margin = 10\mm
-  bottom-margin = 10\mm
-  left-margin = 7.5\mm
-  right-margin = 7.5\mm
+  bottom-margin = 3\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -168,6 +167,7 @@ loiPhienKhucSop = \lyrics {
   print-page-number = ##f
   page-count = #2
   ragged-bottom = ##t
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 2.5))
 }
 
 TongNhip = {
@@ -200,14 +200,13 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    %\override Lyrics.LyricSpace.minimum-distance = #0.6
+    \override Lyrics.LyricSpace.minimum-distance = #0.8
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

@@ -3,9 +3,8 @@
 \include "english.ly"
 
 \header {
-  title = "Xin Giữ Gìn Con"
+  title = \markup { \fontsize #1 "Xin Giữ Gìn Con" }
   composer = "Tv. 16"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -19,7 +18,7 @@ nhacPhienKhucSop = \relative c'' {
   e8 d g fs16 (g) |
   \slashedGrace { b16 ( } a4.) c16 b |
   a8 d d d |
-  g,4 \bar "||"
+  g,4 \bar "||" \break
   
   \tuplet 3/2 { d'8 e b } |
   c8. c16 \tuplet 3/2 { c8 c d } |
@@ -94,10 +93,10 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 5\mm
-  bottom-margin = 5\mm
-  left-margin = 5\mm
-  right-margin = 5\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -138,14 +137,13 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    %\override Lyrics.LyricSpace.minimum-distance = #1.5
+    \override Lyrics.LyricSpace.minimum-distance = #0.6
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

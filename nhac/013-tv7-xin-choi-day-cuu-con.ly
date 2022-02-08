@@ -3,9 +3,8 @@
 \include "english.ly"
 
 \header {
-  title = "Xin Chỗi Dậy Cứu Con"
+  title = \markup { \fontsize #1 "Xin Chỗi Dậy Cứu Con" }
   composer = "Tv. 7"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -123,8 +122,8 @@ loiPhienKhucSop = \lyrics {
   #(set-paper-size "a5")
   top-margin = 3\mm
   bottom-margin = 3\mm
-  left-margin = 10\mm
-  right-margin = 10\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -165,14 +164,13 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.6
+    \override Lyrics.LyricSpace.minimum-distance = #1
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

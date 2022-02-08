@@ -3,9 +3,8 @@
 \include "english.ly"
 
 \header {
-  title = "Chúa Đổi Vận Mạng Dân Ngài"
+  title = \markup { \fontsize #1 "Chúa Đổi Vận Mạng Dân Ngài" }
   composer = "Tv. 13"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -91,10 +90,10 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 8\mm
-  bottom-margin = 8\mm
-  left-margin = 10\mm
-  right-margin = 10\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -102,7 +101,6 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  page-count = 1
 }
 
 TongNhip = {
@@ -141,8 +139,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.5
+    \override Lyrics.LyricSpace.minimum-distance = #0.9
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
