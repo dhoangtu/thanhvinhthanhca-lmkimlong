@@ -133,7 +133,7 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>

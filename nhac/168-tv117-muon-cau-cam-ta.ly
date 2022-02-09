@@ -3,7 +3,7 @@
 \include "english.ly"
 
 \header {
-  title = "Muôn Câu Cảm Tạ"
+  title = \markup { \fontsize #1 "Muôn Câu Cảm Tạ" }
   composer = "Tv. 117"
   %arranger = "Lm. Kim Long"
   tagline = ##f
@@ -157,10 +157,10 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 5\mm
-  bottom-margin = 5\mm
-  left-margin = 10\mm
-  right-margin = 10\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -201,7 +201,7 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>

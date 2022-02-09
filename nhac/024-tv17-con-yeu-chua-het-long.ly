@@ -154,7 +154,7 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 10\mm
+  top-margin = 3\mm
   bottom-margin = 3\mm
   left-margin = 3\mm
   right-margin = 3\mm

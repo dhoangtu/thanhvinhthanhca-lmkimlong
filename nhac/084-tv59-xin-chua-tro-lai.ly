@@ -3,7 +3,7 @@
 \include "english.ly"
 
 \header {
-  title = "Xin Chúa Trở Lại"
+  title = \markup { \fontsize #1 "Xin Chúa Trở Lại" }
   composer = "Tv. 59"
   %arranger = "Lm. Kim Long"
   tagline = ##f
@@ -136,7 +136,7 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>

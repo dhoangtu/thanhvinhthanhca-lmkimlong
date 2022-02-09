@@ -3,7 +3,7 @@
 \include "english.ly"
 
 \header {
-  title = "Chúc Tụng Thiên Chúa"
+  title = \markup { \fontsize #1 "Chúc Tụng Thiên Chúa" }
   composer = "Lc. 1,68-79"
   %arranger = "Lm. Kim Long"
   tagline = ##f
@@ -107,10 +107,10 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 12\mm
-  bottom-margin = 12\mm
-  left-margin = 10\mm
-  right-margin = 10\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -152,7 +152,7 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>

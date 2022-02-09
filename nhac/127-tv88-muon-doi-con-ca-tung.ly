@@ -3,7 +3,7 @@
 \include "english.ly"
 
 \header {
-  title = "Muôn Đời Con Ca Tụng"
+  title = \markup { \fontsize #1 "Muôn Đời Con Ca Tụng" }
   composer = "Tv. 88"
   %arranger = "Lm. Kim Long"
   tagline = ##f
@@ -101,8 +101,8 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 5\mm
-  bottom-margin = 5\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
   left-margin = 7.5\mm
   right-margin = 7.5\mm
   indent = #0
@@ -146,7 +146,7 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>

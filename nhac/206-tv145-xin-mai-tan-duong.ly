@@ -3,7 +3,7 @@
 \include "english.ly"
 
 \header {
-  title = "Xin Mãi Tán Dương"
+  title = \markup { \fontsize #1 "Xin Mãi Tán Dương" }
   composer = "Tv. 145"
   %arranger = "Lm. Kim Long"
   tagline = ##f
@@ -111,8 +111,8 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 8\mm
-  bottom-margin = 8\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
   left-margin = 3\mm
   right-margin = 3\mm
   indent = #0
@@ -155,7 +155,7 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>

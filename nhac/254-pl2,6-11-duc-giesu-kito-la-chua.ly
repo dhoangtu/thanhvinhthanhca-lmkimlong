@@ -3,7 +3,7 @@
 \include "english.ly"
 
 \header {
-  title = "Đức Giêsu Kitô Là Chúa"
+  title = \markup { \fontsize #1 "Đức Giêsu Kitô Là Chúa" }
   composer = "Pl. 2,6-11"
   %arranger = "Lm. Kim Long"
   tagline = ##f
@@ -140,7 +140,7 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
