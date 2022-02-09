@@ -5,7 +5,6 @@
 \header {
   title = "Ai Dâng Lễ Cảm Tạ"
   composer = "Tv. 49"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -20,10 +19,10 @@ nhacPhienKhucSop = \relative c' {
   f4 r8 f |
   f8. f16 bf8 c |
   d2 ~ |
-  d8 c16 (f) d8 c |
+  d8 c16 ([f]) d8 c |
   a bf4 c8 |
-  g (bf a) g |
-  f2 \bar "||"
+  g ([bf a]) g |
+  f2 \bar "||" \break
   
   f8. f16 g8 d |
   c4. a'8 |
@@ -108,10 +107,10 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 5\mm
-  bottom-margin = 5\mm
-  left-margin = 8\mm
-  right-margin = 8\mm
+  top-margin = 3\mm
+  bottom-margin = 3\mm
+  left-margin = 3\mm
+  right-margin = 3\mm
   indent = #0
   #(define fonts
 	 (make-pango-font-tree "Deja Vu Serif Condensed"
@@ -119,8 +118,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  %system-system-spacing = #'((basic-distance . 0.1) (padding . 1))
-  page-count = 1
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 2))
 }
 
 TongNhip = {
@@ -153,14 +151,13 @@ notBePhu =
       <<
       \new Voice \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -3 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.7
+    \override Lyrics.LyricSpace.minimum-distance = #1
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
