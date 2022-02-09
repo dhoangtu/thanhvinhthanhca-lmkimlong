@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Xin Giấu Kỹ Con Đi" }
   composer = "Tv. 63"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -25,7 +24,7 @@ nhacPhienKhucSop = \relative c' {
   \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
   \key g \major
   \partial 4 g8 a |
-  b4. c16 (b) |
+  b4. c16 _(b) |
   a8 b4 c8 |
   d4 b8 d |
   c4. b8 |
@@ -160,7 +159,6 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
     \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t

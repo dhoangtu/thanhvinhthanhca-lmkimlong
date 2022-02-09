@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Chúa Viếng Thăm Mặt Đất" }
   composer = "Tv. 64"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -29,7 +28,7 @@ nhacPhienKhucSop = \relative c'' {
   a4 a8 fs16 (e) |
   d8 fs4 a8 |
   g2 ~ |
-  g8 \bar "||"
+  g8 \bar "||" \break
   
   d b'16 (c) b8 |
   a4 g8 g |
@@ -135,7 +134,7 @@ loiPhienKhucSop = \lyrics {
 			       (/ 20 20)))
   print-page-number = ##f
   system-system-spacing = #'((basic-distance . 0.1)
-                             (padding . 1.5))
+                             (padding . 2.5))
   ragged-bottom = ##t
 }
 
@@ -175,8 +174,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #1
+    \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
