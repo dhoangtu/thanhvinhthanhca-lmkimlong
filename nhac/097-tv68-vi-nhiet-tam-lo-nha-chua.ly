@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Vì Nhiệt Tâm Lo Nhà Chúa" }
   composer = "Tv. 68"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -176,7 +175,8 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  %page-count = #1
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 2.5))
+  ragged-bottom = ##t
 }
 
 TongNhip = {
@@ -215,8 +215,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.6
+    \override Lyrics.LyricSpace.minimum-distance = #1
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
