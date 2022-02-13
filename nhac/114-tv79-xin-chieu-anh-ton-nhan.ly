@@ -5,12 +5,12 @@
 \header {
   title = \markup { \fontsize #1 "Xin Chiếu Ánh Tôn Nhan" }
   composer = "Tv. 79"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c' {
+  \autoPageBreaksOff
   \partial 8 f8 |
   c c a' (bf16 a) |
   g4. g16 e |
@@ -24,6 +24,8 @@ nhacPhienKhucSop = \relative c' {
   d,4 d16 (f) d8 |
   c8 e g e |
   f4 r8 \bar "||" \break
+  
+  \pageBreak
   
   c8 |
   a'4 (bf8) a |
@@ -129,7 +131,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  system-system-spacing = #'((basic-distance . 0.1) (padding . 3))
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 2))
   ragged-bottom = ##t
 }
 
@@ -169,8 +171,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.8
+    \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

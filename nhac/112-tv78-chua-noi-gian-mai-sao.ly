@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Chúa Nổi Giận Mãi sao" }
   composer = "Tv. 78"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -33,8 +32,7 @@ nhacPhienKhucSop = \relative c' {
   a4 r8 bf16 g |
   e4. e8 |
   \tuplet 3/2 { g8 f f } \tuplet 3/2 { a8 e c } |
-  \partial 4 d4 \bar "||"
-  
+  \partial 4 d4 \bar "||" \break
   
   \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
   \set Staff.printKeyCancellation = ##f
@@ -174,8 +172,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.6
+    \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
