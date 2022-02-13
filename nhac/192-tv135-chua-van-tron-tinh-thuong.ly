@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Chúa Vẫn Trọn Tình Thương" }
   composer = "Tv. 135"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -181,7 +180,7 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 3\mm
+  top-margin = 10\mm
   bottom-margin = 3\mm
   left-margin = 3\mm
   right-margin = 3\mm
@@ -193,6 +192,7 @@ loiPhienKhucSop = \lyrics {
 			       (/ 20 20)))
   print-page-number = ##f
   system-system-spacing = #'((basic-distance . 0.1) (padding . 3))
+  %ragged-bottom = ##t
 }
 
 TongNhip = {
@@ -231,7 +231,6 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
     \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t

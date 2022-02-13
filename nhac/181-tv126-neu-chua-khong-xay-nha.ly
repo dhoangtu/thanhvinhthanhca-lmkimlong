@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Nếu Chúa Không Xây Nhà" }
   composer = "Tv. 126"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -31,7 +30,7 @@ nhacPhienKhucSop = \relative c'' {
   
   c4 e8 (f) |
   a g r c ~ |
-  c g16 (c) \slashedGrace { ef16 ( } c4) ~ |
+  c g16 (c) \slashedGrace { \once \stemDown ef16 ^( } c4) ~ |
   c8 c e, e16 (f) |
   g8 \slashedGrace { a16 ( } g8) r f16 (e) |
   c2 |
@@ -134,8 +133,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.8
+    \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
