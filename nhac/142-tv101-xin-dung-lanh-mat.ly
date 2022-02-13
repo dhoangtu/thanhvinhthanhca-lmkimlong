@@ -5,12 +5,12 @@
 \header {
   title = \markup { \fontsize #1 "Xin Đừng Lánh Mặt" }
   composer = "Tv. 101"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
+  \autoPageBreaksOff
   a8 f d g |
   g4 r8 g |
   f4. f16 a |
@@ -25,6 +25,9 @@ nhacPhienKhucSop = \relative c'' {
   e8 d16 (e) g8 a |
   a4 r8 d |
   g,8. g16 a8 a |
+  
+  \pageBreak
+  
   bf4. g8 |
   a8. a16 f (e) c8 |
   d2 \bar "|."
@@ -161,7 +164,6 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  page-count = #2
 }
 
 TongNhip = {
@@ -200,7 +202,6 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
     \override Lyrics.LyricSpace.minimum-distance = #0.6
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t

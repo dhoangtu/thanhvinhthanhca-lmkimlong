@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Hát Lên Mừng Chúa" }
   composer = "Tv.95"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -19,7 +18,7 @@ nhacPhienKhucSop = \relative c'' {
   a'8 bf16 bf a8 g |
   c8. c16 e,8 g |
   f2 ~ |
-  f4 r8 \bar "||" \break
+  f4 r8 \bar "||"
   
   e |
   e8. e16 e8 g |
@@ -114,6 +113,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 1.5))
   page-count = #1
 }
 
@@ -153,8 +153,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.5
+    \override Lyrics.LyricSpace.minimum-distance = #0.7
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
