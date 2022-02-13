@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Giu-đa Thành Nơi Chúa Ngự" }
   composer = "Tv. 113A"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -19,7 +18,7 @@ nhacPhienKhucSop = \relative c' {
   a8. c16 \tuplet 3/2 { a8 c d } |
   bf4 r8 c16 a |
   g8. g16 \tuplet 3/2 { a8 f d } |
-  c2 \bar "||" \break
+  c2 \bar "||"
   
   e8 e r d16 (e) |
   c8 c f4 |
@@ -100,7 +99,6 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  page-count = 1
 }
 
 TongNhip = {
@@ -139,8 +137,8 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #1
+    \override Lyrics.LyricSpace.minimum-distance = #1.5
+    \override LyricHyphen.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

@@ -10,7 +10,6 @@
       \line { "đoạn 2 (câu 9-15)"  }
     }
   }
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -24,7 +23,7 @@ nhacPhienKhucSop = \relative c' {
   b' b16 c a8 g |
   e'4. a,16 a |
   c8 c d d |
-  g,4 r8 \bar "||" \break
+  g,4 r8 \bar "||"
   
   fs |
   g8. a16 e8 d |
@@ -97,7 +96,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  page-count = #1
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 3))
 }
 
 TongNhip = {
@@ -136,8 +135,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.8
+    \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
