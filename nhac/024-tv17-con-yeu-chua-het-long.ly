@@ -154,7 +154,7 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 3\mm
+  top-margin = 10\mm
   bottom-margin = 3\mm
   left-margin = 3\mm
   right-margin = 3\mm
@@ -167,7 +167,7 @@ loiPhienKhucSop = \lyrics {
   print-page-number = ##f
   page-count = #2
   ragged-bottom = ##t
-  system-system-spacing = #'((basic-distance . 0.1) (padding . 2.5))
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 3))
 }
 
 TongNhip = {

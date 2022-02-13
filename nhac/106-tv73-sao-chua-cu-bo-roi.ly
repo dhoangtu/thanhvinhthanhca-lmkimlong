@@ -10,6 +10,7 @@
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
+  \autoPageBreaksOff
   \partial 4 a8 (bf16 a) |
   g4. g8 |
   f a d, (f) |
@@ -26,7 +27,9 @@ nhacPhienKhucSop = \relative c'' {
   g4. bf16 a |
   a8 g e f16 (e) |
   d2 ~ |
-  \partial 4 d4 \bar "||" \break
+  \partial 4 d4 \bar "||"
+  
+  \pageBreak
   
   \set Staff.printKeyCancellation = ##f
   \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
@@ -125,7 +128,7 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 10\mm
+  top-margin = 3\mm
   bottom-margin = 3\mm
   left-margin = 3\mm
   right-margin = 3\mm
@@ -136,7 +139,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  system-system-spacing = #'((basic-distance . 0.1) (padding . 3))
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 2.5))
   ragged-bottom = ##t
 }
 
@@ -176,7 +179,7 @@ notBePhu =
       >>
   >>
   \layout {
-    \override Lyrics.LyricSpace.minimum-distance = #1.5
+    \override Lyrics.LyricSpace.minimum-distance = #1
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
