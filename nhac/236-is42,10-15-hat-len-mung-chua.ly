@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Hát Lên Mừng Chúa" }
   composer = "Is. 42,10-15"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -102,7 +101,7 @@ loiPhienKhucSop = \lyrics {
 	    đường lồi lõm thành những quốc lộ thẳng băng.
     }
   >>
-  \set stanza = "ĐK:"
+  \set stanza = "  ĐK:"
   Nào hô vang, Sa mạc cùng với thị thành,
   bao thôn ấp miền Kê -- đa du mục,
   Hò reo lên, hỡi dân cư miền núi đá,
@@ -162,7 +161,6 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
     \override Lyrics.LyricSpace.minimum-distance = #0.5
     \override LyricHyphen.minimum-distance = #0.8
     \override Score.BarNumber.break-visibility = ##(#f #f #f)

@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Thần Khí Mới" }
   composer = "Ed. 36,24-28"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -21,7 +20,7 @@ nhacPhienKhucSop = \relative c' {
   c8 d c a |
   g4. e16 d |
   f8 g e d |
-  c4 \bar "||"
+  c4 \bar "||" \break
   
   g'8 a |
   g4. e8 |
@@ -148,8 +147,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.8
+    \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

@@ -5,12 +5,12 @@
 \header {
   title = \markup { \fontsize #1 "Xin Nhận Tâm Hồn Thống Hối" }
   composer = "Đn. 3,26-27.29.34-41"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c' {
+  \autoPageBreaksOff
   \partial 4 c8 (d) |
   g4. f16 g |
   af8 c, d g |
@@ -27,6 +27,10 @@ nhacPhienKhucSop = \relative c' {
   g8. ef16 d8 g |
   c,2 \bar "||"
   
+  \pageBreak
+  
+  \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
+  \set Staff.printKeyCancellation = ##f
   \key c \major
   e4. f8 |
   d8 d c a' |
@@ -53,6 +57,10 @@ nhacPhienKhucSop = \relative c' {
 nhacPhienKhucAlto = \relative c' {
   r4 |
   R2*14
+  
+  \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
+  \set Staff.printKeyCancellation = ##f
+  \key c \major
   c4. d8 |
   b b c f |
   f4. f16 f |
@@ -184,8 +192,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.8
+    \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

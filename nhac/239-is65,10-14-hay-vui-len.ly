@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Hãy Vui Lên" }
   composer = "Is. 65,10-14"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -23,7 +22,7 @@ nhacPhienKhucSop = \relative c'' {
   g4 \tuplet 3/2 { g8 a f } |
   c4. a'16 a |
   g8. c16 \tuplet 3/2 { g8 f e } |
-  f4 r8 \bar "|."
+  f4 r8 \bar "|." \break
   
   c8 |
   f4. e16 a |
@@ -148,9 +147,8 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.6
-    \override LyricHyphen.minimum-distance = #0.6
+    \override Lyrics.LyricSpace.minimum-distance = #1.2
+    \override LyricHyphen.minimum-distance = #0.8
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

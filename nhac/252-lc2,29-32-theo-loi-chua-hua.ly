@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Theo Lời Chúa Hứa" }
   composer = "Lc. 2,29-32"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -20,7 +19,7 @@ nhacPhienKhucSop = \relative c' {
   c4 r8 \bar "||" \break
   
   e16
-  ^\markup { \bold "Có thể hát với Điệp ca sau đây trong Kinh tối" }
+  ^\markup { \italic \bold "Có thể hát với Điệp ca sau đây trong Kinh tối" }
   c |
   f8 e d g |
   g4. g16 a |
@@ -127,8 +126,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #1.5
+    \override Lyrics.LyricSpace.minimum-distance = #2
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

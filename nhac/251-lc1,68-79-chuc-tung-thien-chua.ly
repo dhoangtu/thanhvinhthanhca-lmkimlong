@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Chúc Tụng Thiên Chúa" }
   composer = "Lc. 1,68-79"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -21,7 +20,6 @@ nhacPhienKhucSop = \relative c'' {
     }
     \new Voice = "splitpart" {
       \voiceTwo
-      %\once \override NoteColumn.force-hshift = #-1.6
       \tweak font-size #-2
       \parenthesize
       e,16
@@ -32,7 +30,7 @@ nhacPhienKhucSop = \relative c'' {
   a4. a16 a |
   g8 a f g |
   e2 ~ |
-  e4 r8 \bar "||" \break
+  e4 r8 \bar "||"
   g16 g |
   c8 c b c |
   d2 ~ |
@@ -119,7 +117,6 @@ loiPhienKhucSop = \lyrics {
 			       (/ 20 20)))
   print-page-number = ##f
   system-system-spacing = #'((basic-distance . 0.1) (padding . 3))
-  page-count = 1
 }
 
 TongNhip = {
@@ -158,8 +155,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.8
+    \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

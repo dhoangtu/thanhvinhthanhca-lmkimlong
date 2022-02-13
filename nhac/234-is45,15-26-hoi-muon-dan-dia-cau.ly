@@ -5,12 +5,12 @@
 \header {
   title = \markup { \fontsize #1 "Hỡi Muôn Dân Địa Cầu" }
   composer = "Is. 45,15-16"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c' {
+  \autoPageBreaksOff
   \partial 8 c8 |
   f4. f16 e |
   e4 \tuplet 3/2 { e8 a a } |
@@ -44,6 +44,8 @@ nhacPhienKhucSop = \relative c' {
   c8 e4 g8 |
   f2 ~ |
   f4 \bar "||"
+  
+  \pageBreak
   
   c'8 a |
   a8. bf16 bf8 g |
@@ -175,7 +177,8 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  page-count = 2
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 2))
+  ragged-bottom = ##t
 }
 
 TongNhip = {
@@ -214,7 +217,6 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
     \override Lyrics.LyricSpace.minimum-distance = #0.8
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
