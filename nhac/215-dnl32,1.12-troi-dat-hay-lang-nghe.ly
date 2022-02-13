@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Trời Đất Hãy Lắng Nghe" }
   composer = "Đnl. 32,1-12"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -26,7 +25,7 @@ nhacPhienKhucSop = \relative c' {
   \key g \major
   \partial 8 b16 b |
   b4 \tuplet 3/2 { a8 a g } |
-  g16 (a b4) a16 b |
+  g16 (a \once \stemUp b4) a16 b |
   e,4 \tuplet 3/2 { g8 b g } |
   a4 r8 c16 c |
   c4 \tuplet 3/2 { c8 a c } |
@@ -169,8 +168,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.8
+    \override Lyrics.LyricSpace.minimum-distance = #1.2
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

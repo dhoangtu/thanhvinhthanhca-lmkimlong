@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Hãy Ca Tụng Chúa Đi" }
   composer = "Tv. 148"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -181,8 +180,8 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 3\mm
-  bottom-margin = 3\mm
+  top-margin = 0.5\mm
+  bottom-margin = 0.5\mm
   left-margin = 3\mm
   right-margin = 3\mm
   indent = #0
@@ -231,8 +230,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.6
+    \override Lyrics.LyricSpace.minimum-distance = #1
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

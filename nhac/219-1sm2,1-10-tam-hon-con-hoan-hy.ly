@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Tâm Hồn Con Hoan Hỷ" }
   composer = "1Sm. 2,1-10"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -29,7 +28,7 @@ nhacPhienKhucSop = \relative c'' {
   e8. fs16 fs8 fs |
   d e4 g16 (a) |
   b4 r8 e |
-  a, (c4) e8 |
+  \once \stemDown a, (c4) e8 |
   d4 \slashedGrace { b16 ( } d8) b16 (a) |
   g2 |
   a8. a16 b8 e, ~ |
@@ -129,8 +128,8 @@ loiPhienKhucSop = \lyrics {
 % Dàn trang
 \paper {
   #(set-paper-size "a5")
-  top-margin = 3\mm
-  bottom-margin = 3\mm
+  top-margin = 0.5\mm
+  bottom-margin = 0.5\mm
   left-margin = 3\mm
   right-margin = 3\mm
   indent = #0
@@ -179,7 +178,6 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
     \override Lyrics.LyricSpace.minimum-distance = #0.4
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
