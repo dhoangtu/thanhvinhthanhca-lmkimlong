@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Chúa Đừng Làm Thinh Hoài" }
   composer = "Tv. 82"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -144,8 +143,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.8
+    \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
