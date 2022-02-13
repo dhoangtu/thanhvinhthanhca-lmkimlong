@@ -5,12 +5,12 @@
 \header {
   title = \markup { \fontsize #1 "No Say Ân Tình Chúa" }
   composer = "Tv. 89"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
+  \autoPageBreaksOff
   g8 g a (g) |
   fs4. d16 d |
   bf'8 bf a g |
@@ -22,7 +22,9 @@ nhacPhienKhucSop = \relative c'' {
   fs8 g16 (a) d,8 g16 (a) |
   bf4 a8 c |
   bf16 (c) d8 bf a |
-  \partial 4. g4 r8 \bar "||" \break
+  \partial 4. g4 r8 \bar "||"
+  
+  \pageBreak
   
   \set Staff.printKeyCancellation = ##f
   \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
@@ -191,8 +193,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.8
+    \override Lyrics.LyricSpace.minimum-distance = #1.2
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

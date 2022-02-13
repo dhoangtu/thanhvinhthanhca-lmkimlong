@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Con Kêu Cứu" }
   composer = "Tv. 87"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -187,8 +186,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #1
+    \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
