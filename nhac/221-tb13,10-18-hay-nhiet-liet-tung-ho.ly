@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Hãy Nhiệt Liệt Tung Hô" }
   composer = "Tb. 13,10-18"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -135,6 +134,7 @@ loiPhienKhucSop = \lyrics {
 			       (/ 20 20)))
   print-page-number = ##f
   system-system-spacing = #'((basic-distance . 0.1) (padding . 2))
+  ragged-bottom = ##t
   page-count = 2
 }
 
@@ -174,7 +174,6 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
     \override Lyrics.LyricSpace.minimum-distance = #0.8
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t

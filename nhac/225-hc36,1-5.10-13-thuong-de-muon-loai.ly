@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Thượng Đế Muôn Loài" }
   composer = "Hc. 36,1-5.10-13"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -116,7 +115,7 @@ loiPhienKhucSop = \lyrics {
 	    thương đoái tới Giê -- ru -- sa -- lem.
     }
   >>
-  \set stanza = "ĐK:"
+  \set stanza = " ĐK:"
   Xin cho khắp cả Si -- on vang dội
   lời truyền rao kỳ công của Chúa,
   Và cho thánh điện rực rỡ ánh vinh quang của Ngài.
@@ -175,8 +174,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.5
+    \override Lyrics.LyricSpace.minimum-distance = #0.6
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

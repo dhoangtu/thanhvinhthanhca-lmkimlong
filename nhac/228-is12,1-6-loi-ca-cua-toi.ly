@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Lời Ca Của Tôi" }
   composer = "Is. 12,1-6"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -21,7 +20,7 @@ nhacPhienKhucSop = \relative c' {
   g8. f16 a8 f |
   e4. a,16 a |
   f'8 e cs cs |
-  \partial 4. d4 r8 \bar "||"
+  \partial 4. d4 r8 \bar "||" \break
   
   \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
   \set Staff.printKeyCancellation = ##f
@@ -116,7 +115,7 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  page-count = 1
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 3))
 }
 
 TongNhip = {
@@ -155,8 +154,7 @@ notBePhu =
       >>
   >>
   \layout {
-    %\override Staff.TimeSignature.transparent = ##t
-    \override Lyrics.LyricSpace.minimum-distance = #0.8
+    \override Lyrics.LyricSpace.minimum-distance = #1.5
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 
