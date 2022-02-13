@@ -5,7 +5,6 @@
 \header {
   title = \markup { \fontsize #1 "Dâng Lời Cảm Tạ" }
   composer = "Tv. 106"
-  %arranger = "Lm. Kim Long"
   tagline = ##f
 }
 
@@ -265,7 +264,8 @@ loiPhienKhucSop = \lyrics {
 			       "Deja Vu Serif Condensed"
 			       (/ 20 20)))
   print-page-number = ##f
-  page-count = #3
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 3))
+  ragged-bottom = ##t
 }
 
 TongNhip = {
