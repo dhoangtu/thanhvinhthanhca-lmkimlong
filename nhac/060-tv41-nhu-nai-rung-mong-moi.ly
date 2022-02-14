@@ -67,6 +67,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lệ sầu như cơm bữa đêm ngày
 	    vì ngưỡng vọng về Chúa
 	    Bao thù nhân cứ hỏi con hoài: này Chúa ngươi đâu?
@@ -81,6 +82,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Này hồn tôi sao mãi u sầu,
 	    hãy tín nhiệm vào Chúa
 	    Tôi còn luôn tán tụng Danh Ngài là Chúa Trời tôi.
@@ -95,6 +97,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngày ngày muôn ân phúc cao dầy
 	    Ngài đoái tình gửi tới
 	    Đêm về con tấu nhạc ca mừng nguồn phúc sinh con.
@@ -109,6 +112,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Này mình con xương cốt rã rời
 	    vì quân thù đàn áp
 	    Đêm ngày qua chúng hỏi con hoài:

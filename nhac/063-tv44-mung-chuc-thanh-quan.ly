@@ -99,6 +99,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đeo bên mình lưỡi kiếm oai phong,
 	    cỡi ngựa hồng lẫm liệt đi lên,
 	    Ngài yêu lẽ thật và đức công bình,

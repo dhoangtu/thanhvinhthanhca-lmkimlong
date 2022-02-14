@@ -92,6 +92,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lời Ngài phán mau lẹ chạy đi,
 	    ban bố chỉ thị truyền xuống cõi dương gian
 	    Tuyết tựa \markup { \italic \underline "lông" }
@@ -109,6 +110,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Truyền luật phapts cho nhà
 	    \markup { \italic \underline "Ít - ra -" }
 	    en,

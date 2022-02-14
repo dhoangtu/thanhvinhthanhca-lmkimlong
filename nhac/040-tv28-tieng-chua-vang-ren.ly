@@ -63,6 +63,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tiếng Chúa xô nhào trắc bá,
 	    quất gẫy ngàn trắc bá Ly -- băng,
 	    Dây Ly -- băng như dê nhảy chồm,
@@ -79,6 +80,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hô vang trong đền thánh Chúa,
 	    muôn dân mừng hát ''Chúa hiển danh'',
 	    Đức vua uy linh luôn hiển trị,

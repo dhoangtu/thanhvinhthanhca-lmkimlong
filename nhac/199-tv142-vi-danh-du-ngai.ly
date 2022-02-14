@@ -67,6 +67,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngai chớ đưa thân này ra xử trị,
 	    vì trước Thần Nhan ai đâu hẳn là công chính,
 	    Bao ác nhân tìm con tiến công,
@@ -83,6 +84,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lạy Chúa hơi con giờ đây đã tàn,
 	    nguyện Chúa dủ thương mau mau nhận lời kêu khấn.
 	    Xin chớ ẩn mặt đi kẻo con tựa bị vùi dưới hố sâu.
@@ -98,6 +100,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài cứu thân con khỏi tay kẻ thù
 	    và dẫn dụ con luôn luôn tuân hành thiên ý,
 	    Trên đất phẳng dìu con bước đi,

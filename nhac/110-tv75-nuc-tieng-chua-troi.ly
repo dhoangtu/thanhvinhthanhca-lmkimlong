@@ -73,6 +73,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao nhiêu ngựa xe đứng chôn chân,
 	    bao tay anh hùng đều rời rã,
 	    Khi Ngài vừa giận dữ thị uy
@@ -90,6 +91,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nhân gian cùng lên tiếng tri ân,
 	    qua cơn lôi đình, được vui sướng.
 	    Mau nguyện cầu, dâng lễ tạ ơn,

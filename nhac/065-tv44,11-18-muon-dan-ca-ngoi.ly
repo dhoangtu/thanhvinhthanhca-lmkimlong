@@ -60,6 +60,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tôn nữ đây bao diễm lệ
 	    Xiêm áo nàng rực rỡ gấm hoa,
 	    Trong huy hoàng tiến dẫn về thánh thượng

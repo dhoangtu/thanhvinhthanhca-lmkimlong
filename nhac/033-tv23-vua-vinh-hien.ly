@@ -128,6 +128,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Núi thánh Chúa, ai người lên được?
 	    Đền vàng Ngài, kẻ nào nương thân thực vinh phúc,
 	    thực vinh phúc,

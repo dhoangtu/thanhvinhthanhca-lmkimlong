@@ -63,6 +63,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Phải chăng nay toàn thể nhân trần
 	    lìa đường chính nghĩa,
 	    nhưng theo nhay để hành động vô luân,

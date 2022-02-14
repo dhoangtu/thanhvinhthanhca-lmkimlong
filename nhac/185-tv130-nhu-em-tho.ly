@@ -49,6 +49,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Thành tâm tin yêu nơi Thiên Chúa,
 	    này Ít -- ra -- en,
 	    Ngay khi nay, vững bền ngàn kiếp qua ngàn đời.

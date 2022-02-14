@@ -85,6 +85,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài rực rỡ tựa làn ánh sáng,
 	    nắm vững trong tay quyền phép huy phong,
 	    Chúa thân chinh giải cứu dân Ngài,
@@ -101,6 +102,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lòng bình tĩnh đợi ngày khốn quẫn
 	    trút xuống trên dân hà hiếp chúng tôi,
 	    Dẫu cho nay mục nát xương rồi,
@@ -117,6 +119,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lòng này reo mừng vì Chúa mãi,
 	    Vẫn sướng vui luôn vì Đấng cứu tôi,
 	    Chúa cho tôi mạnh sức, lanh lẹ,

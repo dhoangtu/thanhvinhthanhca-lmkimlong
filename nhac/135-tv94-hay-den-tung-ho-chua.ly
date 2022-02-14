@@ -98,6 +98,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    \markup { \italic \underline "Hãy" }
 	    vào phục bái suy tôn,
 	    Quỳ đây trước thánh nhan Ngài,
@@ -119,6 +120,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Miệt mài đà bốn mươi năm,
 	    Làm Ta ngán ngẩm dân này,
 	    Một đoàn dân lầm lỗi phiêu linh,

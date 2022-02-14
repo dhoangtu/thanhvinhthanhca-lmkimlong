@@ -64,6 +64,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nào cùng tiến vào khuôn viên
 	    dâng lời (i -- a) cảm tạ,
 	    vào nơi cung điện

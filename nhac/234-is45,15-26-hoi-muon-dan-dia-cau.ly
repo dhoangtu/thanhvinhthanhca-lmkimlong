@@ -112,6 +112,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lời Chúa, Đấng Muôn Cao tạo tác cõi trời,
 	    Nặn địa cầu chu vững bền luôn,
 	    không tạo địa cầu hoang vắng hoài,
@@ -134,6 +135,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Về đây, ai là người còn sống sót được,
 	    Tụ họp từ muôn nước về đây.
 	    Những kẻ đần độn khiêng ngẫu tượng,

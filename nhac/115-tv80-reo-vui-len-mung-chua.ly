@@ -82,6 +82,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ta hạch tội, ơi Is -- ra -- el,
 	    Ngươi vẫn bất chấp lời tuyên cáo:
 	    Những thần tượng chư dân bái lạy,
@@ -98,6 +99,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ta thực là Thiên Chúa riêng ngươi,
 	    Ta đã cứu thoát và ban phúc,
 	    Thế vậy mà ngươi luôn cứng lòng,
@@ -114,6 +116,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao địch thù xin đến suy tôn,
 	    Muôn kiếp chúng sẽ phải kinh khiếp,
 	    Lấy mật rừng, tinh hoa lúa mì,

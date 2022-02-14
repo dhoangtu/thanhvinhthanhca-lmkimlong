@@ -51,6 +51,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con người đó Ngài trao cho
 	    lãnh đạo mọi vật Ngài tạo tác
 	    Hãy sống thiện toàn và đoán phân công bình,
@@ -67,6 +68,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Công việc Chúa Sự Khôn Ngoan thấu tường,
 	    vì ở gần bên Chúa,
 	    vẫn đã hiện diện hồi tác sinh muôn loài,
@@ -83,6 +85,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ôi lạy Chúa, Sự Khôn Ngoan của Ngài,
 	    mọi việc đều thông suốt,
 	    khéo léo thận trọng chỉ dẫn con thi hành,

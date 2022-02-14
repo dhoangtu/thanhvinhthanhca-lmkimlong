@@ -58,6 +58,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hãy bênh vực kẻ mọn hèn côi cút,
 	    bầu chữa những ai khốn cùng,
 	    Cứu kẻ nghèo khỏi tay của bọn ác nhân,

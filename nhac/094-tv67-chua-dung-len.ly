@@ -83,6 +83,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nào cùng ca xướng hớn hở
 	    \markup { \italic \underline mừng }
 	    vui trước nhan Ngài,
@@ -101,6 +102,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Vạn lạy Thiên Chúa lúc Ngài
 	    \markup { \italic \underline hiển }
 	    linh trước dân Ngài miền sa mạc hoang vu,
@@ -118,6 +120,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài vừa tuyên sấm: xuất hiện thiên binh,
 	    lãnh đám hầy cùng quân lực chạy trốn,
 	    Ngay trên đỉnh San -- mon băng tuyết phủ đầy,
@@ -135,6 +138,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngày ngày lên tiếng chúc tụng tôn vinh Chúa cứu độ
 	    hằng bang trợ ta liên,
 	    Nơi tay Ngài mở lối ta thoát tử thần,
@@ -152,6 +156,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "10."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nào mọi vương quốc hãy hòa
 	    \markup { \italic \underline lời }
 	    ca tán dương Ngài là Chúa Trời cao sang,

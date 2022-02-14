@@ -84,6 +84,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đồi núi đem lại thái hòa cho muôn dân,
 	    Đem công lý về cho vạn họ,
 	    Người ra tay cứu kẻ cơ cùng và bênh đỡ,
@@ -100,6 +101,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Rộn rã vương hầu các đảo xa muôn nơi
 	    Đem theo lễ vật xin thuần phục,
 	    Mọi quân vương kính cẩn tôn thờ nơi ngai báu,
@@ -116,6 +118,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Vạn tuế, thiên hạ tiến vàng cho Tân vương
 	    Xin vinh chúc Ngài luôn hiển trị,
 	    Và mong sao xứ sở luôn đầy dư gạo thóc,

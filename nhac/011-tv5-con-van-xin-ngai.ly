@@ -64,6 +64,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Do ân nghĩa cao dầy,
 	    được tiến bước vào nơi cung thánh,
 	    Con phục bái và suy tôn,
@@ -80,6 +81,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ai nương náu bên Ngài
 	    nguyện ước sẽ được luôn vui sướng,
 	    Ai mộ mến Thần Danh luôn,

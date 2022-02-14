@@ -61,6 +61,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hôm ấy khắp bàn dân nghe luận đàm:
 	    ôi việc vàn tay Chúa lớn lao,
 	    Việc Ngài thi công cao trọng quá,

@@ -70,6 +70,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Người một niềm kiên trung tôn sợ Chúa
 	    được hồng ân chan chưa,
 	    Nguyện cầu Chúa từ thành thánh Si -- on

@@ -60,6 +60,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chư dân tin thần tượng
 	    do chính chúng nhồi nặn nên,
 	    Có lỗ tai mà chẳng nghe gì,
@@ -76,6 +77,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ít -- ra -- en cậy tin
 	    nên Chúa đã độ trì cho,
 	    Hết những ai bền vững tin cậy,
@@ -92,6 +94,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Thiên cung nay Ngài ngự,
 	    ban trái đất tặng nhân gian,
 	    Cõi chết ai nào tán dương Ngài,

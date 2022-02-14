@@ -61,6 +61,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tôi biết rõ rằng Ngài thực cao cả,
 	    Thượng Đế ta vượt hết chư thần, tác sinh muôn loài:
 	    Trời đất ngàn trùng xa cách,
@@ -78,6 +79,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Thực Thánh Danh Ngài trường tồn muôn kiếp,
 	    Ở khắp nơi và đến muôn đời vẫn tuyên xưng hoài.
 	    Ngài sẽ xử trị ngay chính,
@@ -95,6 +97,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Mong những kẻ nào tạc ra tượng đó,
 	    Và những ai phục bái tôn thờ giống y như vậy.
 	    Còn kẻ hằng cậy tin Chúa,

@@ -66,6 +66,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nên nay bao tội con xin thú nhận,
 	    Chẳng giấu diếm chi Ngài,
 	    để Ngài thương thứ tha,
@@ -84,6 +85,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao đau thương dành cho quân ác thù,
 	    Còn ai luôn tin cậy sẽ được luôn mến thương.
 	    Người công minh sẽ reo hò nhảy múa,

@@ -57,6 +57,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lề luật Chúa minh bạch làm hỉ hoan con tim,
 	    Huấn giới Ngài sáng suốt,
 	    mắt phàm được khai quang.
@@ -72,6 +73,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lòng này vẫn nguyện thề học hỏi cho tinh thông,
 	    Quyết suốt đời nắm giữ sẽ được lợi trăm muôn.
     }

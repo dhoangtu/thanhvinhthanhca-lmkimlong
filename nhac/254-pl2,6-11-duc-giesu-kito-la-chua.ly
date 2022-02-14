@@ -77,6 +77,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đức Giê -- su Ki -- tô đã hạ mình khiêm tốn,
 	    Xin vâng đến chịu nhận tử hình,
 	    Tử hình ô nhục thập giá.

@@ -72,6 +72,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Châu lụy từng phút qua,
 	    Chính Ngài bắt ăn thay lương thực,
 	    Dòng lệ tuôn trào thay nước uống.
@@ -92,6 +93,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin trở lại Chúa ơi,
 	    Xin từ cõi cao xanh thương nhìn,
 	    Trở lại thăm vườn nho cũ đó

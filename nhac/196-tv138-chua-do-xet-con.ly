@@ -58,6 +58,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Luôn bao bọc và giữ gìn con
 	    toàn thân sau trước,
 	    Ngài vẫn đặt tay lên mãi trên mình con,
@@ -75,6 +76,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chắp cánh bay từ phía hừng đôgn hiện lên le lói
 	    Tìm đến tận chân mây góc biển trời tây,
 	    Tại đây đôi tay Chúa cũng dìu đưa,
@@ -92,6 +94,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Thân con này Ngài đã dệt nên từ trong thân mẫu,
 	    Cả đến tạng phủ con Chúa cũng tạo nên,
 	    Này con ca khen biết bao kỳ công
@@ -108,6 +111,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ôi tư tưởng Ngài bí nhiệm thay,
 	    huyền vi khôn xiết,
 	    Nhiều quá chứng đi thôi đếm sao nổi đây,

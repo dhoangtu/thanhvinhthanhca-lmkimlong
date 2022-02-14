@@ -68,6 +68,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \repeat unfold 4 { _ }
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Cung cầm tiếng sắt
 	    \repeat unfold 3 { _ }
 	    Tù và hãy họa theo

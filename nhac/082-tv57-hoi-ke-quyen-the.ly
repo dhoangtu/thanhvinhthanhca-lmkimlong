@@ -53,6 +53,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Những lũ người độc ác đã lạc hướng
 	    khi mới lọt lòng mẹ,
 	    ngay lúc mới sinh lầm đường lỡ bước
@@ -69,6 +70,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Thấy thế người người nói:
 	    Có phần phúc cho những kẻ ngay lành,
 	    Thiên Chúa vẫn luôn điều hành thế giới,

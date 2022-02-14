@@ -76,6 +76,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa quát nạt diệt trừ quân tàn ác,
 	    xóa sạch vạn kiếp,
 	    Triệt bình địa thành quách chúng luôn,
@@ -91,6 +92,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Với những người từng nhận biết Thánh Danh sẽ trọn tình mến,
 	    Vì thực Ngài chẳng có lãng quên
 	    những kẻ tìm Ngài trung kiên

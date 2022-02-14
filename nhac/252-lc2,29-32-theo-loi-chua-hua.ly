@@ -57,6 +57,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bời vì rầy chính mắt con được trông xem
 	    Ơn Cứu Độ dành sẵn cho nhân trần.
     }

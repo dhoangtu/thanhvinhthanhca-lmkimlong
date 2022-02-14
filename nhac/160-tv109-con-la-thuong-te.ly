@@ -60,6 +60,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa cho từ Si -- on vương quyền lớn rộng thêm
 	    Đây giữa bao nhiêu quân địch thù xin hãy hiển trị,
 	    xin lãnh quền mà xử xét muôn dân.
@@ -74,6 +75,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa đang ngự phía hữu ở kề thánh thượng đây
 	    Vương bá nay ra tay triệt hạ,
 	    Bởi uống nước nguồn nên Chúa rầy ngẩng đầu cách hiên ngang.

@@ -158,6 +158,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Có những người cam phận tàn kiếp trong ngục tối
 	    xiềng xích gông cùm vì phản nghịch dể duôi lời Thiên Chúa,
 	    dám dể khinh ý Chúa tể Muôn Cao,
@@ -179,6 +180,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Có những người xuôi ngược vượt sóng khơi vạn lý
 	    lèo lái con thuyền,
 	    họ từng nhìn ngàn công việc tay Chúa,
@@ -214,6 +216,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa bẻ gập gông cumgf xiềng xích
 	    Cứu họ khỏi ngục thẳm âm u,
 	    Ngài phá tung kìa bao cánh cửa đồng
@@ -230,6 +233,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa lại truyền cho biển lặng lẽ,
 	    Bão tan rồi lòng họ an vui,
 	    Ngài đưa thuyền về nơi bến mong chờ,

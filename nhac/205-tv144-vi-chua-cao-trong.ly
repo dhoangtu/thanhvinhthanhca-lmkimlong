@@ -73,6 +73,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Từ trước muôn đời, ngàn kiếp về sau,
 	    Muôn dân đề cao sự nghiệp Chúa,
 	    truyền tụng huân công Chúa nơi nơi,
@@ -91,6 +92,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Trìu mến muôn loài Ngài đã dựng nên,
 	    Luôn nhân hậu với mọi người thế,
 	    Nào người kiên trung hãy ca khen:
@@ -109,6 +111,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lời Chúa ban truyền thực chính trực thay,
 	    Bao công việc luôn đầy tình nghĩa,
 	    Ngài kề bên ai biết kêu xin,

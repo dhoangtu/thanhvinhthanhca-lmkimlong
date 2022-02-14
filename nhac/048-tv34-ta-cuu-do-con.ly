@@ -84,6 +84,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Họ đào hầm hố, giăng lên lưới dò hại con,
 	    khấn xin Ngài dành cho họ hết,
 	    Hầm chúng đào cho chúng sa chân,
@@ -104,6 +105,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Kìa bọn xảo trá nêu nhân chứng hạch hỏi con
 	    những sự việc mà con chẳng biết.
 	    Họ oán thù, con vẫn thi ân,
@@ -122,6 +124,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bọn họ mừng rỡ khi tôi mới vừa sẩy chân,
 	    kẻ xa lạ hùa theo đập đánh,
 	    Họ reo hò, xâu xé khôn ngơi,
@@ -140,6 +143,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài đà nhìn rõ, sao luôn đứng tận đàng xa?
 	    cớ sao đành lặng thinh vậy mãi,
 	    Nào thức dậy minh xét cho con.
@@ -158,6 +162,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "10."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Còn người nào thấy con nay đã được giải oan,
 	    hãy vui mừng cùng xương tụng Chúa:
 	    ''Ngài vĩ đại, ôi Chúa cao quang''.

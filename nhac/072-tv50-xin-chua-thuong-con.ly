@@ -71,6 +71,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lạy Chúa con đâu quên bao tội tình con phạm,
 	    Hết mọi tiền khiên ám ảnh từng giây phút,
 	    trước nhan Chúa thực con đắc tội,
@@ -88,6 +89,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài muốn trong tâm can con người hằng chân thật,
 	    Hãy chỉ dạy con cư xử thật khôn khéo.
 	    Xin rẩy nước và thương xá tội,
@@ -104,6 +106,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đừng nỡ xua con đi xa khỏi thần nhan Ngài,
 	    Chớ từ lòng con cất đi thần linh Chúa,
 	    Ban lại con nguồn vui cứu độ,
@@ -120,6 +123,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lạy Chúa con reo vui ca tụng Ngài công bình,
 	    Hãy mở miệng con vang lời ngợi khen Chúa,
 	    Chúa đâu có màng chi lễ vật
@@ -136,6 +140,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "10."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngày ấy Chúa ghé mắt vui nhận từng lễ vật,
 	    Lễ vật toàn thiêu thiên hạ cũng dâng tiến:
 	    Đây bò tơ đặt trên tế đàn

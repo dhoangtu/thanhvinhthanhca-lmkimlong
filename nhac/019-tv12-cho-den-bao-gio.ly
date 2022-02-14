@@ -68,6 +68,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Cho đến bao giờ,
 	    hồn những sợ hãi lo toan,
 	    cho đến bao giờ lòng vẫn khổ sầu ngày đêm?

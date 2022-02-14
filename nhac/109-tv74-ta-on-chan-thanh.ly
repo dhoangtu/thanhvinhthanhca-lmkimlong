@@ -68,6 +68,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Này bọn kiêu hãnh này,
 	    thôi chớ ngạo ngược dương oai,
 	    Và nói với bao quân tội lỗi
@@ -83,6 +84,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Dạo đàn lên hát mừng,
 	    tôi sẽ muôn thuở hân hoan,
 	    Và sẽ phá tan uy kẻ dữ,

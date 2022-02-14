@@ -63,6 +63,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Như núi để bao bọc,
 	    lạy Chúa tựa thành kiên cố để giữ gìn.
 	    Xin Ngài đoái thương chỉ đường soi lối
@@ -79,6 +80,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Vương mắc cảnh cơ cực,
 	    lay Chúa vì sầu đau mắt đã mỏi mòn,
 	    Tâm hồn rã rời, tiều tụy thân xác
@@ -95,6 +97,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin chiếu tỏa nhan Ngài,
 	    lạy Chúa, phận bày tôi Chúa hãy cứu độ,
 	    Cao cả biết bao lòng từ bi Chúa,

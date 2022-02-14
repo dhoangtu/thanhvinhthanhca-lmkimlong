@@ -78,6 +78,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Theo Chúa tiên định,
 	    vì tình thương đã cho ta làm nghĩa tử,
 	    Nhờ chính Đức Ki -- tô,
@@ -96,6 +97,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Do ý nhiệm mầu mà rầy ta thấu tỏ
 	    chương trình của Ngài,
 	    Từ trước đã an bài

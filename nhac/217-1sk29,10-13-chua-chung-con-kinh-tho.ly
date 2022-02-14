@@ -59,6 +59,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lạy Chúa quyền năng Chúa lớn lao thay,
 	    Rực rỡ ánh quang,
 	    Đây muôn sự là của Ngài,
@@ -75,6 +76,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lạy Chúa quyền năng dũng mãnh trong tay,
 	    Làm chủ chúng sinh
 	    Muôn muôn vật nhờ ở Ngài mà thêm mạnh mẽ gia tăng dần.

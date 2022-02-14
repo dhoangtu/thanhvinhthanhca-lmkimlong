@@ -49,6 +49,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đôi mắt hằng đăm chiêu nhìn lên không mỏi rời,
 	    Trông Chúa đến lúc nào Ngài dủ tình thương tới.
     }

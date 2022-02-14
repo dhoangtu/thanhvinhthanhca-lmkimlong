@@ -79,6 +79,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao vinh dự được cư ngụ trong cung thánh,
 	    Cất lời ca tụng mừng Chúa rền vang.
 	    Tin nhận ở Chúa là sức oai phong,
@@ -95,6 +96,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin thương nhận từng lời con kêu khấn,
 	    Chúa quyền linh xin nghe tiếng nài van,
 	    Ôi lạy Thiên Chúa là thuẫn khiên con,
@@ -111,6 +113,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ban ân huệ và hiển vinh khôn sánh,
 	    Chúa thực như Vầng Hồng mãi rạng soi,
 	    Ai người ngay chính Ngài chở che luôn,

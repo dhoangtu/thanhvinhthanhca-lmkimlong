@@ -58,6 +58,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Kìa chúng dân muôn nước đổ về
 	    mà phủ phục nơi tôn nhan Chúa,
 	    Vì chúng nhìn nhận Ngài phán quyết chí công.

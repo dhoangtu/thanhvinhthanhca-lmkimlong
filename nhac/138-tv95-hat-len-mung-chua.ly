@@ -61,6 +61,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Vì Ngài trọng đại đáng chúc tụng,
 	    Trổi vượt thần thánh khắp chư dân,
 	    Ngài uy dũng sáng tạo càn khôn,
@@ -76,6 +77,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Phục lạy Ngài quyền uy thánh thiện,
 	    Toàn cầu kinh hãi trước Thiên Nhan,
 	    Và công bố khắp trên trần gian Chúa đây là Vua.
@@ -91,6 +93,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ruộng đồng cùng rừng xanh hát mừng,
 	    Này Người ngự đến giữa uy linh,
 	    Dùng công lý xét xử trần gian,

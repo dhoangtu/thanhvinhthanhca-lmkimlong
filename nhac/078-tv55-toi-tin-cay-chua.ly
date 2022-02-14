@@ -80,6 +80,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao nhiêu bước cơ cùng,
 	    cầu Ngài ghi chép vào sổ sách,
 	    Từng giọt lệ sầu đã tuôn rơi,
@@ -96,6 +97,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ôi Thiên Chúa con thờ,
 	    lời thề xưa quyết tâm gìn giữ
 	    Vfa trình Ngài của lễ tri ân

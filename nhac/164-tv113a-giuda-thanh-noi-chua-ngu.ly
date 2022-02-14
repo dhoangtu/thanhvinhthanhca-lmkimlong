@@ -64,6 +64,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Vì cớ chi Gio -- đan chảy ngược dòng,
 	    biển vì đâu đã vội vã chạy lui,
 	    đồi nương sao nhảy chồm như lũ cừu,

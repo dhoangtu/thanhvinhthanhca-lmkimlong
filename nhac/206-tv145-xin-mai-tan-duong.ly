@@ -75,6 +75,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Vinh phúc thay ai cậy nhờ Chúa,
 	    Vững một lòng thờ Chúa mà thôi,
 	    Ngài tác sinh biển rộng cùng đất trời,
@@ -91,6 +92,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Mở mắt cho ai bị mù tối,
 	    Lưng khòm được Ngài uốn thẳng lên.
 	    Ngài mến thương kẻ nào hằng chính trực,

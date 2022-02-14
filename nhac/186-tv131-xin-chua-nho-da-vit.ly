@@ -72,6 +72,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nghe nói tới hòm bua lúc cư ngụ ở Ép -- ra -- tha,
 	    Về đồng Gia -- a tìm cho thấy,
 	    Tiến bước tới phục bái suy tôn,
@@ -93,6 +94,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con cháu nếu trung tín giữ vuông tròn giao ước Ta truyền,
 	    Và thực thi qui luật Ta phán:
 	    Sẽ mãi mãi được kế ngôi ngươi.

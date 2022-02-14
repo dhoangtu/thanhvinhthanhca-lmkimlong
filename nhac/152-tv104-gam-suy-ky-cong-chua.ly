@@ -71,6 +71,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hãy nhớ lại kỳ công tay Chúa,
 	    Dấu lạ Chúa làm với bao nghị quyết Ngài ban,
 	    Hết mọi điều Ngài đã phán định
@@ -87,6 +88,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Với bao là quyền uy tay Chúa,
 	    Đã làm muôn vàn dấu lạ cùng với điềm thiêng
 	    Dẫn dòng tộc Ngài đã kén chọn

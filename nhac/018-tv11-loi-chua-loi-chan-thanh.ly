@@ -47,6 +47,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lời chúng luôn dối gian,
 	    lòng một dạ hai phỉnh phờ.
 	    Lưỡi ngạo ngược,
@@ -62,6 +63,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nhìn mãi bao bất công,
 	    người nghèo hèn rên xiết hoài,
 	    Chúa vùng dậy giải thoát bao kẻ ngóng trông,

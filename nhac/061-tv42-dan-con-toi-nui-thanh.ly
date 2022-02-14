@@ -72,6 +72,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Sao xua đuổi con, để thù nhân tứ bề áp bức,
 	    Chúa ơi xin nhớ con vẫn hằng tìm náu nương Ngài
     }

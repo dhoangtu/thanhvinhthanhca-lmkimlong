@@ -69,6 +69,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con ước mong được mãi mừng vui
 	    Khi con nâng hồn về tới Chúa,
 	    Chúa ơi
@@ -86,6 +87,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin chiếu soi đường chính nẻo ngay,
 	    Cho con luôn bền lòng tiến bước, Chúa ơi
 	    Xin cho lòng con đây trọn niềm tin kính,
@@ -102,6 +104,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin đoái trông và hãy dủ thương,
 	    Ban cho con một điềm báo phúc, Chúa ơi
 	    Để quân thù con nay một phne điêu đứng,

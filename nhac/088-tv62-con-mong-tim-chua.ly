@@ -73,6 +73,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Thế nên con ước nguyện tụng ca suốt đời,
 	    Và chắp tay nguyện cầu Danh Chúa quyền linh,
 	    Được no đầy tựa mới dự tiệc yến,

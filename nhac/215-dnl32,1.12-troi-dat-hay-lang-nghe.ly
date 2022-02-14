@@ -87,6 +87,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Này những đứa con đẹp xinh của Ngài
 	    Lại thất đức vô nghì chạy theo gian ác,
 	    Hỡi lũ xuẩn ngu sao đền ơn Chúa thế,

@@ -72,6 +72,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nào hãy nâng cung đàn hát mừng
 	    Sự nghiệp Người rạng tỏ khắp nơi,
 	    Hân hoan nơi nguồn suối cứu độ,
@@ -88,6 +89,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nào hỡi Si -- on hãy hát mừng
 	    Vì Ngài hằng ngự ở giữa ngươi,
 	    Reo vang: Ôi thực Chúa vĩ đại

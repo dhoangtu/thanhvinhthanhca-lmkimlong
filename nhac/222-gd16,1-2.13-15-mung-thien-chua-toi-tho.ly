@@ -60,6 +60,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chính Chúa tôi tiêu diệt họa chiến tranh,
 	    Thân tôi đây được Chúa thương độ trì.
 	    Ngài giựt khỏi bao tay phường bách hại tôi
@@ -76,6 +77,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Dẫu núi cao hay biển sâu chuyển rung,
 	    Dẫu đất đá tựa sáp ong chảy mềm,
 	    Thì người nào trung kiên hằng kính sợ liên,

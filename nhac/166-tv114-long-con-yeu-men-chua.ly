@@ -70,6 +70,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa nhân hậu ngàn đời luôn tín nghĩa,
 	    Chúa ta đây hằng trắc ẩn từ tâm
 	    Luôn yêu thương giữ gìn cho ai thơ bé,

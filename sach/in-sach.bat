@@ -8,7 +8,7 @@ set LILYPOND="C:\Program Files (x86)\LilyPond-2.22.1\usr\bin\lilypond.exe"
 set GEN=".\pdf-generated"
 mkdir %GEN%
 
-for %%f in (D:\01.lilypond\01.github\tuyentaphopca-lmkimlong\nhac\*.ly) do (
+for %%f in (D:\01.lilypond\01.github\thanhvinhthanhca-lmkimlong\nhac\*.ly) do (
   set /p val=<%%f
   echo "fullname: %%f"
   echo "name: %%~nf"
@@ -16,11 +16,9 @@ for %%f in (D:\01.lilypond\01.github\tuyentaphopca-lmkimlong\nhac\*.ly) do (
   %LILYPOND% --output="%GEN%\%%~nf" -dno-point-and-click --pdf "%%f"
 )
 
-pdftk %GEN%\*.pdf cat output nhac.pdf
-
+D:\download\qpdf-10.1.0\bin\qpdf --empty --pages %GEN%\*.pdf -- nhac.pdf
 pdflatex so-trang-chan-le.tex
 
-pdftk bia-truoc.pdf loi-ngo.pdf blank-a4.pdf so-trang-chan-le.pdf cat output tuyentaphopca-lmkimlong.pdf
+D:\download\qpdf-10.1.0\bin\qpdf --empty --pages bia-truoc-a5.pdf bia-trong-a5.pdf so-trang-chan-le.pdf blank-a5.pdf bia-sau-a5.pdf -- thanhvinhthanhca-lmkimlong.pdf
 
-del /s /f /q %GEN% nhac.pdf *.aux *.log so-trang-chan-le.pdf
-rmdir /s/q %GEN%
+rem del /s /f /q %GEN% nhac.pdf *.aux *.log so-trang-chan-le.pdf

@@ -66,6 +66,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa nay ngự duyệt tinh sao trên không,
 	    xướng danh lên để gọi từng ngôi riêng biệt.
 	    Ôi Chúa thực cao sáng, quyền lực vô đối,
@@ -82,6 +83,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa che bầu trời cho mây giăng giăng,
 	    Khiến mưa sa gội nhuần toàn cõi địa cầu.
 	    Cho núi đồi tươi thắm, đẹp mầu hoa lá,

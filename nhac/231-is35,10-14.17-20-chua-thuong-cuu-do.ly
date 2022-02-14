@@ -104,6 +104,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nãy bỗng cửa nhà bị giật tung
 	    cuốn lại đem đi,
 	    Đâu khác chi là lều của mục tử phiêu du,
@@ -125,6 +126,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài cứu con khỏi vực diệt vong,
 	    ném tội con đi,
 	    Ban phúc an bình lại thay nhục nhã chua cay,

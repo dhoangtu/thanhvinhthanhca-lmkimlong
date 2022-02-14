@@ -74,6 +74,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Quân gian xảo, bọn tà tâm,
 	    phường vô luân bất trung con quyết xa lìa,
 	    Tay con rửa thuần khiết hân hoan
@@ -91,6 +92,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con ăn ở thực thẳng ngay,
 	    Ngài ra tay cứu nguy thương xót con cùng.
 	    Luôn thanh thản nhẹ bước,

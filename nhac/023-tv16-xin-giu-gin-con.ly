@@ -60,6 +60,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nơi tôn nhan Ngài,
 	    nguyện Chúa soi thấu hồn con.
 	    con luôn sống trung thực
@@ -77,6 +78,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con luôn trung thành gìn giữ
 	    cho suốt đời con luôn công chính ngay thực
 	    Con sẽ được nhìn dung mạo Chúa,

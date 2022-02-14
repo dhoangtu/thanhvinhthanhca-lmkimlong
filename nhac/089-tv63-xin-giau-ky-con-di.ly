@@ -70,6 +70,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Mài lưỡi cho sắc bén nhue gươm,
 	    Bắn từng loạt tên là bao lời hiểm ác,
 	    Họ nhằm ai chất phác vô tội
@@ -86,6 +87,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Này Chúa cho phóng mũi tên bay,
 	    Bắn tình lình nên bọn gian tà gục ngã,
 	    Tàn mạng theo tấc lưỡi hư hoại,

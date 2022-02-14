@@ -52,6 +52,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chẳng hề trù tính hại người
 	    hoặc nhục mạ ai,
 	    Trọng kẻ kính tin Chúa Trời,

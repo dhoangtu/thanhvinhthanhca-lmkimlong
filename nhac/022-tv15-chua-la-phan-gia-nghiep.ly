@@ -95,6 +95,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lòng dạ con ca tụng Chúa mãi,
 	    vì ngài đà thương mến chỉ dạy con.
 	    Đây con hằng nhớ Chúa ở trước mặt.
@@ -109,6 +110,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài dạy con
 	    \markup { \italic \underline "đường" }
 	    về cõi sống,

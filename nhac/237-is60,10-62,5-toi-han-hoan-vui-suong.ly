@@ -222,6 +222,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Vì mến Si -- on tôi chẳng nín lặng,
 	    Bởi chuộng \markup { \italic \underline "Gia" }
 	    -- liêm lẽ nào ngủ yên
@@ -241,6 +242,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Người sẽ trở nên mũ triều thiên vàng,
 	    như ngọc miện quý Chúa cầm ở ta.
 	    Quê ngươi sẽ chẳng còn là nơi hoang vắng,
@@ -258,6 +260,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nào khác tài trai cưới tôn nữ về:
 	    Đấng tạo thành ngươi kết bạn cùng ngươi.
 	    Như tân nương làm tình quân vui sướng,

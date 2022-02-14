@@ -88,6 +88,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Họ xem thấy Ngàu rất thánh thiện
 	    trong cách Ngài cư xử với chúng con,
 	    Thì nay cho con dân đây được thấy
@@ -108,6 +109,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nhà Gia -- cóp, nguyện Chúa quy tụ
 	    cho chiếm lại gia nghiệp thuở ban sơ,
 	    Xin dủ thương dân riêng Ít -- ra -- en,

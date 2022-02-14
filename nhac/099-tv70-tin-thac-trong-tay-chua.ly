@@ -59,6 +59,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đưa con xa móng vuốt quân gian ác,
 	    xa bọn độc dữ hiểm nguy,
 	    Vì chính Chúa là niềm cậy trông
@@ -75,6 +76,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con đây luôn tín thác trong tay Chúa,
 	    loan truyền lộc phúc Ngài ban,
 	    Từ tấm bé đà được Ngài thương dậy dỗ
@@ -91,6 +93,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao vinh hoa Chúa sẽ ban chan chứa,
 	    an ủi và vỗ về con,
 	    Dù trước đó từng bị vùi dập khổ đâu,

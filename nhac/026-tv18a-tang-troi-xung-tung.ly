@@ -63,6 +63,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tầng trời Cháu trải như màn trướng,
 	    Như căng lều tạm cho kim ô,
 	    Di hành thanh thoát trên dặm trường
@@ -79,6 +80,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Mệnh lệnh của Ngài luôn thẳng thắn
 	    Gieo hoan lạc vào tận tâm can.
 	    Ôi thật minh chính quy luật Ngài

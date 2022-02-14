@@ -104,6 +104,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nào các đoàn binh Chúa
 	    \repeat unfold 5 { _ }
 	    Vầng nguyệt với kim ô
@@ -124,6 +125,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Từ khắp mười phương đất
 	    \repeat unfold 5 { _ }
 	    Nào thủy quái thâm cung
@@ -144,6 +146,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nào thú rừng gia súc
 	    \repeat unfold 5 { _ }
 	    Loài bò sát trăm muôn
@@ -164,6 +167,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nào hết mọi trai tráng
 	    \repeat unfold 5 { _ }
 	    Này thục nữ đoan trang

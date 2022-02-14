@@ -110,6 +110,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin Ngài nhớ đến con
 	    vì yêu thương dân Ngài
 	    Xin ngự đến viếng thăm
@@ -128,6 +129,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
       \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
       Trong ngàn nỗi truân chuyên
       cùng kêu van lên Ngài
       Theo lượng cả yêu thương
@@ -144,6 +146,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Như tiền bối trước kia
 	    họ bao phen \markup { \italic \underline "lỗi" } phạm
 	    Nhưng vì nhớ Thánh Danh,
@@ -160,6 +163,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Khi Ngài cứu thoát dân
 	    khỏi bao tay quân thù
 	    Tin lời Chúa đã ban
@@ -176,6 +180,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
       \set stanza = "10."
+      \override Lyrics.LyricText.font-shape = #'italic
       Đem vàng đúc con bê
       tại chân Hô -- rép nọ
       Xin phục bái kính tôn
@@ -192,6 +197,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "12."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Khinh miền đất tốt tươi,
 	    chẳng tin như \markup { \italic \underline "Chúa" } dậy
 	    Trong trại chúng kêu ca,
@@ -208,6 +214,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "14."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bên dòng nước
 	    \markup { \italic \underline "Mê - ri" } -- ba
 	    họ trêu cơn giận Ngài
@@ -225,6 +232,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
       \set stanza = "16."
+      \override Lyrics.LyricText.font-shape = #'italic
       Đây họ giết con trai
       và luôn con \markup { \italic \underline "gái" } mình
       Dâng thần đất
@@ -242,6 +250,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "18."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao lần Chúa cứu nguy,
 	    họ khôi thôi \markup { \italic \underline "phản" } nghịch
 	    Nhưng vì Thánh ước xưa,

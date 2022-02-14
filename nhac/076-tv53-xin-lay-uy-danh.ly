@@ -71,6 +71,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con ước mong rằng bọn chúng
 	    Truy nhận chính những điều chúng mưu hại người.
 	    Chúa muôn đời luôn trung tín,

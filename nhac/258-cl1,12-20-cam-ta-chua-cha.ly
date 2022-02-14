@@ -82,6 +82,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Người là hình ảnh Thiên Chúa vô hình,
 	    là Trưởng Tử muôn loài thọ
 	    \markup { \italic \underline "sinh" },
@@ -99,6 +100,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Là Đầu nhiệm thể hay Giáo Hội Người,
 	    là Trưởng Từ trong hàng kẻ chết,
 	    Trong mọi sự Người hằng đứng đầu

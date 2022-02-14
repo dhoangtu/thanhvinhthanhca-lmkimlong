@@ -60,6 +60,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tay Chúa nâng đỡ bạn,
 	    Ngài gần kề chở che tiếp giúp,
 	    Cung hằng với Vầng Ô

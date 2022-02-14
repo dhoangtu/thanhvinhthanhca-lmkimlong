@@ -60,6 +60,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ban ân thiêng cho ai sống thanh bần
 	    Và yêu thương dân riêng Ngài luôn mãi,
 	    Ai kiên trung vinh phúc rỡ ràng,

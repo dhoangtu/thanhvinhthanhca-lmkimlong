@@ -69,6 +69,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngắm kỳ công, lòng con vui sướng
 	    Nhìn việc Chúa đã làm mà phải reo lên,
 	    Kỳ diệu thay bao nhiêu là tư tưởng Chúa,
@@ -85,6 +86,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa Cả đây ngàn năm vinh sáng
 	    Thù địch Chúa muôn vàn rồi cũng tiêu vong.
 	    Nhờ Ngài thương con nay được nên mạnh mẽ,

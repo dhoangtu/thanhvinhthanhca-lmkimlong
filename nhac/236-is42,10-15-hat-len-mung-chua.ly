@@ -70,6 +70,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa giống trang kiệt sĩ vào trận hiêu dũng,
 	    Bừng bừng khí anh hào lẫm liệt vùng lên.
 	    Hô xung phong Ngài vung cánh tay uy hùng
@@ -87,6 +88,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa phá tan tành hết ngàn đồi, muôn núi,
 	    Và làm cho thảo mộc bỗng lụi tàn đi.
 	    Ngài sẽ biến dòng sông trở nên hoàng địa

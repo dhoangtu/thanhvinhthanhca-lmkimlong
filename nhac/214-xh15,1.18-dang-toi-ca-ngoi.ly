@@ -69,6 +69,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao xa mã cùng với
 	    tướng binh của Ai Cập
 	    Ngài xô chìm đáy nước
@@ -85,6 +86,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đây bao kẻ thù nói:
 	    chúng ta đuổi theo họ
 	    Dùng gươm trần giết hết
@@ -101,6 +103,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ai trong các thần thánh
 	    sánh chi nổi như Ngài
 	    Thực oai hùng, chí thánh,
@@ -117,6 +120,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đưa dân tới miền đất
 	    thắm nương cỏ xanh rì
 	    Và đem về núi thánh

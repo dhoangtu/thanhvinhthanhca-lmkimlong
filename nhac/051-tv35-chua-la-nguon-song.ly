@@ -80,6 +80,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tình Chúa trổi vượt cung trời cao ngất,
 	    thành tín vượt muôn tầng mây biếc,
 	    Đức công chính của Ngài,
@@ -96,6 +97,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đừng phó mạng này cho phướng gian ác,
 	    đừng để bọn hung tàn xông đánh,
 	    chúng nhào xuống cả rồi,

@@ -81,6 +81,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin minh xét dùm con,
 	    ôi thẩm phán công bình
 	    luôn thấu suốt lòng dạ chúng sinh,
@@ -96,6 +97,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Quân gian ác mài gươm trương nỏ lắp tên rồi,
 	    mưu tính kế hoạch để sát nhân
 	    với bao chuyện gian manh ác tâm.

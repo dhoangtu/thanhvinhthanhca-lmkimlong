@@ -66,6 +66,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa dùng ngôn sứ mà phán hứa xưa kia:
 	    Sẽ cứu ta thoát khỏi quân thù.
 	    Khỏi bàn tay bao kẻ ghen ghét,
@@ -84,6 +85,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tước hiệu ngôn sứ của chính Đấng Tối Cao,
 	    hãy lãnh nhận, hỡi Hài nhi này,
 	    Làm tiền phong mở đường cho Chúa,

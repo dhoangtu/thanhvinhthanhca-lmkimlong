@@ -78,6 +78,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ước mong phải chi được cặp cánh chim bồ câu
 	    Và dìu dặp bay tới cõi trời xa,
 	    Lánh đi trong tận xa mạc vắng,
@@ -96,6 +97,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Giá như gặp kẻ thù nhạo báng hay cười chê
 	    Lòng này đành câm nín lánh mặt đi,
 	    Chứ đây bọn bè thân tình cũ,
@@ -115,6 +117,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Trút cho Ngài gánh sầu,
 	    Ngài sẽ đỡ đần cho
 	    Chẳng để người công chính phải ngả nghiêng.

@@ -65,6 +65,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bị nguyền rủa Người không nguyền rủa lại,
 	    Chịu đau đớn mà chẳng đe lời,
 	    Nhưng một bề phó thác cho Đấng xử xét công bình.

@@ -63,6 +63,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Thấy họ gặp may nghe lòng đau nhói,
 	    Tâm can thì bấn loạn sục sôi
 	    Tính suy hoài lại càng bừng lên như lửa,
@@ -79,6 +80,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tính chuyện giầu sang,
 	    xuôi ngược hôm sớm,
 	    Nhắm mắt rồi biết thuộc về ai,
@@ -96,6 +98,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa trừng trị con như lời cảnh báo,
 	    Bao mưu định mối mọt gặm tiêu,
 	    Kiếp nhân trần bay vèo tựa như hơi thở,

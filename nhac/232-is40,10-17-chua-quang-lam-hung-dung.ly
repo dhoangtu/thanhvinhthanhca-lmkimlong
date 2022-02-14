@@ -68,6 +68,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Có ai lường \markup { \italic \underline "biển" }
 	    trong vốc bàn tay,
 	    Dùng gang mà đo chín cung trời,
@@ -86,6 +87,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Kiếm ai dạy \markup { \italic \underline "để" }
 	    tri thức mở mang,
 	    Ngàn dân tựa như nước miệng thùng,

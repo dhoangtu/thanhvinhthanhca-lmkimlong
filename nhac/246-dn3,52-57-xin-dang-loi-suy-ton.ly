@@ -52,6 +52,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ca tụng Chúa từ trong thánh điện ngợp ánh quang,
     }
     \new Lyrics {
@@ -62,6 +63,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ca tụng Chúa ngự trên các vòm trời ngất cao,
     }
   >>
@@ -77,6 +79,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ca tụng Chúa trên ngai báu của vị quốc vương,
     }
     \new Lyrics {
@@ -87,6 +90,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ca tụng Chúa ngay nơi các vật Ngài tác sinh,
     }
   >>

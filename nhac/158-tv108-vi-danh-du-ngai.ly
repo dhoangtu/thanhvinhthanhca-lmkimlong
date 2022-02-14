@@ -83,6 +83,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Vì danh dự Ngài xin bênh đỡ con,
 	    Vì lòng Ngài nhân ái xin giải thoát con,
 	    Con khốn khổ nghèo hèn
@@ -101,6 +102,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lòng con trọn niềm tri ân Chúa luôn,
 	    Từ cộng đoàn dân Chúa con sẽ tán dương,
 	    Bởi Chúa thương người nghèo,

@@ -73,6 +73,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con kêu lên Ngài,
 	    lạy Chúa cao quang muôn trùng
 	    Từ cung trời ban xuống hồng ân,
@@ -91,6 +92,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin mau vươn mình, lạy Chúa trên muôn cung trời,
 	    Hiển vinh Ngài dọi khắp trần gian,
 	    Chúng mắc lưới dò hại con,

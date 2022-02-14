@@ -68,6 +68,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nơi quê người làm sao ta hát,
 	    Đất khách này đời nào ta ca những câu ca,
 	    những câu ca tụng mừng Chúa Trời của ta.

@@ -60,6 +60,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Khổn đốn cho phận tôi đây
 	    Sống giữa lũ người ở Kê -- đa,
 	    Chúng luôn muốn gây chuyện chiến chinh,

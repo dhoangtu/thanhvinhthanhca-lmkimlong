@@ -46,6 +46,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa làm nhên những việc rất phi thường
     }
     \new Lyrics {
@@ -56,6 +57,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Giết sạch con trưởng toàn cõi Ai -- cập
     }
     \new Lyrics {
@@ -66,6 +68,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Dẫn đường dân Chúa ở giữa sa mạc
     }
     \new Lyrics {
@@ -76,6 +79,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa giật ta thoát khỏi lũ quân thù
     }
   >>
@@ -92,6 +96,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chính Ngài tác tạo trời xanh bao la
     }
     \new Lyrics {
@@ -102,6 +107,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Dẫn khỏi xứ này toàn dân "Ít-ra-" en
     }
     \new Lyrics {
@@ -112,6 +118,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đấng đã đánh phạt nhiều vua uy phong
     }
     \new Lyrics {
@@ -122,6 +129,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đấng nuôi dưỡng hoài ngàn muôn sinh linh
     }
   >>
@@ -138,6 +146,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa đà căng đất ở giữa thủy triều
     }
     \new Lyrics {
@@ -148,6 +157,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Với bàn tay Chúa mạnh mẽ uy quyền
     }
     \new Lyrics {
@@ -158,6 +168,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Giết sạch vương bá quyền thế oai hùng
     }
     \new Lyrics {
@@ -168,6 +179,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hãy tạ ơn Chúa ngự chốn cửu trùng
     }
   >>

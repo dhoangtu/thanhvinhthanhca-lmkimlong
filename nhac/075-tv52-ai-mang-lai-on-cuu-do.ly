@@ -70,6 +70,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa ở thiên cung đưa mắt nhìn
 	    tìm trong nhân thế
 	    Có ai đâu vẫn còn trọng lương tri
@@ -86,6 +87,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Những kẻ gian ngoa đâu hiểu gì,
 	    chẳng kêu xin Chúa
 	    Sống trên xương máu đồng bào ta đây,

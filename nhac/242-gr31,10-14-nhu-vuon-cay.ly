@@ -75,6 +75,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đây Thiên Chúa cứu độ nhà Gia -- cóp
 	    khỏi bao tay kẻ mạnh hơn nhiều,
 	    Chúng vui sướng tới Si -- on hưởng bao ân lộc:

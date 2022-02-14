@@ -71,6 +71,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Kêu thống thiết nên kiệt sức
 	    và đã ráo khô cuống họng,
 	    Trông đợi Chúa luôn mắt con mỏi mòn,
@@ -91,6 +92,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Âu cũng chính bởi tại Chúa,
 	    từng lũ nhắm con thoá mạ,
 	    Cam chịu nhuốc nhơ phủ che mặt mày,
@@ -111,6 +113,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin cứu thoát con lạy Chúa
 	    khỏi lún mãi trong vũng lầy
 	    Khỏi vực nước sâu, khỏi tay địch thù,
@@ -131,6 +134,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tim vỡ nát, thân rời rã
 	    vì hứng lấy bao thóa mạ,
 	    Trông người xớt chia vẫn chẳng gặp ai,
@@ -151,6 +155,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "10."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nghe thế hãy mau mừng rỡ,
 	    nào hết những ai khó nghèo,
 	    Mau cùng sướng vui những ai tìm Ngài,

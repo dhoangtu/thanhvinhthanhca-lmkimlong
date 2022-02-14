@@ -78,6 +78,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Mỗi khi lời miệng con kêu lên Chúa,
 	    Ngài lắng nghe, thương tình đáp lời,
 	    tôi nằm thiếp ngủ đi,

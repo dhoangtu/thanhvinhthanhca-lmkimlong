@@ -74,6 +74,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa nỡ giận khôn thôi,
 	    cứ nổi lôi đình,
 	    nài xin Ngài thương dẫn đường chúng con đi,
@@ -91,6 +92,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chính Chúa đà tặng ban phúc lộc chan hòa,
 	    và hoa mầu xanh tốt rợp đất chúng ta,
 	    công lý mở đường đi trước

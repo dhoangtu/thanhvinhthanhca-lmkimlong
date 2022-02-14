@@ -69,6 +69,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nằm đây giữa bao thi hài,
 	    Tựa xác trong mồ sâu giấu kín,
 	    Thân con nay Chúa quên rồi,
@@ -85,6 +86,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài khiến những kẻ thân tình
 	    Tởm gớm con và lo né tránh,
 	    Con mong chi thoát ra được
@@ -101,6 +103,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Từ cõi chết, nơi mộ phần
 	    Nào có ai kể ân nghĩa Chúa,
 	    Bao uy công Chúa ai tường,
@@ -117,6 +120,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Từ thơ nhi đã cơ cùng,
 	    Ngài khiến con ngẩn ngơ khiếp hãi,
 	    Gieo thêm bao nỗi kinh hoàng,

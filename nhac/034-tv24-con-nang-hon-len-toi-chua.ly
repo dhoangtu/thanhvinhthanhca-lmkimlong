@@ -72,6 +72,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chỉ cho con đường Chúa
 	    và tỏ lối Ngài con dõi theo.
 	    Khấn nguyện Ngài bảo ban dạy dỗ,
@@ -88,6 +89,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tuổi xuân bao lầm lỗi,
 	    trông mong Chúa đừng ghi nhớ chi,
 	    Hãy biểu lộ tình thương của Chúa
@@ -104,6 +106,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Mắt con trông về Chúa,
 	    kìa dò lưới bủa giăng khắp nơi,
 	    Chúa nhìn lại và thương giải cứu

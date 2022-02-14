@@ -65,6 +65,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ước chi ai luôn trông kiếm Ngài
 	    được trong Chúa mừng vui,
 	    Ai yêu ơn cứu độ hãy nói:

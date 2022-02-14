@@ -89,6 +89,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Khắp mọi nơi trên thế trần,
 	    khắp nẻo xa xôi
 	    Được nhìn tò phúc ân cứu độ,
@@ -109,6 +110,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hãy hò vang lên, vũ hoàn với toàn cư dân
 	    Cùng biển cả với muôn hải vật,
 	    Nào hỡi núi đồi chung lời hát kính,

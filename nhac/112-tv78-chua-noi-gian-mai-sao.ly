@@ -83,6 +83,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nhớ chi hoài tội lỗi tiền
 	    \markup { \italic \underline "nhân" }
 	    đã phạm
@@ -100,6 +101,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ước mong hoài, lạy Chúa được nhìn nhãn tiền
 	    Ngài làm dân ngoại thấy ngay:
 	    Chúng phải đền nợ máu mà bọn chúng đã đổ ra.

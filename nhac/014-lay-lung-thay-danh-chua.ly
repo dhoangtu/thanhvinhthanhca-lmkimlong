@@ -63,6 +63,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngắm trông vòm trời cao với ngàn trăng sao Chúa an bài,
 	    Thế nhân là chi mà Ngài quan tâm?
     }
@@ -75,6 +76,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đó chiên bò cùng cá vẫy vùng biển khơi,
 	    lũ chim trời, Chúa đem đặt tất cả ở chân ta.
     }

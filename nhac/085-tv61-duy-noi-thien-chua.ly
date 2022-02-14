@@ -76,6 +76,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đoàn dân hỡi mau cậy tin Ngài sắt son,
 	    Thổ lộ với Chúa nỗi lòng
 	    Và nương tựa nơi Ngài mà thôi.
@@ -90,6 +91,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đừng tin tưởng nơi trò bóc lột thế nhân,
 	    Tiền tài tấn phát dẫu nhiều,
 	    Đừng để lòng mê mẩn lắm chi.

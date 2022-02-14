@@ -65,6 +65,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ta sẽ tặng các ngươi một quả tim mới,
 	    Và đặt vào lòng Thần Khí mới,
 	    Ta sẽ lấy quả tim biết luôn yêu
@@ -81,6 +82,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ta sẽ để các ngươi lập cư trên đất
 	    đà được dành tặng cho tiên bối,
 	    Muôn kiếp sẽ là dân nước Ta tuyển chọn,

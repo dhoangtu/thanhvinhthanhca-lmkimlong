@@ -102,6 +102,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Một lời Chúa tạo dựng cung trời,
 	    \markup { \italic \underline "hơi" }
 	    thở Ngài thắp sáng ngàn sao.
@@ -119,6 +120,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Từ thượng giới Ngài nhìn thế trần,
 	    từ cõi trời thấy rõ phàm nhân,
 	    chính tay Ngài dựng nên muôn cõi lòng,
@@ -135,6 +137,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Kẻ sợ Chúa, Ngài hằng đoái nhìn,
 	    kẻ trông cậy Chúa vẫn dủ thương,
 	    Cứu thân họ khỏi sa tay tử thần,

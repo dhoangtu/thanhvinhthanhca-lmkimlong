@@ -65,6 +65,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Như bao ngọn cỏ mọc trên mái nhà,
 	    Chẳng bứt cũng héo tàn thôi,
 	    Mong những quân thù Si -- on đó

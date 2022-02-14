@@ -64,6 +64,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Này đàn cháu con trong nội thất
 	    chính là hồng ân Chúa ban tặng.
 	    Và những đứa con thời xuân sắc

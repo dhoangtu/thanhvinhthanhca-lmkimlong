@@ -83,6 +83,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hãy đàn ca, đàn ca lên mừng Chúa,
 	    Đàn ca lên kính Đức Vua ta,
 	    Ngài là vua khắp cõi trần gian,

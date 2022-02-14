@@ -69,6 +69,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Dân tộc Chúa kén chọn bị chúng áp bức
 	    và uy hiếp khôn ngơi,
 	    chúng giết sạch kiều cư trên đất này,
@@ -86,6 +87,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con người tính toán gì là Chúa biết rõ
 	    tựa cơn gió bay qua.
 	    Diễm phúc kẻ thành tâm nghe Chúa
@@ -102,6 +104,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ai người sẽ đứng dậy hộ giúp tôi
 	    đương đầu bao lũ gian manh,
 	    Sát cánh cự lại bao quân ác tàn
@@ -118,6 +121,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa là chính lũy thành,
 	    là núi rất vững vàng tôi đến nương thân,
 	    Chúa sẽ triệt hạ đi quân ác tàn,

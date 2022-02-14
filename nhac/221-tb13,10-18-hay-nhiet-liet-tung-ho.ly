@@ -67,6 +67,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Để nơi ngươi qua muôn thế hệ
 	    Chúa sẽ làm cho kẻ lưu đầy nếm say bao hân hoan,
 	    Kẻ lầm than được Ngài thương mến muôn vàn
@@ -85,6 +86,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nào vui lên đi ngươi
 	    để mừng những đoàn tử tôn người chính trực
 	    đến vây chung quanh ngươi,
@@ -104,6 +106,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngọc với đá Sa -- phia trải dài khắp nẻo đường đi
 	    và cửa thành trổi vang câu hoan ca,
 	    Các cửa nay hợp lời:

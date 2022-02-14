@@ -66,6 +66,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tôi khắc ghi điều tôi khấn hứa,
 	    thi hành trước dân Ngài
 	    Cái chết nơi ai luôn tín thành với Ngài thực quý thay.
@@ -81,6 +82,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con hiến dâng Ngài lễ tế,
 	    xin thành kính cảm tạ
 	    Trước chúng dân con xin giữ trọn

@@ -55,6 +55,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Có lửa hồng Mở đường đốt cháy mọi địch quân,
 	    Ánh chớp Ngài rạng soi dương gian,
 	    Khi chiêm ngắm địa cầu run sợ,
@@ -71,6 +72,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chính bởi Ngài, Vạn lạy Chúa,
 	    Đấng cao cả thay,
 	    Vẫn giữ gìn mọi kẻ kiên trung,

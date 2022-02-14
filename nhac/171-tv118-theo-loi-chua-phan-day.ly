@@ -66,6 +66,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Miệng con vẫn liên lỉ nhắc nhớ
 	    Các qui định miệng Chúa phán ra,
 	    Sướng vui con tuân hành ý Ngài,

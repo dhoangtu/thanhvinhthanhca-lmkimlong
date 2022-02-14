@@ -87,6 +87,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúng không hề gặp tai ương ở trong đời
 	    Với tâm thần khỏe mạnh kiêu hùng,
 	    mặc người ta bao cực khốn,
@@ -107,6 +108,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúng nhủ rằng: làm sao Chúa thấu tỏ được,
 	    Đấng Tối Cao đâu hiểu biết gì.
 	    Bọn tàn hung như vậy đó, cứ mãi được an thân,
@@ -126,6 +128,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa xua từ họ đi như thể cơn mơ
 	    Đã biến tan khi tỉnh giấc nồng.
 	    Này ruột gan con bỏng xót thấy trí mình ngu si,

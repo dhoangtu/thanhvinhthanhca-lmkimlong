@@ -78,6 +78,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chính Chúa khiển biển thành đồng khô,
 	    Khiến dân Người đi giữa sông ngòi,
 	    Việc Ngài làm đã khiến ta mừng vui chan chứa,
@@ -98,6 +99,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa đã chất ghánh đè nặng vai,
 	    Để rơi vào cạm bẫy quân thù,
 	    Và để phàm nhân cỡi lên đầu con dân Chúa,
@@ -118,6 +120,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Kính tiến Chúa lễ vật toàn thiêu,
 	    Với chiên bò thơm ngát hương nồng,
 	    Nào người trọn niềm kính tin lại nghe tôi nói,

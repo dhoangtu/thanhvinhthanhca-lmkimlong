@@ -57,6 +57,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài nâng hiệu kỳ để những ai kính sợ
 	    Mau chân chạy trốn khỏi làn tên bay,
 	    Xin nghe lời mà giải cứu chúng con,
@@ -73,6 +74,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ai đâu dìu dắt lên tận Ê -- đom,
 	    Chính Chúa đà từng ruồng rẫy chúng con,
 	    Cũng đã không dẫn đường xuất trận.

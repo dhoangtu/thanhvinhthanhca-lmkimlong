@@ -73,6 +73,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Các nước cớ sao náo động
 	    và vạn dân sao bày kế chống lại Vị Tân Vương,
 	    tính kế viển vông.

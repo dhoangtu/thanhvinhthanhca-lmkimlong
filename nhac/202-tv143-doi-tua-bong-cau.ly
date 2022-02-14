@@ -99,6 +99,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nghiêng trời xuống chạm tới núi cao cho tỏa khói,
 	    Dùng loạt tên bay xẹt tia chớp,
 	    diệt địch quân bấn loạn tan hàng,
@@ -119,6 +120,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Mong được thấy, được thấy lũ con trai vừa lớn
 	    Hùng mạnh như cây tràn nhựa sống,
 	    đẹp tuối xuân thắm tươi muôn mầu,

@@ -61,6 +61,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin giữ miệng con
 	    Và xin canh chừng lưỡi con.
 	    Đừng để lòng con hướng theo sự dữ,
@@ -77,6 +78,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngay giữa bọn tàn hung
 	    Này con kêu cầu Chúa luôn.
 	    Đầu mục họ nay té xô vào đá,

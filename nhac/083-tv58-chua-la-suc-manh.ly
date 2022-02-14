@@ -61,6 +61,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con đâu có tội chi
 	    sao chúng toa rập quyết tiêu diệt,
 	    Xin Chúa thương chỗi dậy trợ giúp,
@@ -77,6 +78,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con trông tới Ngài liên,
 	    ôi sức thiêng, thành lũy bao bọc,
 	    Canh giữ con bởi lòng trìu mến,

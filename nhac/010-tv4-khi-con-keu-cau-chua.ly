@@ -74,6 +74,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Này hồn tôi chứa chan ân lộc kỳ diệu của Chúa
 	    Lời tôi mới vừa kêu lên,
 	    Ngài mau lẹ trả đáp.
@@ -89,6 +90,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Người người than: ai sẽ ban tặng một đời hạnh phúc?
 	    phần con những chỉ trông mong Thần Nhan Ngài tỏa sáng.
     }

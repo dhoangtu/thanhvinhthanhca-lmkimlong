@@ -61,6 +61,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Này hãy lắng nghe bao lời Ta phán
 	    Vì thực Ta đây Chúa ngươi tôn thờ.
 	    Cần gì đòi ngươi tế lễ
@@ -77,6 +78,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Miệng nhắc nhớ luôn bao điều giao ước
 	    Mà lòng khinh chê giới răn Ta truyền,
 	    Vừa gặp phường gian trộm cướp
@@ -93,6 +95,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Này hỡi những ai quên lời Thượng Đế
 	    Lẳng lặng nghe đây, gắng suy cho tường,
 	    Kẻo rồi bị Ta xé xác,

@@ -81,6 +81,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đây Chúa luôn minh xét,
 	    khinh ghét ai thích việc tàn hung,
 	    Trút mưa bao tai họa trên đầu họ.

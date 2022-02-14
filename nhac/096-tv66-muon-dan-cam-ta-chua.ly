@@ -69,6 +69,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nay Chúa cai trị các nước,
 	    Lãnh đạo công minh trên ngàn muôn quốc gia,
 	    nào người người hợp tiếng cảm mến Chúa,

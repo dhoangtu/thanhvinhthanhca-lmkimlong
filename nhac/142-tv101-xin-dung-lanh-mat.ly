@@ -62,6 +62,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đâu thiết chi của ăn,
 	    trái tim như cỏ khô héo hắt,
 	    Suốt ngày miệng con rên xiết,
@@ -78,6 +79,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao ác nhân cười chê,
 	    chúng điên lên rủa con nát nước,
 	    Bánh độ nhật đây tro trấu,
@@ -94,6 +96,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nhưng Chúa hiển trị luôn,
 	    khắp nhân gian còn luôn nhắc nhớ,
 	    Bấy giờ ngàn dân tôn Chúa nhìn phận Si -- on đó,
@@ -110,6 +113,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin tái tạo thành đô,
 	    để Si -- on rực quang ánh Chúa,
 	    Tiếng người lầm than kêu khấn
@@ -126,6 +130,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "10."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ai nấy nay ngợi khen,
 	    khắp Si -- on rền câu kính chúc,
 	    Kết lời cùng muôn dân nước
@@ -142,6 +147,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "12."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xưa Chúa dựng trời cao,
 	    trước khi xây nền cho đất thấp,
 	    Dẫu vạn vật luôn thay biến,

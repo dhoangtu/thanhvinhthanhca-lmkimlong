@@ -97,6 +97,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lầm lỗi, đoàn con đã làm điều ác gian,
 	    khi cam lòng tìm lánh xa Ngài,
 	    thật là sai lỗi nặng nề quá,
@@ -115,6 +116,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lạy Chúa, vì tội lỗi mà nay chúng con
 	    nên dân tộc nhỏ nhất trên đời,
 	    ở mọi nơi nếm mùi nhục nhã,

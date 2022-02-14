@@ -80,6 +80,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa thương xin đặt bước
 	    vào nơi quân thù tàn phá này,
 	    thánh điện xưa rầy thực hoang phế
@@ -100,6 +101,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Thế nhưng muôn đời Chúa hiển vinh,
 	    đêm ngày là của Ngài,
 	    Đấng dựng nên mặt trời, tinh tú

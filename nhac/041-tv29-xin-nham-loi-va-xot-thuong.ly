@@ -91,6 +91,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ca khen thánh danh Ngài,
 	    nào mọi tín hữu nơi nơi,
 	    cơn giận của Ngài phút chốc phôi pha
@@ -110,6 +111,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao nhiêu nắm tro tàn
 	    nào còn hát kính Tôn Danh,
 	    Khi đẩy con vào cõi chết thẳm sâu

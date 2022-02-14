@@ -47,6 +47,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nghe tôi nói lời khôn ngoan,
 	    nghe câu ví trên cung đàn,
 	    Bao nhiêu kẻ cậy giầu có
@@ -63,6 +64,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao nhiêu những kẻ kiêu căng
 	    nay nhao xuống âm phủ rồi,
 	    Riêng tôi Chúa đà giải thoát

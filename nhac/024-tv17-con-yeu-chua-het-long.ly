@@ -63,6 +63,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lúc ngặt nghèo nguyện cầu lên Chúa,
 	    Chúa của con từ nơi thánh điện
 	    Lắng tai nghe lời con khẩn nài
@@ -79,6 +80,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chốn cửu trùng Ngài chìa tay vớt,
 	    Nhắc hồn tôi khỏi cơn nước lụt,
 	    Cứu thân tôi khỏi tay bạo tàn,
@@ -95,6 +97,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Huấn lệnh Ngài, lòng hằng ghi nhớ,
 	    Quyết thủy chung tìm theo lối Ngài
 	    Giữ tâm tư không nhiễm tội tình,
@@ -111,6 +114,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Dân khổ nghèo, Ngài hằng săn sóc,
 	    Đứa tự cao Ngài xô ngã gục,
 	    Chiếu soi cho đời con mịt mù,
@@ -127,6 +131,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "10."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa mở rộng nẻo đường con bước,
 	    Quyết đuổi theo diệt quân ác thù,
 	    Giữ chân con chẳng khi xiêu vẹo,
@@ -143,6 +148,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "12."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Cám tạ Ngài từ lòng muôn nước,
 	    Tấu đàn lên mừng danh thánh Ngài,
 	    Cứu thân con khỏi tay kẻ thù,

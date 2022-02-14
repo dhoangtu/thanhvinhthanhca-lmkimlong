@@ -69,6 +69,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bọn họ nói rằng: ta sợ gì, đâu
 	    \markup { \italic \underline "có" }
 	    Chúa,
@@ -84,6 +85,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Miệng họ rủa nguyền, lưỡi gian tà gây tai biến,
 	    Phục cạnh thôn ấp, rình bắt giết người vô tội.
     }
@@ -97,6 +99,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nguyện Ngài chỗi dậy, sao bỏ người lâm nguy khốn,
 	    Kìa bọn gian ác cả dám xúc phạm đến Ngài.
     }

@@ -67,6 +67,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hát mừng lên Thiê Chúa bài tân ca,
 	    Và hãy một lòng cậy tin,
 	    Phúc đức ai tựa nương ở nơi Ngài,
@@ -83,6 +84,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa chẳng ưa hy lễ cùng hiến tế,
 	    Ngài đã mở rộng tai con,
 	    Lễ xóa tội toàn thiêu Chúa chẳng đòi,
@@ -99,6 +101,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa đừng ngơi âu yếm cảm thương con,
 	    Nguyện mãi độ trì chở che,
 	    Những khó nguy bủa vây khắp quanh mình,

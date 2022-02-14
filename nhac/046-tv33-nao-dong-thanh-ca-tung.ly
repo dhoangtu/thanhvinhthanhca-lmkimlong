@@ -77,6 +77,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đây kẻ nghèo khó kêu cầu Chúa
 	    Người đã nhậm lời giải thoát cứu nguy,
 	    Phái sứ thần vây quanh đóng trại,
@@ -93,6 +94,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Mau đến học biết tôn sợ Chúa,
 	    Ta sẽ chỉ đường, này các con ơi,
 	    Hết những người trông mong vĩnh tồn,
@@ -109,6 +111,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao kẻ tàn ác Chúa đả phá,
 	    Trên cõi đời này biệt tích tiêu danh.
 	    Mắt Chúa nhìn xem ai chính trực,
@@ -125,6 +128,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao kẻ lành mắc tai họa mãi,
 	    Nhưng Chúa dủ tình hằng cứu nguy cho.
 	    Chúa vẫn hằng quan tâm giữu gìn,

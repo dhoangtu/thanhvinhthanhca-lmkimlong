@@ -75,6 +75,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đời đời luôn tin Chúa,
 	    Núi \markup { \italic \underline "Đá" }
 	    bền vững ngàn năm.
@@ -92,6 +93,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Trọn từng đêm thao thức
 	    Khát vọng tìm Chúa nào ngơi.
 	    Người từ muôn phương tuân theo Chúa phán định,

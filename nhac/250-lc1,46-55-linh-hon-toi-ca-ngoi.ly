@@ -57,6 +57,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao kỳ công tay toàn năng Chúa
 	    tạo tác cho tôi này,
 	    Danh Chúa thánh thiện thay.
@@ -78,6 +79,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đây Ngài luôn bang trợ tôi tớ là Ít -- ra -- en này
 	    như hứa với tổ tiên.
 	    Vì Ngài hồi tưởng bao tình nghĩa

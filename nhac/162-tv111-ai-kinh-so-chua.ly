@@ -73,6 +73,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Biết mau mắn cho mượn lòng đầy cảm thương,
 	    công việc thực thi ngay chính.
 	    Khắp thế nhân mọi nơi nhắc nhở ca ngợi,
@@ -89,6 +90,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ác nhân thấy cảnh này lòng đầy hận căm,
 	    thân tàn tạ bởi ganh ghét.
 	    Chúng nghiến răng bậm môi thấy phải thua dài,

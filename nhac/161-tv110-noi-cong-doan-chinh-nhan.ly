@@ -71,6 +71,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Sức mạnh công việc ngài thần dân ngắm nhìn,
 	    Ngài tặng họ sản nghiệp muôn nước,
 	    Bao uy công Ngài thực ngay chính quang minh,

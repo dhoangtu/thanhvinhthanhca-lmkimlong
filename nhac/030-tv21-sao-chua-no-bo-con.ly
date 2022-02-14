@@ -66,6 +66,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngay lúc rời thai bào
 	    Ngài trao tay mẹ ẵm thân con
 	    Ngay từ khi mới sinh ra đời
@@ -82,6 +83,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin Chúa đừng xa lìa
 	    vì con trông nhờ Chúa luôn thôi
 	    Xin giựt con thoát nanh muông rừng
@@ -98,6 +100,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ai kính sợ Chúa Trời cùng ca lên
 	    mừng chúc uy danh
 	    Chi tộc Gia -- cóp tôn vinh Ngài,
@@ -114,6 +117,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ai khó nghèo cơ cùng được no nê
 	    và uống thỏa thuê
 	    Ai tìm nhan thánh hãy ca tụng,

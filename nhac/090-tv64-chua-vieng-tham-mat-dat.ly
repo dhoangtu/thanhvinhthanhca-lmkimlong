@@ -81,6 +81,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Diễm phúc ai được Chúa dù thương tuyển chọn thi ân,
 	    Được ngụ luôn nơi khuôn viên Thánh điện Ngài hôm sớm,
 	    Được đầy no phúc ân Ngài, hưởng lộc trong thánh điện Ngài,
@@ -101,6 +102,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa viếng thăm mặt đất,
 	    Đổ mưa gội nhuần nơi nơi,
 	    Ruộng đồng mênh mông xanh tươi,

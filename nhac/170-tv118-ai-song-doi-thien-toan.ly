@@ -69,6 +69,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con nay hằng bền vững đưa bước
 	    nhằm đúng thánh chỉ luôn
 	    Để con khỏi hổ thẹn

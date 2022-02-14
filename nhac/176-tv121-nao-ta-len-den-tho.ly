@@ -74,6 +74,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con dân hân hoan tiến về nơi này
 	    Cùng tuân theo lệnh Chúa ban truyền,
 	    Tại đây đặt ngai tòa Đa -- vít
@@ -92,6 +93,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Do bao anh em nghĩa tình thân thuộc,
 	    Lòng ta mong thành mãi an bình,
 	    Vì cung điện, cung điện

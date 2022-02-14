@@ -55,6 +55,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tầng trời chiếu dọi ngàn công trình Chúa nơi nơi,
 	    Cộng đoàn các thánh ca tụng tín trung của Ngài.
     }
@@ -67,6 +68,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài thực lẫm liệt, ngự giữa thần thánh oai linh,
 	    Quần thần bái kính, suy phục Chúa cả uy hùng.
     }
@@ -79,6 +81,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Này bàn tay Ngài từng đã mạnh mẽ dương oai,
 	    Bệ là chính nghĩa, cho thành tín đi dẫn đường.
     }
@@ -91,6 +94,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nguyện Ngài nhớ hoài: phù du phận chúng con đây,
 	    Đời người dưới thế, ôi thực quá ư mỏng dòn.
     }

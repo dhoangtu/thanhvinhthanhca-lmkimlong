@@ -86,6 +86,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Dù Chúa muôn cao trọng mà luôn dủ tình
 	    nhìn xem ai hèn yếu cô thân.
 	    Dù con đây khi gặp hồi hiểm nghèo
@@ -102,6 +103,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Việc Chúa thương đã làm rầy xin liễu thành,
 	    vì Chúa vẫn trọn nghĩa yêu thương.
 	    Mọi kỳ công tay Ngài từng khởi đầu

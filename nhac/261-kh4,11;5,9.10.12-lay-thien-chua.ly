@@ -225,6 +225,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lạy Chúa \markup { \italic \underline "là" } _
 	    Đức \markup { \italic \underline "Ki" } -- tô,
 	    Ngài xứng đáng lãnh nhận cuốn sách

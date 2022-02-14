@@ -49,6 +49,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hỡi ai là đầy tớ Chúa Trời,
 	    nào ca hát Ngài đi.
 	    Muôn người dù lớn bé hằng tôn sợ Thiên Chúa.
@@ -63,6 +64,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chính nay là ngày sẽ cử hành tiệc Hôn Lễ Chiên Con,
 	    Trang phục kiều diễm quá:
 	    HIền thê Người lộng lẫy.

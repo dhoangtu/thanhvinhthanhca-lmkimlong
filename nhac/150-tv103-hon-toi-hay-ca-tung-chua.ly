@@ -78,6 +78,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Địa cầu đó Ngài xây trên nền vững
 	    Đến muôn đời hằng kiên cố khôn lay
 	    Vực thẳm mênh mông choàng lên thân trái đất
@@ -94,6 +95,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Kìa Ngài khiến khởi nguyên bao mạch suối
 	    Giữa núi đồi lượn muôn khúc quanh co
 	    Cầm thú no say, ngựa hoang nay đã khát,
@@ -110,6 +112,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Từ ruộng đất tìm ra ngay được bánh
 	    Phấn khởi vì rượu pha chế thơm ngon
 	    Dầu ngát hương bay làm duyên tươi sắc thắm,
@@ -126,6 +129,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài trần thiết vầng trăng đo thời tiết
 	    Đúng theo giờ, vầng ô gasc non tây
 	    Vào lúc đêm lên Ngài tung gieo bóng tối,
@@ -142,6 +146,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "10."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Sự việc Chúa thực thiên muôn hình sắc
 	    Đã viên thành thể theo đức khôn ngoan
 	    Biển nước mênh mông, tàu ra khơi lướt sóng,
@@ -158,6 +163,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "12."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Này Thần Khí Ngài ban cho trần thế,
 	    Khiến địa cầu được đổi mới xinh tươi
 	    Thần khí cao minh tạo sinh ra thế giới,
@@ -174,6 +180,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "14."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Trọn cuộc sống nguyện luôn ca mừng Chúa
 	    Tấu cung đàn ngợi khen mãi khôn ngơi
 	    Nguyện tiếng con đây làm vui say thánh ý,

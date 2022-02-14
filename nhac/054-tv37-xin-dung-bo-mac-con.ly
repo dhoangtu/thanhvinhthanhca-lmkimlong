@@ -67,6 +67,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xương gẫy nát, da thịt tím bầm,
 	    bởi tội tình con phạm chồng chất,
 	    Gánh tội nặng vai vết thương càng nức mùi,
@@ -83,6 +84,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bao ước muốn mong Ngài thấu tỏ,
 	    tiếng khẩn nài sao Ngài chẳng rõ?
 	    Mắt đã mờ đi, trái tim càng bấn loạn,
@@ -99,6 +101,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con tín thác trông cậy Chúa hoài,
 	    khấn nguyện Ngài ban lời trả đáp,
 	    Chớ để thù nhân cứ lên mặt diễu cợt,

@@ -61,6 +61,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ôi Chúa vẫn am tường
 	    nẻo đường con dấn bước đi,
 	    Dù khi con hao mòn sinh khí,
@@ -77,6 +78,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con rất đỗi cơ cùng,
 	    xin Ngài thương xót lắng nghe,
 	    Giật thân con khỏi bọn uy hiếp,

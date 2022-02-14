@@ -71,6 +71,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài ban cho ngươi luôn hạnh phúc,
 	    tuổi xuân như cánh chim bằng.
 	    Chúa luôn hằng xử phân chính trực,
@@ -87,6 +88,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài không theo như ta lầm lỗi,
 	    giống soi trả báo tội tình.
 	    Chúa thương kẻ nào tôn kính Ngài,
@@ -103,6 +105,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Nặn nên thân ta do bùn đất,
 	    Chúa sao không nhớ không tường.
 	    Tháng năm phận phù sinh
@@ -119,6 +122,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đặt ngai uy linh trên trời thẳm,
 	    Chúa trông coi hết mọi loài.
 	    Hỡi muôn bậc hùng anh lẫm liệt,

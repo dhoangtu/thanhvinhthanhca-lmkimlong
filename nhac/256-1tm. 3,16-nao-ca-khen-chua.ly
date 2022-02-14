@@ -58,6 +58,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đức Ki -- tô \markup { \italic \underline "thiên" }
 	    thần luôn ngưỡng nhìn,
 	    Và giữa nhân loại đã hằng được truyền rao.

@@ -80,6 +80,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngồi tàn canh nghe lòng thầm thì,
 	    và tâm trí cứ tự hỏi hoài:
 	    Có phải Ngài xua từ luôn mãi
@@ -96,6 +97,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lòng quặn đau bao lần thầm nghĩ:
 	    rầy Thiên Chúa hết ra tay rồi,
 	    Những công trình xưa Ngài thi thố
@@ -112,6 +114,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài hiển linh mây tầng vọng tiếng,
 	    đổ mưa xuống khắp nẻo tuôn tràn,
 	    Nước trờ mình rung động kinh khiếp,

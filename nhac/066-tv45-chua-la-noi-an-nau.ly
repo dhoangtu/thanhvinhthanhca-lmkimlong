@@ -69,6 +69,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Thiên Chúa ngự ngay trong thành thánh,
 	    thành không hề chuyển lay,
 	    Ngài lên tiếng là vạn quốc
@@ -85,6 +86,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hãy biết rằng Ta đây là Chúa,
 	    hằng thống trị ngàn dân,
 	    Là Thiên Chúa muôn hiển hách,

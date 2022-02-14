@@ -80,6 +80,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Khi nghe Chúa truyền là người thế trở lui bụi tro.
 	    Nơi Chúa ngàn năm kể là gì,
 	    tựa một trống canh, tựa ngày qua,
@@ -98,6 +99,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Như hơi thở phào: này cuộc sống chúng con vụt tan,
 	    Đo tuổi thọ trong ngoài bảy chục,
 	    hoặc được tám mơi là cùng thôi,
@@ -116,6 +118,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin thương trở lại, Ngài đợi mãi tới khi nào đây?
 	    Tôi tớ Ngài mong được dủ thương,
 	    được nhìn ngắm bao là kỳ công,

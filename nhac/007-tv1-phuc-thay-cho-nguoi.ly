@@ -68,6 +68,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Những quân tham tàn lao xao tựa vỏ trấu bay,
 	    đâu đứng vững được khi xử án,
 	    đâu hợp đoàn với người thiện tâm.

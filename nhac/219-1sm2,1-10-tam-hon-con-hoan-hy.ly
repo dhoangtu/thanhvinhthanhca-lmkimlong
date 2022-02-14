@@ -69,6 +69,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngươi chớ có lắm lời mà vênh váo,
 	    cũng đừng thốt ra tiếng khinh mạn,
 	    Bao nhiêu tác động Ngài luôn quán thông,
@@ -85,6 +86,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ai trễ hiếm sẽ hạ sinh con cái,
 	    những mẹ lắm con bỗng suy tàn,
 	    Cho sinh thác là ở tay Chúa thôi.
@@ -101,6 +103,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngai chói sáng Chúa tặng làm sở hữu,
 	    khiến họ sánh vai với vương hầu,
 	    Trông coi móng nền của trái đất liên,
@@ -117,6 +120,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tung sấm sét đánh kẻ thù tan tác,
 	    Chúa xử xét luôn cõi gian trần,
 	    Nâng cao thế lực Vị vua Chúa phong

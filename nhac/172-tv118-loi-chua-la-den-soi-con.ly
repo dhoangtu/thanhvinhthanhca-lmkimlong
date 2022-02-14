@@ -72,6 +72,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Kiếp sống vương mắc bao hiểm nghèo,
 	    nhưng lệnh Ngài con vẫn không quên,
 	    Ác nhân giăng bẫy dò quanh con,

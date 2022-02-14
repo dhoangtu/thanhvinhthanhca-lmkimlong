@@ -60,6 +60,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Vì từ Si -- on thánh luật truyền xuống,
 	    Chúa ban lời tự Giê -- "ru-sa" -- lem,
 	    Nay Ngài sẽ đứng làm trọng tài

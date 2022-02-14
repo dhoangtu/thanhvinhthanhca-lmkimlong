@@ -71,6 +71,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin Chúa nhớ phẩm vật xưa ngài kính tiến,
 	    Hy lễ toàn thiêu đó xin Chúa vui nhận.
 	    Xin Chúa cho ngài được như ước nguyện,

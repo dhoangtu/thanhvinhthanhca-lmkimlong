@@ -76,6 +76,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Rầy ngươi được bú mớm, nâng niu ở gối Ta nào ngơi,
 	    Ôm bên lòng dịu dàng ấp ủ,
 	    Tựa như một hiền mẫu,

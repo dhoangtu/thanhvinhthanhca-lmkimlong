@@ -54,6 +54,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Điều vua ước nguyện trong lòng,
 	    Ngài đã cho được như ý,
 	    điều khấn vái Cúa không ngoảnh mặt làm ngơ.
@@ -70,6 +71,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin Chúa vùng lên uy hùng
 	    để địch quân phải chạy trốn,
 	    Ngài chiến thắng chúng con vui mừng đàn ca.

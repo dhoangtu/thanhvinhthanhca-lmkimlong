@@ -94,6 +94,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hãy nín lặng ở tôn nhan Chúa,
 	    Ngóng trông Ngài, chớ uất ức chi,
 	    dẫu khi gặp quân gian ác
@@ -114,6 +115,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Quân ác rình hại người công chính,
 	    Chúng căm hờn, tức tối nghiến răng,
 	    Chúa trông cười khinh khi chúng,
@@ -134,6 +136,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Quân ác tàn rồi tiêu vong hết,
 	    Cháu con họ khất cái kiếm ăn,
 	    biến tan tựa như mây khói,
@@ -154,6 +157,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Miệng kẻ lành niệm câu khôn khéo,
 	    Lưỡi không ngừng nói lẽ chính trung,
 	    khắc ghi luật trong tâm trí,
@@ -174,6 +178,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "10."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hãy ngắm nhìn người luôn công chính
 	    Sống an hòa lớp lớp cháu con,
 	    ác nhân bị tru di hết,

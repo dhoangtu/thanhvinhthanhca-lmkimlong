@@ -94,6 +94,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngàn dân đã phẫn nộ lên,
 	    Cơn giận Chúa liền trút xuống,
 	    Chúa nay xét xử vong hồn,
@@ -113,6 +114,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Này chính quỷ dữ
 	    \markup { \italic \underline "Sa" } -- tan,
 	    Kẻ hằng cáo tội anh em,

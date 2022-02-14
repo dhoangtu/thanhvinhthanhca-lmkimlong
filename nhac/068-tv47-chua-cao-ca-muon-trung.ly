@@ -74,6 +74,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đấy chúng con giữa thánh điện Ngài
 	    Hồi tưởng lại lòng Chúa yêu thương,
 	    Uy phong Chúa vang cùng khắp cõi,
@@ -90,6 +91,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hãy ngước trông nhớ mãi trong lòng
 	    Nhìn tường tận thành lũy Si -- on,
 	    Bao cung tháp, lâu đài đếm kỹ,

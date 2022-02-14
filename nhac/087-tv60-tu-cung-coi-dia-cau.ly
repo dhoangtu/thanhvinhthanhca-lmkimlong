@@ -65,6 +65,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chính Ngài, ôi thân lạy Chúa chí nhân
 	    đà nghe tiếng khấn nguyện của con,
 	    Đã cho con được hưởng phần cơ nghiệp Chúa

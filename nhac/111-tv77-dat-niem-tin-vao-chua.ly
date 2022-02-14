@@ -72,6 +72,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Họ quên bao uy công tay Chúa thể hiện,
 	    bao việc vĩ đại họ từng ngắm trông,
 	    khi khai lối ngay giữa biển Hồng,
@@ -88,6 +89,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài cho mưa man -- na nuôi sống mỗi ngày,
 	    bánh thật bởi trời tặng cho thế nhân,
 	    xô chim cút sa xuống khắp trại,
@@ -104,6 +106,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài không ngơi yêu thương, không nỡ hủy diệt,
 	    nén giận, chẳng đành bừng nộ khí lên,
 	    Luôn luôn nhớ than chúng mỏng dòn,

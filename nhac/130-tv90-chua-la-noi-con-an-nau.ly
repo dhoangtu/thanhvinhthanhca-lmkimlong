@@ -74,6 +74,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Sợ hãi gì đêm đen với khí,
 	    Dẫu kề bên muôn vạn người lao đao ngã gục,
 	    Một mình bạn yên thân không chi vướng mắc.
@@ -89,6 +90,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Đạp rắn độc hùm thiêng, dẵm sư tử với long đầu,
 	    Vì bạn cậy trông Lời Chúa:
 	    Lúc hiểm nguy kêu cầu lên Ta,

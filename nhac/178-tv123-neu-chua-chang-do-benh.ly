@@ -71,6 +71,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Cất lời tung hô Chúa ta đi,
 	    Đấng đã chẳng khi nào phó mặc
 	    Để chúng lại giơ nanh vuốt

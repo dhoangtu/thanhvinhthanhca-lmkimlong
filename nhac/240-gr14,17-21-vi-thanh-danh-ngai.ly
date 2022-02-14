@@ -71,6 +71,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Bước chân ra ngoài cánh đồng:
 	    đó tử thi bị gươm giết,
 	    Vào trong phố: cơn đói lây lan,
@@ -87,6 +88,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúng con trông đợi thái bình,
 	    thế mà đâu gặp may mắn,
 	    Hằng trông ước đôi phút an vui

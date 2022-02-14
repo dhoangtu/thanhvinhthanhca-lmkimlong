@@ -73,6 +73,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Cho giông tố lan tràn xua dẹp bọn chúng
 	    trung bão táp rợn rùng cho họ thêm kinh hãi,
 	    cho họ khi bẽ mặt hổ ngươi.

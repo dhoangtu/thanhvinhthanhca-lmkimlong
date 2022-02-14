@@ -64,6 +64,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Chúa dựng nên địa cầu
 	    Trải bao năm chẳng chuyển rời,
 	    Sóng nước đà gầm vang lên,

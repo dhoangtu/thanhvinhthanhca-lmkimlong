@@ -70,6 +70,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con ghê tởm ai làm điều xấu,
 	    Không liên hệ cùng con.
 	    Những tâm địa gian tà con lánh,
@@ -86,6 +87,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Trông ai kẻ nhân hiền trong xứ,
 	    Con cho ở gần luôn.
 	    Những ai hằng theo đường ngay chính
@@ -102,6 +104,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Quân nham hiểm hung tàn trong xứ
 	    Con tiêu diệt mỗi sáng.
 	    Quét cho sạch khỏi thành của Chúa

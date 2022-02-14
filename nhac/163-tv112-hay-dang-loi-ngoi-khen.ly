@@ -107,6 +107,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài nhắc kẻ hèn nơi cát bụi lên,
 	    Nâng dân nghèo từ trong
 	    \markup { \italic \underline "phân" }

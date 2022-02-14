@@ -70,6 +70,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Giữa lòng muôn nước, Hỡi dân Ít -- ra -- en,
 	    Hết thảy hoan chúc Ngài,
 	    Ngài phân lìa rồi lại góp gom,
@@ -89,6 +90,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Hãy về bên Chúa,
 	    Sống theo sự thật luôn,
 	    Hết dạ tôn kính Ngài,
@@ -108,6 +110,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Các tội nhân hỡi, Hãy trở về cùng Chúa,
 	    Sống đời ngay chính hoài,
 	    Vì hy vọng Ngài lại chuẩn ưng

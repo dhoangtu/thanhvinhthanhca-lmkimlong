@@ -82,6 +82,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin chiếu tỏa uy quyền, lạy Chúa,
 	    sáng chói cung trời,
 	    lan tràn khắp thế gian,

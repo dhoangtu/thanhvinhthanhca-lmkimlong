@@ -58,6 +58,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin chớ để dân lành bị ác nhân cai trị luôn,
 	    Lỡ bàn tay vô tội
 	    Theo họ mà nhiễm gian tà.

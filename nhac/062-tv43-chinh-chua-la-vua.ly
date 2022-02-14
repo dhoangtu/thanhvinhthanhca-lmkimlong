@@ -71,6 +71,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Tay Chúa xưa trục xuất vạn dân,
 	    làm tiêu bao giống dòng cả miền
 	    Trông dân Ngài vào đó
@@ -86,6 +87,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Sao Chúa nay quên lãng đoàn con,
 	    để quân binh thất trận chạy dài,
 	    Mặc quân thù dày xéo
@@ -102,6 +104,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Xin Chúa mau tỉnh giấc dậy đi,
 	    Ngài đang tâm hững hờ ngủ hoài?
 	    Đừng xua từ đoàn con,

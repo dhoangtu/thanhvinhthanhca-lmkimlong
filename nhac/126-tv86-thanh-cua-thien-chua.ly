@@ -43,6 +43,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Về Si -- on, người người luôn sẽ nói,
 	    Chúa thương củng cố thành
 	    với bao người sinh tại đó.

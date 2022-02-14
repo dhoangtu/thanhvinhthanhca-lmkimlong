@@ -68,6 +68,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Lòng mòn mỏi con trông mong Ngài,
 	    bao lời Chúa con hằng vững tin,
 	    Như lính canh mong đợi bình đông,

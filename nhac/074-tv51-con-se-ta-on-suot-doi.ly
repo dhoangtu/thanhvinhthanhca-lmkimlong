@@ -72,6 +72,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Khoe tội ngươi ác độc,
 	    ngày đêm luôn toan tính mưu gian khôn ngơi,
 	    Môi tựa dao bén nhọn,

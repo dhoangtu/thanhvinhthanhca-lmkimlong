@@ -80,6 +80,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
+      \override Lyrics.LyricText.font-shape = #'italic
 	    Con mỏi mòn vì kêu van thảm thiết,
 	    Đêm, mỗi đêm châu lệ chảy dài,
 	    Dòng nước mắt hòa chan,
