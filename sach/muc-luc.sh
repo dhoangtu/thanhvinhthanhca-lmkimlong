@@ -25,15 +25,15 @@ do
     shortname="${name%.*}"
     
     # lấy tên bài hát
-    title=`cat ${fullname} | grep " title" | grep "=" | sed 's/^[^"]*"//g' | sed -e 's/[[:space:]]*$//' | sed 's/\"[[:space:]]//g'`
+    title=`cat "${fullname}" | grep " title" | grep "=" | sed 's/^[^"]*"//g' | sed -e 's/[[:space:]]*$//' | sed 's/\"[[:space:]]//g'`
     # bỏ ký tự cuối
     title=${title%?}
     # Thanh Vinh
-    composer=`cat ${fullname} | grep " composer" | grep "=" | sed 's/^[^"]*"//g' | sed -e 's/[[:space:]]*$//' | sed 's/\"[[:space:]]//g'`
+    composer=`cat "${fullname}" | grep " composer" | grep "=" | sed 's/^[^"]*"//g' | sed -e 's/[[:space:]]*$//' | sed 's/\"[[:space:]]//g'`
     composer=${composer%?}
     
     # số trang của file tiếp sau
-    pageno=`find ${GEN} -xdev -type f -name "${shortname}.pdf" -exec pdfinfo "{}" ";" | awk '/^Pages:/ {n += $2} END {print n}'`
+    pageno=`find "${GEN}" -xdev -type f -name "${shortname}.pdf" -exec pdfinfo "{}" ";" | awk '/^Pages:/ {n += $2} END {print n}'`
     echo "${composer}~${title}~${pagecounter}"
     echo "${composer}~${title}~${pagecounter}" >> ${CONTENT}
     pagecounter=$(( $pageno + $pagecounter ))

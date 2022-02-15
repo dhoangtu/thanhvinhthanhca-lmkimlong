@@ -4,7 +4,7 @@
 
 \header {
   title = \markup { \fontsize #1 "Muôn Dân Ca Ngợi" }
-  composer = "Tv. 44, 11-18"
+  composer = "Tv. 44,11-18"
   tagline = ##f
 }
 

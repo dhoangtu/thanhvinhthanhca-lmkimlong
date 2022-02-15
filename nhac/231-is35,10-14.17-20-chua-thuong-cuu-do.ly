@@ -4,7 +4,7 @@
 
 \header {
   title = \markup { \fontsize #1 "Chúa Thương Cứu Độ" }
-  composer = "Is 35,10-14.17-20"
+  composer = "Is. 35,10-14.17-20"
   tagline = ##f
 }
 

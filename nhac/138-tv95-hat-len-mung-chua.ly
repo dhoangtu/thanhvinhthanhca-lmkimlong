@@ -4,7 +4,7 @@
 
 \header {
   title = \markup { \fontsize #1 "Hát Lên Mừng Chúa" }
-  composer = "Tv.95"
+  composer = "Tv. 95"
   tagline = ##f
 }
 
