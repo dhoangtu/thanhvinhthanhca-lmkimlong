@@ -173,7 +173,7 @@ loiPhienKhucSop = \lyrics {
 	    cứu cho khỏi tay quân dữ,
 	    nên gia chủ đất điền,
 	    Sẽ được nhìn bọn người tàn hung tuyệt giống,
-	    dẫu rằng bọn chúng ngạo nghễ khinh đòi.
+	    dẫu rằng bọn chúng từng ngạo nghễ khinh đòi.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

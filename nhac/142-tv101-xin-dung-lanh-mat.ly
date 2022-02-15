@@ -151,7 +151,7 @@ loiPhienKhucSop = \lyrics {
 	    Xưa Chúa dựng trời cao,
 	    trước khi xây nền cho đất thấp,
 	    Dẫu vạn vật luôn thay biến,
-	    Muôn kiếp Chúa không rời.
+	    Muôn kiếp Chúa không chuyển rời.
     }
   >>
 }

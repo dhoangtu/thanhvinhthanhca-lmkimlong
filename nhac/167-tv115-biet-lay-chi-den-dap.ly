@@ -83,7 +83,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Con hiến dâng Ngài lễ tế,
+	    Con hiến dâng Ngài đây lễ tế,
 	    xin thành kính cảm tạ
 	    Trước chúng dân con xin giữ trọn
 	    những điều thề hứa xưa.

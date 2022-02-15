@@ -2,12 +2,12 @@
 
 #set -x
 
-FOLDERS="/d/01.lilypond/01.github/tuyentaphopca-lmkimlong/nhac"
+FOLDERS="/d/01.lilypond/01.github/thanhvinhthanhca-lmkimlong/nhac"
 lilypondcmd='lilypond.exe'
 
 export PATH=$PATH:/d/download/qpdf-10.1.0/bin:'/c/Program Files (x86)/LilyPond-2.22.1/usr/bin'
 
-GEN="/d/01.lilypond/01.github/tuyentaphopca-lmkimlong/nhac"
+GEN="/d/01.lilypond/01.github/thanhvinhthanhca-lmkimlong/nhac"
 #rm -rf ${GEN}
 #mkdir ${GEN}
 
@@ -28,10 +28,13 @@ do
     title=`cat ${fullname} | grep " title" | grep "=" | sed 's/^[^"]*"//g' | sed -e 's/[[:space:]]*$//' | sed 's/\"[[:space:]]//g'`
     # bỏ ký tự cuối
     title=${title%?}
+    # Thanh Vinh
+    composer=`cat ${fullname} | grep " composer" | grep "=" | sed 's/^[^"]*"//g' | sed -e 's/[[:space:]]*$//' | sed 's/\"[[:space:]]//g'`
+    composer=${composer%?}
     
     # số trang của file tiếp sau
     pageno=`find ${GEN} -xdev -type f -name "${shortname}.pdf" -exec pdfinfo "{}" ";" | awk '/^Pages:/ {n += $2} END {print n}'`
-    echo "${title},${pagecounter}"
-    echo "${title},${pagecounter}" >> ${CONTENT}
+    echo "${composer},${title},${pagecounter}"
+    echo "${composer},${title},${pagecounter}" >> ${CONTENT}
     pagecounter=$(( $pageno + $pagecounter ))
 done
