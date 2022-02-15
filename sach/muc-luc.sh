@@ -34,7 +34,7 @@ do
     
     # số trang của file tiếp sau
     pageno=`find ${GEN} -xdev -type f -name "${shortname}.pdf" -exec pdfinfo "{}" ";" | awk '/^Pages:/ {n += $2} END {print n}'`
-    echo "${composer},${title},${pagecounter}"
-    echo "${composer},${title},${pagecounter}" >> ${CONTENT}
+    echo "${composer}~${title}~${pagecounter}"
+    echo "${composer}~${title}~${pagecounter}" >> ${CONTENT}
     pagecounter=$(( $pageno + $pagecounter ))
 done
