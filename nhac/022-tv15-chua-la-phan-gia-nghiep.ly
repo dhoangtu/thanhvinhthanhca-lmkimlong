@@ -42,6 +42,7 @@ nhacPhienKhucSop = \relative c' {
     \new Voice = "splitpart" {
       \voiceTwo
       \tweak font-size #-2
+      \parenthesize
       d,
     }
   >>
@@ -68,7 +69,9 @@ nhacPhienKhucAlto = \relative c' {
   e4 e |
   c2 c8 d d b |
   c4. c8 |
-  b b a b |
+  b
+  \once \override NoteColumn.X-offset = 1.5 b
+  a b |
   c [e] g g |
   f4. d8 |
   e2 ~ |

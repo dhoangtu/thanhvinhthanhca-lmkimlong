@@ -81,7 +81,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
-	    Cứ đến khấn xin sẽ được vạn dân ta bạn tặng đó,
+	    Cứ đến khấn xin sẽ được vạn dân Ta bạn tặng đó,
 	    Đây sản nghiệp Ta trao:
 	    Khắp cõi trần gian.
     }

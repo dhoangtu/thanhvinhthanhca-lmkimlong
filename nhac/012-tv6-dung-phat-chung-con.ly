@@ -28,7 +28,12 @@ nhacPhienKhucSop = \relative c'' {
   g2 \bar "||"
   
   g4. a16 (g) |
-  f8. d16 \tuplet 3/2 { a'8 a g }
+  f8. d16 \tuplet 3/2 { a'8 a
+  \afterGrace g8 ({
+    \override Flag.stroke-style = #"grace"
+    a16)} }
+  \revert Flag.stroke-style
+
   bf2 |
   a4. bf16 (a) |
   g4 \tuplet 3/2 { f8 ef ef } |

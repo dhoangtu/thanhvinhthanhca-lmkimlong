@@ -10,7 +10,7 @@
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
-  c8. c16 d (c) e, (f) |
+  c8. c16 d ([c]) e, (f) |
   g4. g8 |
   d8 f e (d) |
   c4 r8 e16 f |
@@ -22,7 +22,7 @@ nhacPhienKhucSop = \relative c'' {
   e,8 f |
   d8. g16 g8 a |
   e4 r8 e |
-  c'4 b8 a |
+  c'4 b8 c |
   a8. d16 d8 e |
   b4 r8 b |
   c c r c |

@@ -60,7 +60,7 @@ nhacPhienKhucAlto = \relative c'' {
 loiPhienKhucSop = \lyrics {
   \set stanza = "ĐK:"
   Con xin hết lòng tạ ơn Chúa,
-  Và con sẽ loan truyền mọi kỳ công của Ngài
+  Và con sẽ loan truyền mọi kỳ công của Ngài.
   Con hân hoan nhảy mừng lên,
   nhảy mừng lên trong Chúa
   Và đàn ca chúc tụng Thánh Danh Ngài,
@@ -95,14 +95,14 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Với những người từng nhận biết Thánh Danh sẽ trọn tình mến,
 	    Vì thực Ngài chẳng có lãng quên
-	    những kẻ tìm Ngài trung kiên
+	    những kẻ tìm Ngài trung kiên.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "5."
 	    Hãy tấu nhạc và hòa ca mừng Chúa giữa lòng đền thánh,
 	    Hãy tường thuật cho các quốc gia
-	    công việc Ngài thật uy linh
+	    công việc Ngài thật uy linh.
     }
   >>
 }

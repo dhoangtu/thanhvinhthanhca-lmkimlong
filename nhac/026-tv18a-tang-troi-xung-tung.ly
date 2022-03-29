@@ -64,7 +64,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Tầng trời Cháu trải như màn trướng,
+	    Tầng trời Chúa trải như màn trướng,
 	    Như căng lều tạm cho kim ô,
 	    Di hành thanh thoát trên dặm trường
 	    như dũng sĩ lên đường hớn hở vui.

@@ -40,7 +40,7 @@ loiPhienKhucSop = \lyrics {
   <<
     {
       \set stanza = "1."
-      Lạy Chúa, xin cứu nguyen,
+      Lạy Chúa, xin cứu nguy,
       vì nào còn ai đức độ,
       Giữa loài người nào thấy đâu kẻ tín trung,
     }
@@ -66,7 +66,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Nhìn mãi bao bất công,
 	    người nghèo hèn rên xiết hoài,
-	    Chúa vùng dậy giải thoát bao kẻ ngóng trông,
+	    Chúa vùng dậy giải thoát bao kẻ ngóng trông.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

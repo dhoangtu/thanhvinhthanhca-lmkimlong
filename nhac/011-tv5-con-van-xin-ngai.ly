@@ -42,7 +42,7 @@ nhacPhienKhucAlto = \relative c'' {
   e4 e8 a |
   a8. e16 f8 e |
   d c4 c8 |
-  e e e4 |
+  d e e4 |
   c2
 }
 
@@ -51,7 +51,7 @@ loiPhienKhucSop = \lyrics {
   \set stanza = "ĐK:"
   Con van xin Ngài,
   lạy Chúa, từ sáng sớm Chúa đã nhậm lời con,
-  từ sáng sớm con thân trình ước nguyện,
+  Từ sáng sớm con thân trình ước nguyện,
   rồi chăm chú đợi trông.
   <<
     {

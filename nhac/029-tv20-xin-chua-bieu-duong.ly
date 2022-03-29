@@ -57,12 +57,12 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Điều vua ước nguyện trong lòng,
 	    Ngài đã cho được như ý,
-	    điều khấn vái Cúa không ngoảnh mặt làm ngơ.
+	    điều khấn vái Chúa không ngoảnh mặt làm ngơ.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
-	    Tay Cháu tặng ban ân lộc,
+	    Tay Chúa tặng ban ân lộc,
 	    Đội triều thiên vàng
 	    \markup { \italic \underline "cho vua" }
 	    đó,

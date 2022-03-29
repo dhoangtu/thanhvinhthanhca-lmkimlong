@@ -30,8 +30,9 @@ nhacPhienKhucSop = \relative c'' {
     }
     \new Voice = "splitpart" {
       \voiceTwo
-      \once \override NoteColumn.force-hshift = #2
-      \once \tiny e
+      \once \override NoteColumn.force-hshift = #2.1
+      \once \tiny
+      \parenthesize e
     }
   >>
   \oneVoice
@@ -94,7 +95,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "5."
 	    Họ từng nhủ lòng:
 	    Chúa đâu còn lưu tâm nữa,
-	    ngài đà che mắt nào có thấy chi nữa mà.
+	    Ngài đà che mắt nào có thấy chi nữa mà.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

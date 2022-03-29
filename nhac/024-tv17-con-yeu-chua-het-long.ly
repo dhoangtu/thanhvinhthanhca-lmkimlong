@@ -126,7 +126,7 @@ loiPhienKhucSop = \lyrics {
 	    Tín cậy Ngài, vào trận giao chiến,
 	    Sức thần thiêng vượt bao lũy thành,
 	    Chúa nên như khiên thuẫn độ trì,
-	    Kẻ ẩn nàu bên Chúa hôm mai.
+	    Kẻ ẩn náu bên Chúa hôm mai.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

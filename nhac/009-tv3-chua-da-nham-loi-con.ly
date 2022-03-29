@@ -10,7 +10,7 @@
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
-  \partial 4 a8 _(b16 a) |
+  \partial 4 a8 _(bf16 a) |
   g4. f8 |
   f
   <<
@@ -24,16 +24,18 @@ nhacPhienKhucSop = \relative c'' {
       \once \tiny e
     }
   >>
+  \oneVoice
   g g |
   a4. f16 a |
   g8 g e f |
   d4 r8 d |
-  b8. _(a16) f'8 d |
+  bf8. _(a16) f'8 d |
   g4. e16 _(f) |
   d8 g4 a8 |
   a2 \bar "||" \break
   
   \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
+  \set Staff.printKeyCancellation = ##f
   \key d \major
   fs4. g16 (fs) |
   e2 |
@@ -52,6 +54,7 @@ nhacPhienKhucAlto = \relative c' {
   R2*9
   
   \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
+  \set Staff.printKeyCancellation = ##f
   \key d \major
   d4. e16 (d) |
   cs2 |
@@ -120,7 +123,7 @@ loiPhienKhucSop = \lyrics {
 }
 
 TongNhip = {
-  \key c \major \time 2/4
+  \key f \major \time 2/4
   \set Timing.beamExceptions = #'()
   \set Timing.baseMoment = #(ly:make-moment 1/4)
 }

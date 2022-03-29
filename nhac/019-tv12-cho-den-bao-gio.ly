@@ -11,8 +11,8 @@
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
   \partial 4 \tuplet 3/2 { g8 af g } |
-  c4. c8 |
-  g4 \tuplet 3/2 { ef8 af g } |
+  c,4. c8 |
+  g'4 \tuplet 3/2 { ef8 af g } |
   f4 \tuplet 3/2 { f8 g f } |
   d4. d8 |
   \slashedGrace { f8 ( } g4) \tuplet 3/2 { ef8 g, bf } |
@@ -21,7 +21,7 @@ nhacPhienKhucSop = \relative c'' {
   ef16 ef |
   ef4. d8 |
   c8. ef16 ef8 f |
-  g4 \tuplet 3/2 { bf8 c ef } |
+  g4 \tuplet 3/2 { bf8 [c ef] } |
   d4. af8 |
   af4 c8 af |
   g2 ~ |

@@ -66,7 +66,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Phải chăng nay toàn thể nhân trần
 	    lìa đường chính nghĩa,
-	    nhưng theo nhay để hành động vô luân,
+	    những theo nhau để hành động vô luân,
 	    chẳng trông đâu một kẻ trung thành
 	    làm việc phúc đức,
 	    Dẫu cho chỉ một mà nào có còn.

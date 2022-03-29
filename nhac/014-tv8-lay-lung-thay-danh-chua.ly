@@ -58,6 +58,7 @@ loiPhienKhucSop = \lyrics {
       \set stanza = "1."
       Chúa cho miệng trẻ thơ vang lời ngợi khen chống quân thù.
       Khiến quân thù, kẻ nghịch phải tiêu tan.
+      \set stanza = "ĐK."
       Vạn lạy
     }
     \new Lyrics {

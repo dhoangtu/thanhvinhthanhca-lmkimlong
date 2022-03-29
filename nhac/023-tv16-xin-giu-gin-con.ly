@@ -13,7 +13,7 @@ nhacPhienKhucSop = \relative c'' {
   \partial 4 \tuplet 3/2 { g8 g g } |
   e4. d8 |
   b'4 \tuplet 3/2 { b8 c a } |
-  b8. a16 \tuplet 3/2 { d8 b g } |
+  b8. a16 \tuplet 3/2 { a8 b g } |
   e4 r8 e16 \slashedGrace { e16 ( } fs) |
   e8 d g fs16 (g) |
   \slashedGrace { b16 ( } a4.) c16 b |

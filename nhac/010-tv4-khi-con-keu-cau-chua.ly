@@ -36,7 +36,7 @@ nhacPhienKhucSop = \relative c'' {
   e4 r8 e |
   b' c4 a16 b |
   b4 b |
-  d8 e4 e16 (d) |
+  d8 c4 c16 (d) |
   e2 ~ |
   e8 \bar "|."
 }
@@ -84,7 +84,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Này người ơi, hãy mau run sợ,
 	    đừng phạm tội nữa,
-	    nằm yên đó, hôi tâm đi,
+	    nằm yên đó, hồi tâm đi,
 	    và tin cậy ở Chúa.
     }
     \new Lyrics {
@@ -92,7 +92,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Người người than: ai sẽ ban tặng một đời hạnh phúc?
-	    phần con những chỉ trông mong Thần Nhan Ngài tỏa sáng.
+	    Phần con những chỉ trông mong Thần Nhan Ngài tỏa sáng.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
