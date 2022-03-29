@@ -63,8 +63,8 @@ loiPhienKhucSop = \lyrics {
       \set stanza = "1."
       Khi ác nhân xông vào định xé thịt tôi,
       nào ngờ chính chúng té nhào.
-      Nên thù địch quân gây chiến dồn tới xiết vây,
-      Tôi vân vững tâm tin cậy.
+      Nên dù địch quân gây chiến dồn tới xiết vây,
+      Tôi vẫn vững tâm tin cậy.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
@@ -72,7 +72,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Tôi ước mong một điều và khấn nguyện luôn:
 	    ở đền thánh Chúa suốt đời,
-	    Đêm ngày được cung chiêm Chúa rạng rỡ ánh quang,
+	    Đêm ngày được cung nghiêm Chúa rạng rỡ ánh quang,
 	    Trông ngắm thánh điện huy hoàng.
     }
     \new Lyrics {

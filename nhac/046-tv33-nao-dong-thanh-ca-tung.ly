@@ -16,7 +16,7 @@ nhacPhienKhucSop = \relative c' {
   bf4 d g, |
   g4. e8 c' bf |
   a2. |
-  a4. a8 g bf |
+  a4. a8 f bf |
   bf2 bf8 (d) |
   g,2. |
   e4 d e |
@@ -86,7 +86,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
-	    Mau nếm thử Cháu êm dịu lắm,
+	    Mau nếm thử Chúa êm dịu lắm,
 	    Vinh phúc người nào tìm đến nương thân,
 	    Hãy kính sợ uy danh của Ngài,
 	    Không còn lo thiếu hụt khi nao.
@@ -131,7 +131,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Bao kẻ lành mắc tai họa mãi,
 	    Nhưng Chúa dủ tình hằng cứu nguy cho.
-	    Chúa vẫn hằng quan tâm giữu gìn,
+	    Chúa vẫn hằng quan tâm giữ gìn,
 	    Xương họ bao chiếc còn y nguyên.
     }
     \new Lyrics {

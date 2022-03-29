@@ -28,7 +28,7 @@ nhacPhienKhucSop = \relative c'' {
   a4 \slashedGrace { cs16 ( } d8) bf |
   a4 \slashedGrace { gs16 ( } a8) f |
   e4 r8 e |
-  a \slashedGrace { f16 ( } e4) cs8 |
+  a, \slashedGrace { f'16 ( } e4) cs8 |
   c2 \bar "||" \break
   
   d8 e c d |
@@ -61,7 +61,7 @@ loiPhienKhucSop = \lyrics {
       Nhưng Chúa ngự nơi đền
       là vinh quang của Is -- ra -- el
       Xưa tổ tiên vẫn trông cậy Ngài
-      và Ngài từng độ trì.
+      và Ngài từng đã độ trì.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

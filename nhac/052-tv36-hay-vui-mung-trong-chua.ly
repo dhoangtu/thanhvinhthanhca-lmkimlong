@@ -40,8 +40,8 @@ nhacPhienKhucSop = \relative c' {
   bf8. g16 c8 bf |
   a4 a8 a |
   f4 f8 f |
-  g8. c16 c8 c |
-  a4 bf8 bf |
+  g8. c,16 c8 c |
+  a'4 bf8 bf |
   g4 g8 g |
   c8. d16 bf8 g |
   f2 \bar "|." \break
@@ -120,7 +120,7 @@ loiPhienKhucSop = \lyrics {
 	    Chúng căm hờn, tức tối nghiến răng,
 	    Chúa trông cười khinh khi chúng,
 	    nguy cơ đã sát gần,
-	    chúng nhằm hại người lành bằng gươm nỏ đó,
+	    chúng nhằm hạ người lành bằng gươm nỏ đó,
 	    nhưng nỏ gập gẫy, còn gươm thấu tim họ.
     }
     \new Lyrics {
@@ -129,9 +129,9 @@ loiPhienKhucSop = \lyrics {
 	    Tuy khó nghèo mà luôn công chính
 	    Vẫn hơn giầu cứ sống ác ôn,
 	    Chúa bang trợ ai công chính,
-	    tru gi kẻ ác tàn,
+	    tru di kẻ ác tàn,
 	    Trót cuộc đời người lành Ngài luôn gìn giữ,
-	    gia nghiệp họ sẽ được khiên vững muôn đời.
+	    gia nghiệp họ sẽ được kiên vững muôn đời.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
@@ -196,7 +196,7 @@ loiPhienKhucSop = \lyrics {
   
   \set stanza = "ĐK 2:"
   Hãy vui mừng luôn trong Chúa,
-  Ngài sẽ ban như ước nguyền.
+  Ngài sẽ ban như ước nguyện.
 }
 
 % Dàn trang

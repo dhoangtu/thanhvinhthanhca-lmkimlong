@@ -88,7 +88,7 @@ loiPhienKhucSop = \lyrics {
 	    Bao ước muốn mong Ngài thấu tỏ,
 	    tiếng khẩn nài sao Ngài chẳng rõ?
 	    Mắt đã mờ đi, trái tim càng bấn loạn,
-	    Người thân tình nào con thấy ai đâu.
+	    Người thân tình nào còn thấy ai đâu.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

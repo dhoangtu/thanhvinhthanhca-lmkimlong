@@ -66,14 +66,14 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Tiếng Chúa xô nhào trắc bá,
 	    quất gẫy ngàn trắc bá Ly -- băng,
-	    Dây Ly -- băng như dê nhảy chồm,
+	    Dãy Ly -- băng như dê nhảy chồm,
 	    Xi -- ri -- on tựa nghé tung tăng.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
 	    Tiếng Chúa tung lửa nóng cháy,
-	    khiến nào động khắp cõi hoang vu,
+	    khiến náo động khắp cõi hoang vu,
 	    Khiến xôn xao bao nhiêu rặng sồi,
 	    Cây cao xanh trụi lá trơ vơ.
     }
@@ -82,7 +82,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Hô vang trong đền thánh Chúa,
-	    muôn dân mừng hát ''Chúa hiển danh'',
+	    muôn dân mừng hát: ''Chúa hiển danh'',
 	    Đức vua uy linh luôn hiển trị,
 	    Cho con dân hưởng phúc an vui.
     }

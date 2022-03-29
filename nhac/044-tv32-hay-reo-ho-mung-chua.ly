@@ -40,7 +40,20 @@ nhacPhienKhucSop = \relative c' {
   a2 |
   f8 f g (f) |
   d2 |
-  d4 f |
+  <<
+    {
+      \voiceOne
+      d4
+    }
+    \new Voice = "splitpart" {
+      \voiceTwo
+      \once \override NoteColumn.force-hshift = #2.2
+      \tweak font-size #-2
+      \parenthesize
+      e
+    }
+  >>
+  f |
   c2 |
   g'8 g e4 |
   f2 |
@@ -80,6 +93,7 @@ nhacPhienKhucAlto = \relative c' {
   g2 |
   f8 c4 bf8 |
   a2
+  R2*15
 }
 
 % Lời phiên khúc
@@ -106,7 +120,7 @@ loiPhienKhucSop = \lyrics {
 	    Một lời Chúa tạo dựng cung trời,
 	    \markup { \italic \underline "hơi" }
 	    thở Ngài thắp sáng ngàn sao.
-	    Chúa tho dồn đại dương theo ý định.
+	    Chúa thu dồn đại dương theo ý định.
 	    Khắp gian trần đều phục bái khiếp kinh.
     }
     \new Lyrics {
@@ -115,7 +129,7 @@ loiPhienKhucSop = \lyrics {
 	    Lời Người phán mọi vật xuất hiện,
 	    lệnh Chúa truyền khiến có càn khôn.
 	    Chúa đảo lộn điều chư dân ước định,
-	    Phá tan tành mọi dự định thế nhân.
+	    Phá tan tành mọi dự tính thế nhân.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

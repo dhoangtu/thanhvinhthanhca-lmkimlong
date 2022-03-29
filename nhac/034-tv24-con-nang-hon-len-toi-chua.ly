@@ -14,7 +14,7 @@ nhacPhienKhucSop = \relative c'' {
   e8 a4 b8 |
   c4. b8 |
   e4 d8. d16 |
-  d8 c (d) c |
+  d8 c ([d]) c |
   b2 ~ |
   b4 a8. g!?16 |
   g8 a4 b8 |
@@ -41,7 +41,7 @@ nhacPhienKhucAlto = \relative c'' {
   e8 a4 gs8 |
   a4. a8 |
   gs4 b8. b16 |
-  b8 a (b) a |
+  b8 a ([b]) a |
   e2 ~ |
   e4 a8. g!?16 |
   g8 a4 b8 |

@@ -28,7 +28,9 @@ nhacPhienKhucSop = \relative c'' {
   g8 a e4 |
   f2 \bar "||" \break
   
-  f8 f f (g) |
+  f8 f
+  \once \phrasingSlurDashed
+  f \(g\) |
   a4. a8 |
   a c d, f |
   g4 e16 ([g]) e (d) |
@@ -75,7 +77,7 @@ loiPhienKhucSop = \lyrics {
   <<
     {
       \set stanza = "1."
-      Nguyện bọn tàn ác âm mưu tính chuyện hại con
+      Nguyện bọn tàn _ ác âm mưu tính chuyện hại con
       phải thẹn thùng chạy lui nhục nhã.
       Nguyện ước họ như trấu tung bay,
       Khi thiên sứ Ngài tiễu trừ,
@@ -85,7 +87,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Họ đào hầm hố, giăng lên lưới dò hại con,
+	    Họ đào hầm _ hố, giăng lên lưới dò hại con,
 	    khấn xin Ngài dành cho họ hết,
 	    Hầm chúng đào cho chúng sa chân,
 	    xin cho chính họ mắc vào
@@ -95,7 +97,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
-	    Được Ngài giải thoát
+	    Được Ngài giải _ thoát
 	    con nay hớn hở mừng vui,
 	    tiến dâng Ngài lời ca điệu múa,
 	    Tự đáy lòng con sẽ tuyên xưng:
@@ -106,7 +108,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Kìa bọn xảo trá nêu nhân chứng hạch hỏi con
+	    Kìa bọn xảo _ trá nêu nhân chứng hạch hỏi con
 	    những sự việc mà con chẳng biết.
 	    Họ oán thù, con vẫn thi ân,
 	    nay mang số phận cô độc,
@@ -125,7 +127,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Bọn họ mừng rỡ khi tôi mới vừa sẩy chân,
+	    Bọn họ mừng _ rỡ khi tôi mới vừa sẩy chân,
 	    kẻ xa lạ hùa theo đập đánh,
 	    Họ reo hò, xâu xé khôn ngơi,
 	    nhe răng nghiến lợi căm thù,
@@ -134,7 +136,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "7."
-	    Phần Ngài, lạy Chúa, đang tâm đứng nhìn vậy sao?
+	    Phần Ngài, lạy _ Chúa, đang tâm đứng nhìn vậy sao?
 	    cứu thân này vượt tay kẻ dữ.
 	    Lòng con nguyện vang tiếng tri ân.
 	    Nơi công chúng, ngày đô hội,
@@ -144,7 +146,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "8."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Ngài đà nhìn rõ, sao luôn đứng tận đàng xa?
+	    Ngài đà nhìn _ rõ, sao luôn đứng tận đàng xa?
 	    cớ sao đành lặng thinh vậy mãi,
 	    Nào thức dậy minh xét cho con.
 	    Ôi Thiên Chúa của con này,
@@ -153,7 +155,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "9."
-	    Nguyện Ngài vùng đứng công minh xét xử cho con,
+	    Nguyện Ngài vùng _ đứng công minh xét xử cho con,
 	    Để quân thù đừng lên mặt nữa,
 	    Đừng để họ kiêu hãnh cao rao
 	    ''Ta nay nuốt chửng nó rồi,
@@ -163,7 +165,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "10."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Còn người nào thấy con nay đã được giải oan,
+	    Còn người nào _ thấy con nay đã được giải oan,
 	    hãy vui mừng cùng xương tụng Chúa:
 	    ''Ngài vĩ đại, ôi Chúa cao quang''.
 	    xin ban phúc lộc an bình cho người luôn tín trung.

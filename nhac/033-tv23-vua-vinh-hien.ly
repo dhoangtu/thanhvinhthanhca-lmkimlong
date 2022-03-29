@@ -34,7 +34,7 @@ nhacPhienKhucSop = \relative c' {
     }
     {
       g'8. g16 d'8 c |
-      b \stemDown c ~ c4 ~ |
+      b [c] ~ c4 ~ |
       c4 r8 \bar "||" \break
     }
   }
@@ -112,8 +112,7 @@ loiPhienKhucSop = \lyrics {
 	  }
   >>
   Vua uy hùng khi xuất trận,
-  Cửa
-  
+  Cửa...
   Người là Đức Vua hiển vinh.
   <<
     {
