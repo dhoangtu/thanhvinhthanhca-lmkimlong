@@ -10,8 +10,8 @@
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
-  \partial 8 d8 |
-  bf4 \tuplet 3/2 { a8 a g } |
+  \partial 8 d,8 |
+  bf'4 \tuplet 3/2 { a8 a g } |
   a4. bf16 (a) |
   g4 \tuplet 3/2 { d8 bf' g } |
   c4. c8 |
@@ -49,7 +49,7 @@ nhacPhienKhucAlto = \relative c' {
   g4. d8 |
   e4 \tuplet 3/2 { g8 g a } |
   b4. bf16 c |
-  b8 a d d |
+  b8 a d, d |
   b2 ~ |
   b4 r8
 }
@@ -68,7 +68,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Ngai chớ đưa thân này ra xử trị,
+	    Ngài chớ đưa thân này ra xử trị,
 	    vì trước Thần Nhan ai đâu hẳn là công chính,
 	    Bao ác nhân tìm con tiến công,
 	    đẩy vào ngục tối thiên thu.
@@ -111,7 +111,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "7."
 	    Tình Chúa yêu thương ngàn năm vững bền,
 	    nguyện hãy thẳng tay tru di kẻ thù gian ác,
-	    Ai nhiễu hiauj bầy tôi Chúa đây,
+	    Ai nhiễu hại bầy tôi Chúa đây,
 	    nguyện Ngài diệt hết đi luôn.
     }
   >>

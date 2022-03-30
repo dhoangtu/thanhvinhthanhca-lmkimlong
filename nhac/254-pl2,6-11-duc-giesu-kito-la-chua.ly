@@ -20,7 +20,7 @@ nhacPhienKhucSop = \relative c'' {
   a2 |
   g8. e16 c'8 c |
   b!a r f |
-  f g4 e8 |
+  a g4 e8 |
   d2 |
   d8. f16 a8 f |
   f g r g |
@@ -149,6 +149,7 @@ notBePhu =
   >>
   \layout {
     \override Lyrics.LyricSpace.minimum-distance = #1.5
+    \override LyricHyphen.minimum-distance = #1
     \override Score.BarNumber.break-visibility = ##(#f #f #f)
     \override Score.SpacingSpanner.uniform-stretching = ##t
   } 

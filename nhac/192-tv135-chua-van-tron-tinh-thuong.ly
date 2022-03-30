@@ -18,7 +18,7 @@ nhacPhienKhucSop = \relative c'' {
   c2 \bar "||" \break
   
   bf4. g16 c |
-  e4 \tuplet 3/2 { c8 g g } |
+  e,4 \tuplet 3/2 { c8 g' g } |
   g4 r8 \bar "||" \break
   g8 |
   f bf16 bf g8 g |
@@ -52,7 +52,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
-	    Chúa tạo nên những đén lớn trên trời
+	    Chúa tạo nên những đến lớn trên trời
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
@@ -83,7 +83,6 @@ loiPhienKhucSop = \lyrics {
 	    Chúa giật ta thoát khỏi lũ quân thù
     }
   >>
-  \set stanza = "ĐK:"
   \override Lyrics.LyricText.font-series = #'bold
   Muôn đời Chúa vẫn trọn tình thương
   \revert Lyrics.LyricText.font-series
@@ -108,7 +107,8 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Dẫn khỏi xứ này toàn dân "Ít-ra-" en
+	    Dẫn khỏi xứ này toàn dân
+	    \markup { \underline "Ít-ra-" } en
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
@@ -133,7 +133,6 @@ loiPhienKhucSop = \lyrics {
 	    Đấng nuôi dưỡng hoài ngàn muôn sinh linh
     }
   >>
-  \set stanza = "ĐK:"
   \override Lyrics.LyricText.font-series = #'bold
   Muôn đời Chúa vẫn trọn tình thương
   \revert Lyrics.LyricText.font-series
@@ -163,7 +162,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "5."
-	    Nhần chìm vương tướng dòng giống Ai Cập
+	    Nhấn chìm vương tướng dòng giống Ai Cập
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
@@ -183,7 +182,6 @@ loiPhienKhucSop = \lyrics {
 	    Hãy tạ ơn Chúa ngự chốn cửu trùng
     }
   >>
-  \set stanza = "ĐK:"
   \override Lyrics.LyricText.font-series = #'bold
   Muôn đời Chúa vẫn trọn tình thương
   \revert Lyrics.LyricText.font-series

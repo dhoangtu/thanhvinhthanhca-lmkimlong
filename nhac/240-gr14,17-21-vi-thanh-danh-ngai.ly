@@ -15,7 +15,7 @@ nhacPhienKhucSop = \relative c'' {
   e4 r8 f16 d |
   g4. f16 g |
   a4 r8 a16 d |
-  e4 \tuplet 3/2 { e8 d e } |
+  e4 \tuplet 3/2 { e8 f e } |
   d4 \tuplet 3/2 { bf8 d g, } |
   a8. a16 f (e) a8 |
   d,2 \bar "||"
@@ -98,7 +98,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "5."
 	    Chúng con nay nhận biết mình đã làm bao điều gian ác,
-	    Và tiên bối sai lỗi phen,
+	    Và tiền bối sai lỗi bao phen,
 	    thực hết đoàn con đắc tội với Ngài.
     }
   >>

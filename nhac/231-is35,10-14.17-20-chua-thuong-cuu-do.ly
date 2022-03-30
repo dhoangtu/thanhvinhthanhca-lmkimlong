@@ -108,7 +108,7 @@ loiPhienKhucSop = \lyrics {
 	    Nãy bỗng cửa nhà bị giật tung
 	    cuốn lại đem đi,
 	    Đâu khác chi là lều của mục tử phiêu du,
-	    Tay Cháu giống thợ dệt đem xén kiếp sống con đi,
+	    Tay Chúa giống thợ dệt đem xén kiếp sống con đi,
 	    Cứ để con mỏi mòn từ sớm qua
 	    \markup { \italic \underline "đêm" } trường.
     }

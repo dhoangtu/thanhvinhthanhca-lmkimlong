@@ -112,7 +112,7 @@ loiPhienKhucSop = \lyrics {
 	    Nâng dân nghèo từ trong
 	    \markup { \italic \underline "phân" }
 	    thổ
-	    Lên ngang với hàng quyền quí phúc vinh
+	    Lên ngang với hàng quyền quý phúc vinh
 	    Và khiến cho người muộn mằn nên mẫu hiền.
     }
   >>

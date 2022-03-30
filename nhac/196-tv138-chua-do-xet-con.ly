@@ -17,7 +17,7 @@ nhacPhienKhucSop = \relative c'' {
   c4 r8 c'16 bf |
   bf8 bf c bf |
   g4 r8 e16 g |
-  c8 c g16 g e8 |
+  c,8 c g'16 g e8 |
   f4 r8 \bar "||" \break
   
   f16 f |
@@ -43,7 +43,7 @@ nhacPhienKhucAlto = \relative c' {
 loiPhienKhucSop = \lyrics {
   \set stanza = "ĐK:"
   Chúa đã xét dò con,
-  và Chúa biết ngọn gnuoonf.
+  và Chúa biết ngọn nguồn.
   Chúa biết con khi đứng khi ngồi,
   Con nghĩ gì Ngài thấu suốt từ xa.
   <<
@@ -71,7 +71,7 @@ loiPhienKhucSop = \lyrics {
 	    Đi nơi nào Thần Trí Ngài không từng giây theo dõi,
 	    Và biết tìm nơi đâu khuất xa Thần Nhan
 	    Dù lên thiên cung, Chúa đang ngự đây,
-	    Dù xuông địa ngục vẫn luôn gặp Ngài.
+	    Dù xuống địa ngục vẫn luôn gặp Ngài.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
@@ -80,7 +80,7 @@ loiPhienKhucSop = \lyrics {
 	    Chắp cánh bay từ phía hừng đôgn hiện lên le lói
 	    Tìm đến tận chân mây góc biển trời tây,
 	    Tại đây đôi tay Chúa cũng dìu đưa,
-	    Mạnh mẽ tay Ngài giữu con nào rời.
+	    Mạnh mẽ tay Ngài giữ con nào rời.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

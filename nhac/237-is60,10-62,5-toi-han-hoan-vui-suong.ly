@@ -20,7 +20,7 @@ nhacPhienKhucSop = \relative c'' {
   g4 r8 e |
   e8. g16 g8 g |
   a d,4 c8 |
-  g'8. g16 bf8 a |
+  a'8. a16 bf8 a |
   g4 r8 c16 d |
   bf8 bf g bf |
   a4 r8 g16 g |
@@ -244,8 +244,8 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Người sẽ trở nên mũ triều thiên vàng,
-	    như ngọc miện quý Chúa cầm ở ta.
-	    Quê ngươi sẽ chẳng còn là nơi hoang vắng,
+	    như ngọc miện quý Chúa cầm ở tay.
+	    Quê ngươi chẳng còn là nơi hoang vắng,
 	    Và chẳng sẽ ai gọi ngươi là ''thứ bỏ đi''.
     }
     \new Lyrics {

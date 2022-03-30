@@ -44,7 +44,7 @@ nhacPhienKhucAlto = \relative c'' {
   \key g \major
   g8. e16 a8 g |
   c, d r d |
-  g c,4 r8 |
+  g c,4 e8 |
   d4. g8 |
   e8. e16 a8 fs |
   g2 |

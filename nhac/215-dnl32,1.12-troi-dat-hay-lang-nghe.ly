@@ -11,7 +11,7 @@
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c' {
   \partial 4 \tuplet 3/2 { d8 bf' a } |
-  g4 \tuplet 3/2 { fs8 g \slashedGrace { g16 ( } g8) } |
+  g4 \tuplet 3/2 { fs8 g \slashedGrace { a16 ( } g8) } |
   ef8. d16 \tuplet 3/2 { bf'8 bf a } |
   g4 \tuplet 3/2 { g8 c c } |
   d4 \tuplet 3/2 { ef8 ef c } |
@@ -107,7 +107,7 @@ loiPhienKhucSop = \lyrics {
 	    Như chim bay, bay quanh vòng tổ
 	    Giơ cánh bằng nhẹ dỗ đàn con,
 	    Cõng lấy chúng trên mình đi tới,
-	    Giục chúng hoài mau hãy tung cánh bay.m
+	    Giục chúng hoài mau hãy tung cánh bay.
     }
   >>
   \set stanza = "ĐK:"

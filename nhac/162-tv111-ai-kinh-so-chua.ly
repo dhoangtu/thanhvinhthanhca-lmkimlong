@@ -66,7 +66,7 @@ loiPhienKhucSop = \lyrics {
     {
       \set stanza = "1."
       Đức công chính của họ tồn tại ngàn năm,
-      gia đình giầu sang sinh phúc.
+      gia đình giầu sang vinh phúc.
       Ánh sáng nay bừng lên soi kẻ ngay lành,
       là người chính trung từ nhân
     }

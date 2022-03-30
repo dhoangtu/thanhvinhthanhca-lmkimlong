@@ -52,7 +52,9 @@ nhacPhienKhucAlto = \relative c' {
   e f16 f a8 f |
   e4 r8 e |
   d2 ~ |
-  d8 d \slashedGrace { d16 ( } g8) f |
+  d8 d \slashedGrace {
+    \tweak font-size #-3
+    d16 ( } g8) f |
   c4 b!8 b |
   c2 ~ |
   c8 bf bf bf |

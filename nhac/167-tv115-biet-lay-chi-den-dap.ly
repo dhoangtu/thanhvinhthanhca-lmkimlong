@@ -28,7 +28,7 @@ nhacPhienKhucSop = \relative c'' {
   a4 \tuplet 3/2 { fs8 g a } |
   d,8. e16 c'8 a |
   b4 r8 d16 d |
-  e8 b c d |
+  e8 g, c d |
   a4 \tuplet 3/2 { fs8 g a } |
   d,8. b'16 a8 fs |
   g4 r8 \bar "|."

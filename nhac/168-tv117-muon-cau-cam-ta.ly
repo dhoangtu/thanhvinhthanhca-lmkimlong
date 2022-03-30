@@ -95,7 +95,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
 	    Nhờ danh Chúa trừ diệt quân thù
-	    Khi họ xấn tôi dàn vòng vây,
+	    Khi họ xấn tới dàn vòng vây,
 	    Đông như ong bủa kín tư bề,
 	    Rực nóng như thiêu,
 	    Vây quanh tôi chèn lấn mưu đồ
@@ -108,8 +108,8 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Hồn tôi vẫn hằng tụng ca Ngài,
-	    Ơn giải thoát sức mạnh của tôi,
-	    nghe reo vang toàn thắng trong trại
+	    Ơn giải thoát, sức mạnh của tôi,
+	    Nghe reo vang toàn thắng trong trại
 	    Của những chính nhân,
 	    Bao uy phong ở cánh tay Ngài thần thánh cao cường,
 	    Và tôi không phải chết mà sẽ sống

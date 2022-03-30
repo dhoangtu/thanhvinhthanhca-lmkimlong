@@ -37,7 +37,7 @@ nhacPhienKhucSop = \relative c'' {
   g4 b!8 (c) |
   e d r c ~ |
   c e16 (f) \slashedGrace { a16 ( } g4) ~ |
-  g c c a |
+  g8 c c a |
   g f r e |
   f4 \bar "|."
 }

@@ -91,7 +91,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "6."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Thiên Chúa bang trợ người khốn nguye,
+	    Thiên Chúa bang trợ người khốn nguy,
 	    bênh đỡ ai nghèo khó cơ cùng,
 	    người lành được ở gần Thiên Nhan,
 	    Người thẳng ngay tán tụng Thánh Danh.

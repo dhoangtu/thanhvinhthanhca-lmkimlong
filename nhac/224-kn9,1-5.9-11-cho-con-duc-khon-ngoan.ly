@@ -95,7 +95,7 @@ loiPhienKhucSop = \lyrics {
   \set stanza = "ĐK:"
   Xin cho con Đức Khôn Ngoan hằng ngự bên hữu Ngài,
   Đừng đuổi con đi mà chẳng nhận làm con.
-  Thân con đây, Chúa ơi, đời mòng manh vắn vỏi,
+  Thân con đây, Chúa ơi, đời mỏng manh vắn vỏi,
   là phận tôi tớ, là con nữ tỳ Ngài.
 }
 

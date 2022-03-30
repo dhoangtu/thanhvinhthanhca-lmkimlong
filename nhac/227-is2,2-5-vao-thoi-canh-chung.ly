@@ -27,8 +27,8 @@ nhacPhienKhucSop = \relative c' {
   g a bf8. a16 |
   bf8 c r f |
   f bf, c8. d16 |
-  g,8 g r c |
-  g bf a8. g16 |
+  g,8 g r c, |
+  g' bf a8. g16 |
   a8 f ~ f4 \bar "|."
 }
 
@@ -62,7 +62,8 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Vì từ Si -- on thánh luật truyền xuống,
-	    Chúa ban lời tự Giê -- "ru-sa" -- lem,
+	    Chúa ban lời tự Giê --
+	    \markup { \italic \underline "ru-sa" } -- lem,
 	    Nay Ngài sẽ đứng làm trọng tài
 	    Để phân xử muôn nước,
 	    Minh xét mọi dân tộc.

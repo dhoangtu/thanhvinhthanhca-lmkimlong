@@ -72,7 +72,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Từ cuối chân trời Ngài đẩ  mây tới,
 	    Xẹt chớp lên, thổi gió tung hoành
-	    khiên mưa tuôn trào.
+	    khiến mưa tuôn trào.
 	    Ngài đã triệt hạ bao nước,
 	    Diệt các quân vương mạnh mẽ quyền uy.
     }

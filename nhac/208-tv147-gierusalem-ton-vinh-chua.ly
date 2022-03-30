@@ -111,7 +111,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Truyền luật phapts cho nhà
+	    Truyền luật pháp cho nhà
 	    \markup { \italic \underline "Ít - ra -" }
 	    en,
 	    Gia -- cóp lãnh nhận lời Thánh ước Chúa ban,

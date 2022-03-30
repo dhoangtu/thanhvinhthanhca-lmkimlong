@@ -97,7 +97,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "5."
 	    Tay Chúa nhấn xuống rồi giựt lên đó,
 	    khiến kẻ phú vinh, kẻ đơn nghèo,
-	    Nâng ai thấp hèn khỏi nơi đất đem
+	    Nâng ai thấp hèn khỏi nơi đất đen
 	    Và người nghèo khỏi chốn bẩn nhơ.
     }
     \new Lyrics {

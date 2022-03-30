@@ -15,7 +15,7 @@ nhacPhienKhucSop = \relative c' {
   a4.
   <<
     {
-      d8 _> ~ |
+      d8 ^> ~ |
       d c bf d |
       c4
     }
@@ -26,8 +26,8 @@ nhacPhienKhucSop = \relative c' {
     }
   >>
   r8 \bar "" \break
-  d ~ |
-  d d bf a |
+  d, ~ |
+  d d bf' a |
   g4.
   <<
     {
@@ -43,11 +43,11 @@ nhacPhienKhucSop = \relative c' {
   >>
   r8 \bar "" \break
   e ~ |
-  e a d d |
+  e a d, d |
   c4.
   <<
     {
-      g8 _> ~ |
+      g'8 _> ~ |
       g f e g |
       f2
     }

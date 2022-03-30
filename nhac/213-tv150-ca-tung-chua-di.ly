@@ -3,7 +3,7 @@
 \include "english.ly"
 
 \header {
-  title = \markup { \fontsize #1 "Ca Tụn Chúa Đi" }
+  title = \markup { \fontsize #1 "Ca Tụng Chúa Đi" }
   composer = "Tv. 150"
   tagline = ##f
 }
@@ -37,7 +37,7 @@ nhacPhienKhucAlto = \relative c' {
   e8 f e g |
   f d16 d c8 c |
   bf4 d8 bf |
-  c bf16 bf b!8 c |
+  a bf16 bf b!8 c |
   a2 ~ |
   a8
 }

@@ -98,7 +98,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "5."
 	    Hồn tôi ơi reo lên ca mừng Chúa Trời
-	    là Vua, ngài tái tạo khắp Giê -- ru -- sa -- lem,
+	    là Vua, Ngài tái tạo khắp Giê -- ru -- sa -- lem,
 	    Thánh điện nay trường tồn,
 	    bao cánh cửa thành cẩn toàn ngọc bích lam,
 	    tường lũy xây bằng đá quý.

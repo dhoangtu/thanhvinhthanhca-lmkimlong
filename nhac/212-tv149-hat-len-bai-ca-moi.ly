@@ -71,7 +71,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Vang ca lên tung hô Chúa uy quyền,
 	    Cầm trong tay thanh gươm trần hai lưỡi,
-	    Bao vương công đêm xích cổ vào.
+	    Bao vương công đem xích cổ vào.
 	    Mọi kẻ hiếu trung rầy hiển vinh.
     }
   >>

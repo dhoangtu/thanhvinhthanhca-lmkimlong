@@ -76,7 +76,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Ai đi gặt chẳng lượm chi thứ này,
 	    Người bó cũng chẳng thèm gom,
-	    Bao khách qua đướng chẳng cầu chúc:
+	    Bao khách qua đường chẳng cầu chúc:
 	    Chúa đổ hồng phúc xuống ngươi.
     }
   >>

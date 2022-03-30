@@ -33,8 +33,8 @@ nhacPhienKhucSop = \relative c'' {
   f8. a16 |
   g8 f d4 ~ |
   d8 d f g |
-  c4. c8 |
-  a8. a16 f8 bf |
+  c,4. c8 |
+  a'8. a16 f8 bf |
   a g ~ g4 |
   g8 bf c c |
   bf bf d (c16 bf) |

@@ -9,9 +9,9 @@
 }
 
 % Nhạc phiên khúc
-nhacPhienKhucSop = \relative c'' {
+nhacPhienKhucSop = \relative c' {
   \partial 8 d8 |
-  b2 ~ |
+  b'2 ~ |
   b8 a d
   <<
     {
@@ -98,7 +98,7 @@ loiPhienKhucSop = \lyrics {
 	    Ngàn dân đã phẫn nộ lên,
 	    Cơn giận Chúa liền trút xuống,
 	    Chúa nay xét xử vong hồn,
-	    Sẽ thowngr thọ bề tôi của Chúa
+	    Sẽ thưởng thọ bề tôi của Chúa
 	    là bao Ngôn sứ Ngài.
     }
     \new Lyrics {

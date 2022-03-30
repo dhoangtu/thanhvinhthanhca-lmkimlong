@@ -18,7 +18,7 @@ nhacPhienKhucSop = \relative c' {
   e) f8. e16 |
   d8 d d4 ~ |
   d8 b c8. d16 |
-  a8 \slashedGrace { \once \stemDown a16 ( } g8) e f ~ |
+  c8 \slashedGrace { \once \stemDown a16 ( } g8) e f ~ |
   f f d16 (g) e (d) |
   c2 \bar "||"
   
@@ -62,7 +62,7 @@ loiPhienKhucSop = \lyrics {
   <<
     {
       \set stanza = "1."
-      Giê -- ru -- sa -- lem khác nào đo thị
+      Giê -- ru -- sa -- lem khác nào đô thị
       Được xây nên một khối vẹn toàn.
       Từng chi tộc, chi tộc
       \markup { \italic \underline "của" }

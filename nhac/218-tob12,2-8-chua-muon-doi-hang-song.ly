@@ -94,7 +94,7 @@ loiPhienKhucSop = \lyrics {
 	    Hãy về bên Chúa,
 	    Sống theo sự thật luôn,
 	    Hết dạ tôn kính Ngài,
-	    Ngài sẽ trở lại cùng ta,
+	    Ngài sẽ trở lại cùng chúng ta,
 	    và không còn ngoảnh mặt ngó lơ,
 	    Mau hãy chung tiếng cảm tạ Ngài.
     }
@@ -124,7 +124,7 @@ loiPhienKhucSop = \lyrics {
 	    hớn hở ca hát Ngài,
 	    Ngài luôn cầm quyền cả chức cao,
 	    từ thánh điện Giê -- ru -- sa -- lem,
-	    Nay hết thảy ca tụng Ngài.
+	    Nay hết thảy hãy ca tụng Ngài.
     }
   >>
   \set stanza = "ĐK:"

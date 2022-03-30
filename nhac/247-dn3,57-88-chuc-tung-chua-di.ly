@@ -81,7 +81,7 @@ loiPhienKhucSop = \lyrics {
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
-	    vương ngue, thủy tộc
+	    vương ngư, thủy tộc
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
@@ -188,7 +188,7 @@ loiPhienKhucSop = \lyrics {
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
-	    biển lớn sông sâu.
+	    biển lớn, sông sâu.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

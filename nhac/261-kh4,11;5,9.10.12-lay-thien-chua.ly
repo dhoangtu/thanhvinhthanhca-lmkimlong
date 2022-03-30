@@ -42,7 +42,7 @@ nhacPhienKhucSop = \relative c' {
       \voiceTwo
       %\once \override Beam.transparent = ##t
       \once \override Stem.transparent = ##t
-      \once \override NoteColumn.force-hshift = #-1.6
+      \once \override NoteColumn.force-hshift = #2
       \tweak font-size #-2
       \parenthesize
       d8
@@ -146,7 +146,7 @@ nhacPhienKhucAlto = \relative c' {
     }
     \new Voice = "splitpart" {
       \voiceTwo
-      \once \override NoteColumn.force-hshift = #-1.6
+      \once \override NoteColumn.force-hshift = #2
       \tweak font-size #-2
       \parenthesize
       b
@@ -195,7 +195,7 @@ nhacPhienKhucAlto = \relative c' {
   >>
   \oneVoice
   f4. e8 |
-  d4. g8 |
+  d4 g |
   e2 ~ |
   e4
   

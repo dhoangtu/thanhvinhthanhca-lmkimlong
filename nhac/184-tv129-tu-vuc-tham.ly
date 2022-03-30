@@ -84,7 +84,7 @@ loiPhienKhucSop = \lyrics {
   >>
   \set stanza = "ĐK:"
   Vì nếu Chúa chấp tội, Chúa ơi,
-  thì nào ai vững đứng được chăng?
+  thì nào ai đứng vững được chăng?
   Nhưng Ngài vẫn rộng lượng thứ tha
   nên chúng con thành tâm kính thờ.
 }

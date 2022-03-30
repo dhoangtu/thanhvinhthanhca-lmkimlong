@@ -50,7 +50,7 @@ nhacPhienKhucSop = \relative c' {
   f4 r8 \bar "||"
   
   c'8 |
-  c4 \tuplet 3/2 { d8 c bf } |
+  c4 \tuplet 3/2 { d8 a bf } |
   c8. a16 \tuplet 3/2 { f8 f f } |
   g4 \tuplet 3/2 { e8 f g } |
   a4 r8 f |
@@ -89,7 +89,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Họ xem thấy Ngàu rất thánh thiện
+	    Họ xem thấy Ngài rất thánh thiện
 	    trong cách Ngài cư xử với chúng con,
 	    Thì nay cho con dân đây được thấy
 	    Thiên Chúa cao cả đến muôn trùng

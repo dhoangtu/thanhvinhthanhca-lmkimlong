@@ -78,7 +78,7 @@ loiPhienKhucSop = \lyrics {
 	    Chúa nâng người nghèo lên nơi cao sang,
 	    Lũ gian mạnh nhận chìm tận đất đen rồi.
 	    Cung sắt cầm dạo lên tụng mừng Thiên Chúa,
-	    hãy xướng ca mà cảm mến ơn ngài.
+	    hãy xướng ca mà cảm mến ơn Ngài.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

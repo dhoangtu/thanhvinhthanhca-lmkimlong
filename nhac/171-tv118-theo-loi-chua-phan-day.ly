@@ -68,7 +68,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Miệng con vẫn liên lỉ nhắc nhớ
-	    Các qui định miệng Chúa phán ra,
+	    Các quy định miệng Chúa phán ra,
 	    Sướng vui con tuân hành ý Ngài,
 	    Vẫn hơn được tiền lắm bạc dư.
     }

@@ -23,13 +23,13 @@ nhacPhienKhucSop = \relative c' {
   c4 \bar "||" \break
   
   e,8 d16 c |
-  \slashedGrace { c16 ( } d8) e f d |
+  \slashedGrace { \parenthesize c16 ( } d8) e f d |
   g4. g16 c |
   b8 d e c |
   a2 ~ |
   a4 r8 a16 g |
   g8 a f e |
-  d4. d16 \slashedGrace { d16 ( } e) |
+  d4. d16 \slashedGrace { \parenthesize d16 ( } e) |
   c8 c e16 (f) a8 |
   g2 ~ |
   g4 \bar "|."
@@ -59,11 +59,11 @@ loiPhienKhucSop = \lyrics {
   <<
     {
       \set stanza = "1."
-      Chưa như mục \markup { \italic \underline "tử" }
+      Chúa như mục \markup { \italic \underline "tử" }
       chăn dắt đàn chiên,
       Tập trung lại dưới cánh tay Ngài.
       Lũ chiên con ấp ủ bên lòng,
-      Bầy chiên mje tận tình đỡ nâng.
+      Bầy chiên mẹ tận tình đỡ nâng.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

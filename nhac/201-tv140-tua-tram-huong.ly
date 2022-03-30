@@ -62,7 +62,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Xin giữ miệng con
+	    Xin giữ gìn miệng con
 	    Và xin canh chừng lưỡi con.
 	    Đừng để lòng con hướng theo sự dữ,
 	    Kẻo trở thành đồng lõa với ác nhân.

@@ -18,7 +18,7 @@ nhacPhienKhucSop = \relative c' {
   g2 ~ |
   g4 \bar "||" \break
   
-  e8 g |
+  g8 e |
   a4. e16 e |
   f8 d d16 (e) a8 |
   g4 r8 c16 c |

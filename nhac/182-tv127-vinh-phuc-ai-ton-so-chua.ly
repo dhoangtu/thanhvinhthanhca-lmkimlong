@@ -72,7 +72,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Người một niềm kiên trung tôn sợ Chúa
-	    được hồng ân chan chưa,
+	    được hồng ân chan chứa,
 	    Nguyện cầu Chúa từ thành thánh Si -- on
 	    chúc phúc cho bạn luôn.
     }

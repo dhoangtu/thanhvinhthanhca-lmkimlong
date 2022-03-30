@@ -30,7 +30,7 @@ nhacPhienKhucSop = \relative c'' {
   c2 |
   c8. bf16 bf8 c16 (d) |
   d4. a8 |
-  bf8. d16 bf8 a |
+  bf8. d,16 bf'8 a |
   g2 \bar "||"
 }
 
@@ -66,7 +66,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Bị nguyền rủa Người không nguyền rủa lại,
+	    Bị nguyền rủa Người không rủa nguyền lại,
 	    Chịu đau đớn mà chẳng đe lời,
 	    Nhưng một bề phó thác cho Đấng xử xét công bình.
     }

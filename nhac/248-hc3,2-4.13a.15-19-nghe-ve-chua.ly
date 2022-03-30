@@ -87,7 +87,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài rực rỡ tựa làn ánh sáng,
-	    nắm vững trong tay quyền phép huy phong,
+	    nắm vững trong tay quyền phép uy phong,
 	    Chúa thân chinh giải cứu dân Ngài,
 	    và Đấng được xức dầu của Chúa.
     }

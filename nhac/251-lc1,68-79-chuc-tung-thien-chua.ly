@@ -77,7 +77,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Chúa thề hứa với tổ \markup { \italic \underline "phụ" }
 	    Ap -- bra -- ham
-	    Sẽ cứu ta thoát khỏi quaan thù.
+	    Sẽ cứu ta thoát khỏi quân thù.
 	    Và để ta không còn sợ hãi,
 	    Hầu sống thánh thiện,
 	    trọn kiếp ta phụng thờ Chúa liên.

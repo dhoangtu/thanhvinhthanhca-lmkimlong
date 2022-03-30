@@ -84,7 +84,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Ta sẽ để các ngươi lập cư trên đất
-	    đà được dành tặng cho tiên bối,
+	    đà được dành tặng cho tiền bối,
 	    Muôn kiếp sẽ là dân nước Ta tuyển chọn,
 	    Ta là Chúa các ngươi tôn thờ.
     }

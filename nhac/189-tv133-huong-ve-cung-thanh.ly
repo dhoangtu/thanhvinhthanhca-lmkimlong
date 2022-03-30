@@ -16,7 +16,7 @@ nhacPhienKhucSop = \relative c'' {
   a8. g16 a8 e |
   d4 r8 d |
   d'4. b!16 (a) |
-  fs8. g16 a8 (bf) |
+  fs8. g16 a8 (b!) |
   a2 ~ |
   \partial 4. a4 r8 \bar "||"
   
@@ -66,9 +66,10 @@ nhacPhienKhucAlto = \relative c' {
   fs4 \tuplet 3/2 {
     \afterGrace g8 ({
       \override Flag.stroke-style = #"grace"
-      f16)}
+      \tweak font-size #-3
+      fs16)}
     \revert Flag.stroke-style
-    d8 f
+    d8 fs
   }
   g4. cs,16 d |
   e4 \tuplet 3/2 { d8 d cs } |

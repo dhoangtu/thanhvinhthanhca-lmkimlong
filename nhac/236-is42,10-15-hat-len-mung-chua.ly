@@ -19,7 +19,7 @@ nhacPhienKhucSop = \relative c'' {
   a a r fs |
   g8. a16 g8 e |
   d4 r8 d |
-  d \slashedGrace { d16 ( } f8) r d |
+  d \slashedGrace { \parenthesize d16 ( } f8) r d |
   g8. g16 bf,8 d |
   c4 r8 \bar "||"
   
@@ -81,7 +81,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Chúa phán: Ta từng đã ngồi lặng im mãi,
 	    Dằn lòng nín thinh hoài, cứ giả làm ngơ,
-	    Gòa lên như phụ nữ lúc đang lầm bồn,
+	    Gào lên như phụ nữ lúc đang lầm bồn,
 	    Hồng hộc \markup { \italic \underline "thở" }
 	    mà hổn hển tựa đứt hơi.
     }
@@ -98,7 +98,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "5."
 	    Hết những ai mù tối đều được Ta dẫn,
-	    Vòa đường chúng chưa tường hớn hở cùng đi.
+	    Vào đường chúng chưa tường hớn hở cùng đi.
 	    Vì đây Ta đổi tăm tối nên huy hoàng,
 	    đường lồi lõm thành những quốc lộ thẳng băng.
     }

@@ -18,11 +18,11 @@ nhacPhienKhucSop = \relative c' {
   c8 e g e |
   e4 r8 a16 d, |
   d8 d f g |
-  c4. c16 c
+  c,4. c16 c
   <<
     {
       \voiceOne
-      a8
+      a'8
     }
     \new Voice = "beSop" {
       \voiceTwo
@@ -74,7 +74,7 @@ nhacPhienKhucAlto = \relative c' {
   r8 |
   R2*17
   r4
-  f8 g |
+  a'8 g |
   f8. g16 g8 f |
   e2 ~ |
   e8 f f d |
@@ -114,7 +114,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Lời Chúa, Đấng Muôn Cao tạo tác cõi trời,
-	    Nặn địa cầu chu vững bền luôn,
+	    Nặn địa cầu cho vững bền luôn,
 	    không tạo địa cầu hoang vắng hoài,
 	    mà để các loài lại trú cư.
 	    Đây Ngài đã tuyên ngôn:

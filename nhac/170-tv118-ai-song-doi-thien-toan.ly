@@ -3,7 +3,7 @@
 \include "english.ly"
 
 \header {
-  title = \markup { \fontsize #1 "Quân Vương Khắp Gian Trần" }
+  title = \markup { \fontsize #1 "Ai Sống Đời Thiện Toàn" }
   composer = \markup {
     \column {
       \line { "Tv. 118" }

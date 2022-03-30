@@ -21,7 +21,7 @@ nhacPhienKhucSop = \relative c'' {
   g4 r8 f16 f |
   g4 \tuplet 3/2 { g8 a f } |
   c4. a'16 a |
-  g8. c16 \tuplet 3/2 { g8 f e } |
+  g8. c,16 \tuplet 3/2 { g'8 f e } |
   f4 r8 \bar "|." \break
   
   c8 |
@@ -87,7 +87,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
 	    Để ngươi thỏa thích nếm vú sữa lộc phúc an ủi ngươi,
-	    như con trẻ ngậm bầu sữa me.
+	    như con trẻ ngậm bầu sữa mẹ.
 	    Nhìn coi lòng mừng rỡ,
 	    thân ngươi được sởn sơ nở tươi,
 	    như cỏ nội trải thắm nương đồi.

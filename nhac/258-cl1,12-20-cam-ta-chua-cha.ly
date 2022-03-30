@@ -11,7 +11,7 @@
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
   g8 e f d |
-  c8. c16 d8 a' |
+  c8. c16 e8 a |
   g4 r8 g16 g |
   a8 a a b |
   c4. c8 |
@@ -85,7 +85,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Người là hình ảnh Thiên Chúa vô hình,
 	    là Trưởng Tử muôn loài thọ
-	    \markup { \italic \underline "sinh" },
+	    \markup { \italic \underline "sinh," }
 	    trong Người vạn vật được tác thành,
 	    trên trời dưới đất hữu hình và vô hình.
     }

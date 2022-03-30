@@ -69,7 +69,7 @@ loiPhienKhucSop = \lyrics {
   <<
     {
       \set stanza = "1."
-      Trong Đức Ki -- to, Ngài chọn ta
+      Trong Đức Ki -- tô, Ngài chọn ta
       trước khi tạo thành vũ trụ.
       Để trước thánh nhan Ngài
       ta trở nên tinh tuyền thánh thiện
