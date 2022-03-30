@@ -41,7 +41,17 @@ nhacPhienKhucSop = \relative c' {
 }
 
 nhacPhienKhucAlto = \relative c' {
-  
+  c4 |
+  g'4. e8 |
+  d e4 g8 |
+  a4 f8 e ~ |
+  e a g g |
+  f4 f8 d ~ |
+  d c a d |
+  b4 b8 b |
+  c4. f8 |
+  e f4 f8 |
+  e2
 }
 
 % Lời phiên khúc

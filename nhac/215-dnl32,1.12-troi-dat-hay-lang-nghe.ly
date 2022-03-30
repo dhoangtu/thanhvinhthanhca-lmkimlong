@@ -46,7 +46,7 @@ nhacPhienKhucSop = \relative c' {
   g2 \bar "|."
 }
 
-nhacPhienKhucAlto = \relative c' {
+nhacPhienKhucAlto = \relative c'' {
   r4 |
   R2*7
   r4
@@ -54,9 +54,16 @@ nhacPhienKhucAlto = \relative c' {
   \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
   \set Staff.printKeyCancellation = ##f
   \key g \major
-  r8 |
-  R2*7
-  r4.
+  g16 g |
+  g4 \tuplet 3/2 { fs8 fs e } |
+  e16 (fs g4) d16 d |
+  c4 \tuplet 3/2 { e8 g e } |
+  d4 r8 a'16 a |
+  a4 \tuplet 3/2 { a8 e a } |
+  b4. a16 g |
+  fs8. d16 \tuplet 3/2 { c8 c c } |
+  b4 r8
+  
   d8 |
   d4. g8 |
   g2 |
@@ -79,7 +86,7 @@ loiPhienKhucSop = \lyrics {
       Và đất nghe cho tường lời tôi công bố
       Giáo huấn của tôi như giọt mưa thánh thót,
       Lời tôi khuyên dạy tựa sương móc nhỏ sa.
-      Như mưa roi, rơi trên nội cỏ
+      Như mưa rơi, rơi trên nội cỏ
       Như nước về, về tưới đồng xanh:
       Đây tôi xin xưng tụng danh Chúa,
       Trời đất nào tôn thờ Thiên Chúa ta.

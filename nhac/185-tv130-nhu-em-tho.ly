@@ -30,7 +30,17 @@ nhacPhienKhucSop = \relative c' {
 }
 
 nhacPhienKhucAlto = \relative c' {
-  
+  \partial 8 e8 |
+  a4 \tuplet 3/2 { a8 b a } |
+  gs4. e16 a |
+  e4 \tuplet 3/2 { e8 e d } |
+  c4 r8 c16 a' |
+  e4 \tuplet 3/2 { b'8 b b } |
+  c4 r8 e,16 e |
+  d8. d16 \tuplet 3/2 { e8 e d } |
+  c4 r8 r |
+  R2*5
+  r4.
 }
 
 % Lời phiên khúc

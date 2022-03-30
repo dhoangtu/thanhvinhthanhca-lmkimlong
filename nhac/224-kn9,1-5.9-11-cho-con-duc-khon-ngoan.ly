@@ -34,8 +34,24 @@ nhacPhienKhucSop = \relative c'' {
   g4 r8 \bar "|."
 }
 
-nhacPhienKhucAlto = \relative c' {
-  
+nhacPhienKhucAlto = \relative c'' {
+  r8 |
+  R2*7
+  r4.
+  g16 g |
+  g4. a16 g |
+  d8. e16 \tuplet 3/2 { e8 c c } |
+  b4 \tuplet 3/2 { b8 d e } |
+  d8. fs16 \tuplet 3/2 { g8 a g } |
+  fs4 r8 g16 g |
+  g4. a16 (g) |
+  d8. e16 \tuplet 3/2 { e8 c c } |
+  \once \stemUp
+  \once \override NoteColumn.force-hshift = #0.1
+  b4 \tuplet 3/2 { b8 d e } |
+  d8. d16 \tuplet 3/2 { c8 c b } |
+  b2 ~ |
+  b4 r8
 }
 
 % Lời phiên khúc

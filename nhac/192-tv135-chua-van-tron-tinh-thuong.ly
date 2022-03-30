@@ -33,7 +33,21 @@ nhacPhienKhucSop = \relative c'' {
 }
 
 nhacPhienKhucAlto = \relative c' {
-  
+  R2*2
+  r4.
+  f8 |
+  e f16 f g8 g |
+  e2 |
+  R2*2
+  r4.
+  c8 |
+  d g16 g e8 e |
+  f2 |
+  R2*2
+  r4.
+  bf,8 |
+  a bf16 bf c8 c |
+  a2
 }
 
 % Lời phiên khúc
