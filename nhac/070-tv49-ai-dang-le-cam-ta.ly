@@ -72,7 +72,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Hãy kính tiến lên bao lời cảm mến
 	    Trọn niềm tri ân Chúa muôn cao trọng
-	    Vào hôi gặp cơn nguy khốn,
+	    Vào hồi gặp cơn nguy khốn,
 	    Hãy kêu xin là Ta tế độ an toàn.
     }
     \new Lyrics {

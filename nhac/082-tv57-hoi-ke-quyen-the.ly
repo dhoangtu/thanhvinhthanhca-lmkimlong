@@ -57,7 +57,7 @@ loiPhienKhucSop = \lyrics {
 	    Những lũ người độc ác đã lạc hướng
 	    khi mới lọt lòng mẹ,
 	    ngay lúc mới sinh lầm đường lỡ bước
-	    Nọc họ phu khác nào rắn độc.
+	    Nọc họ phun khác nào rắn độc.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

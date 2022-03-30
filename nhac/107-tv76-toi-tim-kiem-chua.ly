@@ -20,7 +20,7 @@ nhacPhienKhucSop = \relative c'' {
   bf g4 bf8 |
   a2 ~ |
   a4 fs16 (g) a8 |
-  d4. bf8 |
+  d,4. bf'8 |
   a bf4 c8 |
   d4 d16 (ef) d8 |
   c4. c8 |
@@ -52,7 +52,7 @@ nhacPhienKhucAlto = \relative c'' {
   g ef4 g8 |
   d2 ~ |
   d4 fs16 (g) a8 |
-  d4. g,8 |
+  d,4. g8 |
   fs g4 a8 |
   bf4 bf16 (c) bf8 |
   a4. a8 |
@@ -117,7 +117,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài hiển linh mây tầng vọng tiếng,
 	    đổ mưa xuống khắp nẻo tuôn tràn,
-	    Nước trờ mình rung động kinh khiếp,
+	    Nước trở mình rung động kinh khiếp,
 	    Vực sâu cũng sợ hãi run lên.
     }
   >>

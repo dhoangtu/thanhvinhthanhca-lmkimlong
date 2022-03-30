@@ -50,7 +50,7 @@ nhacPhienKhucAlto = \relative c'' {
   e4. d8 |
   c4 e8 f |
   e4. c'8 |
-  g8. gs16 c8 [f,] |
+  g8. gs16 b8 [f] |
   e4 e8 f |
   e4. c'8 |
   g8. g16 g8 f |
@@ -74,7 +74,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Tay Chúa xưa trục xuất vạn dân,
 	    làm tiêu bao giống dòng cả miền
-	    Trông dân Ngài vào đó
+	    Trồng dân Ngài vào đó
 	    và làm họ lớn mạnh lên.
     }
     \new Lyrics {

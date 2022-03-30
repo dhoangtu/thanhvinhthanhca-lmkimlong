@@ -19,7 +19,7 @@ nhacPhienKhucSop = \relative c'' {
   a4 r8 b |
   c8. a16 a8 a16 (c) |
   d4 b16 (a) d8 |
-  fs,8. a16 d8 a |
+  fs,8. a16 d,8 a' |
   g4 r8 \bar "||"
   
   b |

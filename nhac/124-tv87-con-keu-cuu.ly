@@ -20,8 +20,8 @@ nhacPhienKhucSop = \relative c' {
   c8 d e c |
   b2 ~ |
   b4 b8. b16 |
-  c8 e, b' b16 (c) |
-  a2 ~ |
+  c8 e, b' b16 (e) |
+  a,2 ~ |
   a4 r8 \bar "||" \break
   
   e |

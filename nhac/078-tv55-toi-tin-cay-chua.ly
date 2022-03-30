@@ -100,7 +100,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Ôi Thiên Chúa con thờ,
 	    lời thề xưa quyết tâm gìn giữ
-	    Vfa trình Ngài của lễ tri ân
+	    Và trình Ngài của lễ tri ân
 	    Ngài cứu mạng con thát nạn.
     }
   >>

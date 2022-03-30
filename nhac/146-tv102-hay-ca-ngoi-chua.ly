@@ -65,7 +65,7 @@ loiPhienKhucSop = \lyrics {
       \set stanza = "1."
       Ngài tha cho ngươi muôn tội lỗi,
       chữa ngươi khỏi các tật nguyền,
-      Cứu ngươi khỏi vùi sây đáy huyệt,
+      Cứu ngươi khỏi vùi sâu đáy huyệt,
       ân lộc nghĩa thiết bao bọc ngươi.
     }
     \new Lyrics {
@@ -82,7 +82,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Ngài cho Mô -- sê hay đường lối,
 	    Ít -- ra -- en thấy công trình,
-	    chúa luôn giầu tình sâu nghĩa nặng,
+	    Chúa luôn giầu tình sâu nghĩa nặng,
 	    không hề mãi mãi nuôi hờn căm.
     }
     \new Lyrics {
@@ -90,7 +90,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài không theo như ta lầm lỗi,
-	    giống soi trả báo tội tình.
+	    xét soi trả báo tội tình.
 	    Chúa thương kẻ nào tôn kính Ngài,
 	    ân tình bát ngát cung trời cao.
     }
@@ -98,7 +98,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "5."
 	    Ngài quăng ta xa muôn tội lỗi,
-	    giống phương đông các phương đoài.
+	    giống phương đông cách phương đoài.
 	    Chúa thương kẻ thành tín
 	    khác gì cha hiền vẫn mến thương đoàn con.
     }

@@ -92,7 +92,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Khắp mọi nơi trên thế trần,
 	    khắp nẻo xa xôi
-	    Được nhìn tò phúc ân cứu độ,
+	    Được nhìn tỏ phúc ân cứu độ,
 	    Nào khắp cõi trần reo hò kính Chúa,
 	    mừng vui đàn hát lên đi.
     }

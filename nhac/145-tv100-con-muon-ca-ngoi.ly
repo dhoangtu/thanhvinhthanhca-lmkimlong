@@ -81,7 +81,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Bao nhiêu kẻ đưa điều chùng lén,
 	    Con tiêu diệt liền tay,
-	    Mắt khi người hay lòng kiêu hãnh,
+	    Mắt khinh người hay lòng kiêu hãnh,
 	    con chẳng tiếp dung khi nào.
     }
     \new Lyrics {

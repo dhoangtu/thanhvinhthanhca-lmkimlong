@@ -76,7 +76,7 @@ loiPhienKhucSop = \lyrics {
     {
       \set stanza = "1."
       Chúa ngự lên lời reo vui dậy đất,
-      Kèn trổi theo tiếng sao âm vang,
+      Kèn trổi theo tiếng sáo âm vang,
       Mừng Ngài vinh sáng lên trời cao,
       Hãy gảy đàn, gảy đàn lên mừng Chúa.
     }
@@ -95,7 +95,7 @@ loiPhienKhucSop = \lyrics {
 	    Chúa quyền uy, Ngài trông coi vạn quốc,
 	    Ngự trên ngai chí thánh vinh quang,
 	    cùng hàng khanh tướng vây chầu quanh,
-	    Chúa siêu việt, các hoang vương phục kính.
+	    Chúa siêu việt, các hoàng vương phục kính.
     }
   >>
 }

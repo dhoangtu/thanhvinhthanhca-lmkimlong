@@ -77,7 +77,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
-	    Vì này ta Chúa cầm đong ắp ly rượu chua cay,
+	    Vì này tay Chúa cầm đong ắp ly rượu chua cay,
 	    Và bắt lũ gian manh phải uống;
 	    mau uống hết cặn không chút thừa.
     }

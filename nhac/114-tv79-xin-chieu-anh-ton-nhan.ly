@@ -85,7 +85,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Đây thực là gốc nho
 	    Tay Ngài bứng xưa bên Ai -- cập,
-	    Dẹp chư dân, trông vô đất chúng.
+	    Dẹp chư dân, trồng vô đất chúng.
 	    Dọn tứ bề quang đãng,
 	    Rễ ăn sâu, phủ rợp khắp miền,
 	    Nhánh vươn dài ra tới đại dương.
@@ -97,9 +97,9 @@ loiPhienKhucSop = \lyrics {
 	    Xin trở lại Chúa ơi,
 	    Xin từ cõi cao xanh thương nhìn,
 	    Trở lại thăm vườn nho cũ đó
-	    Nguyện bảo vệ chắm sóc
+	    Nguyện bảo vệ chăm sóc
 	    Chính cây tay Ngài trồng thuở nào,
-	    Khiến cho non lớn mạnh lên.
+	    Khiến cho chồi non lớn mạnh lên.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

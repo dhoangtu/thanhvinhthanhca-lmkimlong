@@ -54,7 +54,7 @@ nhacPhienKhucAlto = \relative c'' {
   g8 g |
   g4. d8 cs cs |
   d2 d8 d |
-  cs4. e8 fs g |
+  cs4. e8 fs gs |
   a2 g8 g |
   fs4. fs8 fs e |
   d2 d8 c |
@@ -113,7 +113,7 @@ loiPhienKhucSop = \lyrics {
 	    Tiến đến với lễ vật toàn thiêu,
 	    Bước chân vào nơi thánh cung Ngài,
 	    Một lòng gìn giữ tín trung lời con tuyên khấn,
-	    Bao tiếng đoàn thề mà môi này đã phát nguyền,
+	    Bao tiếng đoan thề mà môi này đã phát nguyền,
 	    Vào hồi gặp hiểm nguy,
 	    lưỡi con không ngừng nhắc nhở lại liên.
     }

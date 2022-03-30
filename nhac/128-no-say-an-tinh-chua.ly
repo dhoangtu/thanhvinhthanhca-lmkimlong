@@ -36,9 +36,9 @@ nhacPhienKhucSop = \relative c'' {
   g d r8 d16 d |
   d8 g fs g |
   a4 r8 c |
-  c8. c16 bf8 b |
+  c8. c16 b8 b |
   c8 d r a |
-  a8. c16 a8 b |
+  a8. c16 c8 b |
   g a r d, |
   a'8. a16 fs8 a |
   g2 \bar "|."
@@ -123,7 +123,7 @@ loiPhienKhucSop = \lyrics {
 	    Tôi tớ Ngài mong được dủ thương,
 	    được nhìn ngắm bao là kỳ công,
 	    Và để đoàn con cháu
-	    Nhùn vinh hiển Chúa muôn muôn đời.
+	    Nhìn vinh hiển Chúa muôn muôn đời.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
@@ -132,7 +132,7 @@ loiPhienKhucSop = \lyrics {
 	    Uy dũng Ngài muôn đời tồn tại,
 	    hầu củng cố bao việc đoàn con,
 	    Nguyện Chúa hằng củng cố
-	    Việc tay của chugns con viên thành.
+	    Việc tay của chúng con viên thành.
     }
   >>
   \set stanza = "ĐK:"

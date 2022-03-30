@@ -25,7 +25,7 @@ nhacPhienKhucSop = \relative c'' {
   f8. a16 g8 e |
   d2 |
   r8 c c c |
-  f8. (g16) d8 d |
+  f8. (e16) d8 d |
   g4 r8 g |
   e'8. e16 d8 b |
   c2 ~ |
@@ -41,7 +41,7 @@ nhacPhienKhucAlto = \relative c'' {
   d8. f16 e8 c |
   b2 |
   r8 c c c |
-  f8. (g16) d8 d |
+  f8. (e16) d8 d |
   g4 r8 g |
   c8. c16 f,8 g |
   e2 ~ |
@@ -88,7 +88,7 @@ loiPhienKhucSop = \lyrics {
   \set stanza = " ĐK:"
   Chúa là sức mạnh của con,
   xin dạo phím tơ ca mừng.
-  Ngài là thành lũy bảo về con
+  Ngài là thành lũy bảo vệ con
   Lạy Đấng chứa chan tình thương.
 }
 

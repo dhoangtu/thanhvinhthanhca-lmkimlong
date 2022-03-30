@@ -33,7 +33,7 @@ nhacPhienKhucSop = \relative c'' {
   b2 |
   g!?8. a16 e8 e ~ |
   e c' b a |
-  e'4 d8 d |
+  e'4 d8 c |
   d4. b8 |
   e8. e16 c8 b |
   a4 \bar "|."

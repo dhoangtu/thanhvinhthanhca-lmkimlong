@@ -23,7 +23,7 @@ nhacPhienKhucSop = \relative c' {
   bf c e, g |
   f2 \bar "||" \break
   
-  f8. e16 a (bf)
+  f8. c16 a' (bf)
   <<
     {
       \voiceOne
@@ -139,7 +139,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "5."
 	    Ôi lạy Chúa chúng con
-	    nguyện xin qui tụ về
+	    nguyện xin quy tụ về
 	    Cho đoàn chúng con đây
 	    ngợi ca danh thánh Ngài.
     }

@@ -10,9 +10,14 @@
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
+  <> \tweak extra-offset #'(-5 . 0)
+  ^\markup { \fontsize #1 \box \bold "Mở đầu" }
   a4. g16 a |
   bf4 \tuplet 3/2 { bf8 d c } |
   a2 |
+  
+  <> \tweak extra-offset #'(-2.5 . 0)
+  ^\markup { \fontsize #1 \box \bold "A" }
   g4 \tuplet 3/2 { g8 a bf } |
   d,4 \tuplet 3/2 { c8 g' e } |
   f4 r8 \bar "||" \break
@@ -64,7 +69,9 @@ nhacPhienKhucSop = \relative c'' {
   \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
   \set Staff.printKeyCancellation = ##f
   \key d \major
-  a'8. gs16 a (gs) a8 |
+  <> \tweak extra-offset #'(-2.5 . 0)
+  ^\markup { \fontsize #1 \box \bold "B" }
+  a'8. gs16 a (b) a8 |
   fs4. d8 |
   a' a fs (a) |
   b4. a8 |
@@ -141,7 +148,7 @@ nhacPhienKhucAlto = \relative c' {
 
 % Lời phiên khúc
 loiPhienKhucSop = \lyrics {
-  \set stanza = "Mở đầu:"
+  %\set stanza = "Mở đầu:"
   Hãy tạ ơn Chúa, vì Chúa nhân từ,
   Vì tình thương mến Ngài bền vững ngàn thu.
   <<
@@ -185,7 +192,7 @@ loiPhienKhucSop = \lyrics {
 	    lèo lái con thuyền,
 	    họ từng nhìn ngàn công việc tay Chúa,
 	    thất đảm kinh hãi giữa biển mênh mông
-	    khi Ngài để sống đổ muôn trùng xô lấp thuyền họ,
+	    khi Ngài để sóng đổ muôn trùng xô lấp thuyền họ,
 	    nhấn chìm rồi tung lên,
 	    Phách hồn thất kinh, và khéo khôn phiêu lạc.
     }
@@ -211,13 +218,13 @@ loiPhienKhucSop = \lyrics {
       Dẫn họ về ngay đường thẳng lối
       Tới thị thành để họ an cư,
       Họng ráo khô Ngài cho uống phỉ tình,
-      Bụng đói là Chúa cho được no đầy.
+      Bụng đói lả Chúa cho được no đầy.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Chúa bẻ gập gông cumgf xiềng xích
+	    Chúa bẻ gập gông cùm xiềng xích
 	    Cứu họ khỏi ngục thẳm âm u,
 	    Ngài phá tung kìa bao cánh cửa đồng
 	    Và đã bẻ những then cài sắt này.

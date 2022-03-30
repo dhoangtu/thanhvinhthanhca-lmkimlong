@@ -24,8 +24,9 @@ nhacPhienKhucSop = \relative c' {
   e4 \tuplet 3/2 { f8 d d } |
   a'4. a8 |
   g d'4 b8 |
-  c2 ~ |
+  \stemDown c2 ~ |
   c4 r8 \bar "||" \break
+  \stemNeutral
   
   c,16 c |
   f8. d16 \tuplet 3/2 { g8 g e } |
@@ -37,7 +38,7 @@ nhacPhienKhucSop = \relative c' {
   c8. e,16 \tuplet 3/2 { g8 g a } |
   a4 r8 a16 g |
   f8 e d g |
-  c2 ~ |
+  c,2 ~ |
   c4 r8 \bar "|."
 }
 
@@ -89,7 +90,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Lời Ngài mới vừa âm vang truyền phán
 	    Chúng kinh hoàng chạy tan tác nơi nơi
-	    Vượt núi non cao, tràn nương xanh bát nhát
+	    Vượt núi non cao, tràn nương xanh bát ngát
 	    Tưới cây cỏ xanh rì lá cành.
     }
     \new Lyrics {
@@ -131,7 +132,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "8."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài trần thiết vầng trăng đo thời tiết
-	    Đúng theo giờ, vầng ô gasc non tây
+	    Đúng theo giờ, vầng ô gác non tây
 	    Vào lúc đêm lên Ngài tung gieo bóng tối,
 	    Tiếng sư tử vang dội núi rừng.
     }
@@ -139,7 +140,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "9."
 	    Ngày vừa tới là bao nhiêu cầm thú
-	    Bảo nhau về tim hang hốc nương thân
+	    Bảo nhau về tìm hang hốc nương thân
 	    Là lúc nhân gian cùng ra lao tác hết
 	    Những mê mải cho tận đến chiều.
     }
@@ -172,7 +173,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "13."
-	    Sự nghiệp Chúa ngàn m uôn năm còn mãi
+	    Sự nghiệp Chúa ngàn muôn năm còn mãi
 	    Những sự nghiệp làm cho Chúa hân hoan
 	    Kìa đất run lên vừa khi ra mắt Chúa,
 	    Núi bung lửa khi Ngài khẽ đụng.

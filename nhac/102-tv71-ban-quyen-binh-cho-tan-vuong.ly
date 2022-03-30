@@ -103,7 +103,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Rộn rã vương hầu các đảo xa muôn nơi
-	    Đem theo lễ vật xin thuần phục,
+	    Đem theo lễ vật xin thần phục,
 	    Mọi quân vương kính cẩn tôn thờ nơi ngai báu,
 	    Muôn người một lòng kính sợ.
     }

@@ -33,7 +33,7 @@ nhacPhienKhucSop = \relative c'' {
   d4 r8 ef |
   c4 c8 d |
   bf4. a16 (bf) |
-  d8 d a16 (bf) a8 |
+  d,8 d a'16 (bf) a8 |
   g4 r8 <b! g> \bar "||"
 }
 
@@ -67,6 +67,7 @@ loiPhienKhucSop = \lyrics {
       Xin phân xử con,
       biện hộ con chống phường bất nghĩa,
       Chúa ơi xin cứu con khỏi bọn xảo trá gian tà.
+      \set stanza = "ĐK."
       Xin
     }
     \new Lyrics {
@@ -80,7 +81,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
 	    Than van làm chi, này hồn ơi chớ thổn thức mãi,
-	    vừng tin nơi Chúa đi bởi Ngài là Chúa tôi thờ.
+	    vững tin nơi Chúa đi bởi Ngài là Chúa tôi thờ.
     }
   >>
 }

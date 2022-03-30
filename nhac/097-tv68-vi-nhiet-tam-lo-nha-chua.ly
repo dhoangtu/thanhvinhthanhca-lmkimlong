@@ -20,8 +20,9 @@ nhacPhienKhucSop = \relative c'' {
   c'4. b8 b e |
   a,2 \bar "||" \break
   
-  a8. b16 |
+  \override Staff.TimeSignature.break-visibility = #end-of-line-invisible
   \time 2/4
+  \partial 4 a8. b16 |
   b8 gs4 e8 |
   c'4. b8 |
   d8. e16 c (b) e8 |

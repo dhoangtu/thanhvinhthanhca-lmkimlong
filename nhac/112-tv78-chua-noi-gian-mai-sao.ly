@@ -76,7 +76,7 @@ loiPhienKhucSop = \lyrics {
   <<
     {
       \set stanza = "1."
-      Đến bao giờ, lạy Chúa, Ngài con nổi giận,
+      Đến bao giờ, lạy Chúa, Ngài còn nổi giận,
       Ngài con nổi giận mãi sao?
       Đến bao giờ lòng ghen còn bừng cháy như lửa hồng.
     }
@@ -87,7 +87,7 @@ loiPhienKhucSop = \lyrics {
 	    Nhớ chi hoài tội lỗi tiền
 	    \markup { \italic \underline "nhân" }
 	    đã phạm
-	    Để rồi đánh phạt chúng cong.
+	    Để rồi đánh phạt chúng con.
 	    Đớn đau nhiều, đoàn con nguyện Ngài đứng lên độ trì.
     }
     \new Lyrics {

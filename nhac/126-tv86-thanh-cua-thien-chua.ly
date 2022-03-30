@@ -38,7 +38,7 @@ loiPhienKhucSop = \lyrics {
       \set stanza = "1."
       Thành Si -- on được lập trên núi thánh,
       Chúa yêu chuộng cửa thành
-      hơn mọi nà của Gia -- cóp.
+      hơn mọi nhà của Gia -- cóp.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

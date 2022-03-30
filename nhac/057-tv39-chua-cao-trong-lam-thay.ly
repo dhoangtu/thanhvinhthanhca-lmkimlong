@@ -68,7 +68,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Hát mừng lên Thiê Chúa bài tân ca,
+	    Hát mừng lên Thiên Chúa bài tân ca,
 	    Và hãy một lòng cậy tin,
 	    Phúc đức ai tựa nương ở nơi Ngài,
 	    không hùa theo phường gian kiêu hãnh.

@@ -12,9 +12,9 @@
 nhacPhienKhucSop = \relative c' {
   \partial 8 d8 |
   bf'8. a16 \tuplet 3/2 { bf8 bf a } |
-  g4 \tuplet 3/2 { bf8 c c } |
+  g4 \tuplet 3/2 { g8 c, c } |
   d8. bf16 \tuplet 3/2 { c8 a a } |
-  ef4. d16 d |
+  ef'4. d16 d |
   g4 \tuplet 3/2 { a8 a g } |
   fs4. d8 |
   bf'8. a16 \tuplet 3/2 { bf8 bf a } |
@@ -71,7 +71,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Mài lưỡi cho sắc bén nhue gươm,
+	    Mài lưỡi cho sắc bén như gươm,
 	    Bắn từng loạt tên là bao lời hiểm ác,
 	    Họ nhằm ai chất phác vô tội
 	    Vụt bắn khi thấy vẫn vô can.
@@ -91,7 +91,7 @@ loiPhienKhucSop = \lyrics {
 	    Này Chúa cho phóng mũi tên bay,
 	    Bắn tình lình nên bọn gian tà gục ngã,
 	    Tàn mạng theo tấc lưỡi hư hoại,
-	    Nhìn thế ai có xót thương chi.
+	    Nghìn thế ai có xót thương chi.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
@@ -105,7 +105,7 @@ loiPhienKhucSop = \lyrics {
   \set stanza = "ĐK:"
   Người công chính sẽ mừng vui trong Chúa,
   tìm Chúa để nương mình.
-  Tấm lòng ai chính trực đều lấy làm vinh.
+  Tấm lòng ai chính trực đều lấy thế làm vinh.
 }
 
 % Dàn trang

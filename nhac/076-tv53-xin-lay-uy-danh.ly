@@ -75,7 +75,7 @@ loiPhienKhucSop = \lyrics {
 	    Con ước mong rằng bọn chúng
 	    Truy nhận chính những điều chúng mưu hại người.
 	    Chúa muôn đời luôn trung tín,
-	    Xin giơ tay tiễu trừ chũng khỏi trần ai.
+	    Xin giơ tay tiễu trừ chúng khỏi trần ai.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

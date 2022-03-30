@@ -75,6 +75,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
+      Nào ai chỉ đường vào thành kiên cố Ngài
 	    Ai đâu dìu dắt lên tận Ê -- đom,
 	    Chính Chúa đà từng ruồng rẫy chúng con,
 	    Cũng đã không dẫn đường xuất trận.

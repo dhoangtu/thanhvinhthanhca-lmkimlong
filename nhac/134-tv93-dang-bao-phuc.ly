@@ -97,7 +97,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "5."
 	    Chúa nào có khước từ,
-	    ruồng rấy dân riêng Ngài luôn mãi yêu thương,
+	    ruồng rẫy dân riêng Ngài luôn mãi yêu thương,
 	    Pháp lý sẽ trở lui nơi pháp đình,
 	    vạn kiếp an vui đến cho người chính trực.
     }

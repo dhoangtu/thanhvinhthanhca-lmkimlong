@@ -34,11 +34,11 @@ nhacPhienKhucSop = \relative c'' {
   a4 g8 g |
   e4. e8 |
   e8. (g16 a4) |
-  \slashedGrace { fs16 ( } a8) fs16 (e) d4 ~ |
+  \slashedGrace { fs16 _( } a8) fs16 (e) d4 ~ |
   d8 d b'16 (c) b8 |
   a4 r8 a |
   g8. c16 a8 c |
-  d4 \slashedGrace { b16 ( } b8) g16 (g) |
+  d4 \slashedGrace { b16 _( } d8) b16 (a) |
   g4. a8 |
   b4 b8 a16 (g) |
   e4. d8 |
@@ -49,7 +49,7 @@ nhacPhienKhucAlto = \relative c' {
   r4 |
   R2*17
   r8
-  d8 g16 (g) g8 |
+  d8 g16 (a) g8 |
   fs4 e8 d |
   c4. c8 |
   c8. (b16 d4) |
@@ -82,7 +82,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Diễm phúc ai được Chúa dù thương tuyển chọn thi ân,
+	    Diễm phúc ai được Chúa dủ thương tuyển chọn thi ân,
 	    Được ngụ luôn nơi khuôn viên Thánh điện Ngài hôm sớm,
 	    Được đầy no phúc ân Ngài, hưởng lộc trong thánh điện Ngài,
 	    Vì Ngài là vị cứu tinh, chốn hy vọng cho khắp nơi.
@@ -108,7 +108,7 @@ loiPhienKhucSop = \lyrics {
 	    Ruộng đồng mênh mông xanh tươi,
 	    suối chảy tràn muôn lối,
 	    Đời giầu sang Chúa ban tặng,
-	    dạt dào nương lùa ươm vàng,
+	    dạt dào nương lúa ươm vàng,
 	    từng mùa Ngài đổ phúc ân,
 	    trải hoa màu theo vết chân.
     }

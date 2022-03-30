@@ -84,7 +84,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "3."
-	    Thường dân cũng âu chỉ như là khói bay,
+	    Thường dân cũng âu chỉ như làn khói bay,
 	    Hạng quyền quí cũng ảo huyền,
 	    Đặt cân thì hơn gì cụm mây.
     }

@@ -21,7 +21,7 @@ nhacPhienKhucSop = \relative c'' {
   d4. bf8 |
   d g,4 bf8 |
   c4 a8 a |
-  g (bf a) g |
+  g ([bf a]) g |
   f2 \bar "||"
   
   f8. a16 d,8 f |
@@ -75,7 +75,8 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Sợ hãi gì đêm đen với khí,
+	    Sợ hãi gì đêm đen với tên đạn giữa ban ngày,
+	    Sợ gì thần ôn dịch khí,
 	    Dẫu kề bên muôn vạn người lao đao ngã gục,
 	    Một mình bạn yên thân không chi vướng mắc.
     }

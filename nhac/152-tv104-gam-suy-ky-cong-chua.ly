@@ -14,7 +14,8 @@ nhacPhienKhucSop = \relative c'' {
   c a16 a e'8 d |
   b2 |
   fs8. g16 e8 d ~ |
-  d b'16 g c8 b |
+  \once \override NoteColumn.X-offset = -1 d
+  b'16 g c8 b |
   a4 r8 e' |
   c ^> c ^> r d |
   b8. a16 g8 a |

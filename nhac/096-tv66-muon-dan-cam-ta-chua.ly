@@ -45,7 +45,7 @@ nhacPhienKhucAlto = \relative c' {
   f8. g16 d (f) d8 |
   c4 r8 c |
   f4. f8 |
-  f8. d16 e8 e |
+  f8. d16 e8 [e] |
   f2 ~ |
   f4 f8 f |
   bf4. bf8 |

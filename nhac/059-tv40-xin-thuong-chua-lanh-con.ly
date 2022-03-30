@@ -11,7 +11,7 @@
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
   \partial 8 c8 |
-  d4 \tuplet 3/2 { a8 b a } |
+  b4 \tuplet 3/2 { a8 b a } |
   f4. e8 |
   b'4 r8 c |
   a4 \tuplet 3/2 { g8 a c } |

@@ -50,7 +50,7 @@ loiPhienKhucSop = \lyrics {
   Lúc con gặp gian truân,
   xin Ngài đừng lánh mặt.
   Trong ngày con kêu cứu,
-  xin lắng nghe va mau mau đáp lời.
+  xin lắng nghe và mau mau đáp lời.
   <<
     {
       \set stanza = "1."
@@ -83,13 +83,13 @@ loiPhienKhucSop = \lyrics {
 	    Bao ác nhân cười chê,
 	    chúng điên lên rủa con nát nước,
 	    Bánh độ nhật đây tro trấu,
-	    Con uốn suối lệ hòa chan.
+	    Con uống suối lệ hòa chan.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "5."
-	    Khi Chúa giận xục sôi,
-	    nhắc on lên rồi xô sấp xuống,
+	    Khi Chúa giận sục sôi,
+	    nhắc con lên rồi xô sấp xuống,
 	    Tháng ngày đời con nghiêng bóng,
 	    Thân héo úa như cỏ khô.
     }
@@ -99,7 +99,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Nhưng Chúa hiển trị luôn,
 	    khắp nhân gian còn luôn nhắc nhớ,
-	    Bấy giờ ngàn dân tôn Chúa nhìn phận Si -- on đó,
+	    Chúa nhìn phận Si -- on đó,
 	    Thương xót đứng lên độ trì.
     }
     \new Lyrics {

@@ -94,14 +94,14 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Ai dắt dìu con vào thành thánh,
 	    nếu Chúa cam lòng xua từ hết chúng con,
-	    Phàm nhân bênh đỡ ra gì,
+	    Phàm nhân đâu bênh đỡ ra gì,
 	    Van xin Ngài trấn đánh kẻ thù cho.
     }
   >>
   \set stanza = "ĐK:"
   Trước mặt chư dân con dâng lời cảm tạ,
   Từ trong muôn nước con đàn hát xướng ca,
-  Vì tình thương Chúa xao lút cung trời,
+  Vì tình thương Chúa cao lút cung trời,
   Lòng tín trung Ngài vút trên ngàn mây.
 }
 

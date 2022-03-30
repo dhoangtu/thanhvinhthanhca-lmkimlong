@@ -76,7 +76,7 @@ loiPhienKhucSop = \lyrics {
 	    Chính bởi Ngài, Vạn lạy Chúa,
 	    Đấng cao cả thay,
 	    Vẫn giữ gìn mọi kẻ kiên trung,
-	    Cho xa thoát bao bọn hung ta,
+	    Cho xa thoát bao bọn hung tàn,
 	    uy thế vượt trên muôn lãnh thần.
     }
     \new Lyrics {

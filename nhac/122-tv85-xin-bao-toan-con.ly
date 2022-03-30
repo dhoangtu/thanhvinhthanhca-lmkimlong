@@ -11,7 +11,7 @@
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
   a4. bf16 (a) |
-  g4 \tuplet 3/2 { c8 g e } |
+  g4 \tuplet 3/2 { c,8 g' e } |
   f4. f16 f |
   f8 d d bf' |
   bf4. c8 |
@@ -19,7 +19,7 @@ nhacPhienKhucSop = \relative c'' {
   g8. f16 d8 f |
   g4 \tuplet 3/2 { f8 g a } |
   bf4. bf16 g |
-  a8. c16 \tuplet 3/2 { g8 g a } |
+  a8. c,16 \tuplet 3/2 { g'8 g a } |
   f2 ~ |
   f4 r8 \bar "||" \break
   
@@ -107,7 +107,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Xin đoái trông và hãy dủ thương,
 	    Ban cho con một điềm báo phúc, Chúa ơi
-	    Để quân thù con nay một phne điêu đứng,
+	    Để quân thù con nay một phen điêu đứng,
 	    thấy Ngài thương ủi an tôi tớ này.
     }
   >>

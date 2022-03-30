@@ -26,8 +26,8 @@ nhacPhienKhucSop = \relative c' {
   f2 \bar "||"
   
   f8 e f a |
-  d4. c8 |
-  a a16 a bf8 a |
+  d,4. c8 |
+  a' a16 a bf8 a |
   g4. g8 |
   g2 bf8 a bf d |
   g,4. e8 |
@@ -104,6 +104,7 @@ loiPhienKhucSop = \lyrics {
 			       (/ 20 20)))
   print-page-number = ##f
   system-system-spacing = #'((basic-distance . 0.1) (padding . 2))
+  page-count = 1
 }
 
 TongNhip = {

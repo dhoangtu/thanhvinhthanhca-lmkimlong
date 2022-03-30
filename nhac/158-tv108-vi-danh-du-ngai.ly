@@ -14,7 +14,7 @@ nhacPhienKhucSop = \relative c'' {
   f4. f8 |
   e4 g8 f |
   c4 r8 c16 c |
-  d8 g g f |
+  c8 g' g f |
   a4. g16 g |
   g8 d' d b! |
   c2 |
@@ -27,7 +27,7 @@ nhacPhienKhucSop = \relative c'' {
   g8 bf c e, |
   f2 \bar "||"
   
-  g4. f16 d |
+  e4. f16 d |
   c8 a' a bf |
   g4 r8 f16 f |
   f8 a bf4 ~ |

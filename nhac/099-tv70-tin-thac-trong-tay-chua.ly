@@ -40,7 +40,7 @@ nhacPhienKhucAlto = \relative c' {
   e8. e16 d8 e |
   g2 ~ |
   g4 a8 a |
-  b8. c16 a8 g |
+  b8. c16 a8 [g] |
   f4. f8 |
   e d4 f8 |
   e2
@@ -71,7 +71,7 @@ loiPhienKhucSop = \lyrics {
 	    Con khôn ngơi cất tiếng tôn vinh Chúa,
 	    tay Ngài hằng dắt dìu con,
 	    Vì có Chúa là thành trì để ẩn thân,
-	    Nguyện mãi tán dương.
+	    Nguyện mãi mãi tán dương.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
@@ -96,7 +96,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Bao vinh hoa Chúa sẽ ban chan chứa,
 	    an ủi và vỗ về con,
-	    Dù trước đó từng bị vùi dập khổ đâu,
+	    Dù trước đó từng bị vùi dập khổ đau,
 	    rồi Chúa mới kéo lên.
     }
     \new Lyrics {
@@ -105,7 +105,7 @@ loiPhienKhucSop = \lyrics {
 	    Theo cung tơ réo rắt con ca hát,
 	    đa tạ Ngài cứu độ con,
 	    Và nhắc nhớ ngàn đời Ngài luôn công chính,
-	    là Đấng Thánh Ich -- diên.
+	    là Đấng Thánh Ích -- diên.
     }
   >>
   \set stanza = "ĐK:"

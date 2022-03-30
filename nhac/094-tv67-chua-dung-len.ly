@@ -26,7 +26,7 @@ nhacPhienKhucSop = \relative c'' {
   c,4. c8 |
   c' bf a a ~ |
   a bf g c |
-  f,2 \bar "||"
+  f,2 \bar "||" \break
   
   f8. f16 g8 a ~ |
   a c d, \slashedGrace { \parenthesize d8 (} f) |
@@ -60,6 +60,7 @@ nhacPhienKhucAlto = \relative c'' {
   a' g f f ~ |
   f g e e |
   f2
+  R2*11
 }
 
 % Lời phiên khúc
@@ -122,7 +123,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "6."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Ngài vừa tuyên sấm: xuất hiện thiên binh,
-	    lãnh đám hầy cùng quân lực chạy trốn,
+	    lãnh đám hầu cùng quân lực chạy trốn,
 	    Ngay trên đỉnh San -- mon băng tuyết phủ đầy,
 	    Khi Ngài xua đánh vua chúa trần gian.
     }

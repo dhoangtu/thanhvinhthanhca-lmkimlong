@@ -80,7 +80,7 @@ loiPhienKhucSop = \lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
-	    Bao vinh dự được cư ngụ trong cung thánh,
+	    Bao vinh dự được ngụ trong cung thánh,
 	    Cất lời ca tụng mừng Chúa rền vang.
 	    Tin nhận ở Chúa là sức oai phong,
 	    mộng hành hương ủ ấp bên lòng.

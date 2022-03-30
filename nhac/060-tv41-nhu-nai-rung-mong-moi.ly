@@ -25,9 +25,9 @@ nhacPhienKhucSop = \relative c'' {
   bf' (a) g g |
   d'2 |
   c8. bf16 c8 d |
-  g,8. (bf16 a8) g |
+  g,8. ([bf16 a8]) g |
   d4. d8 |
-  a'8. (bf16 a8) g |
+  a'8. ([bf16 a8]) g |
   g2 \bar "|."
 }
 

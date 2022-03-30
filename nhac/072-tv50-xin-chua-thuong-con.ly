@@ -115,7 +115,7 @@ loiPhienKhucSop = \lyrics {
     \new Lyrics {
 	    \set associatedVoice = "beSop"
 	    \set stanza = "7."
-	    Đường Chúa con xin đem rặn dạy phường ngỗ nghịch,
+	    Đường Chúa con xin đem răn dạy phường ngỗ nghịch,
 	    thúc giục tội nhân trở lại cùng Thiên Chúa.
 	    Xin Ngài tha nợ vương máu đào.
 	    Cho miệng con hớn hở hát mừng.
@@ -142,7 +142,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "10."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Ngày ấy Chúa ghé mắt vui nhận từng lễ vật,
-	    Lễ vật toàn thiêu thiên hạ cũng dâng tiến:
+	    Lễ vật toàn thiêu thiên hạ cùng dâng tiến:
 	    Đây bò tơ đặt trên tế đàn
 	    hương tỏa bay thấu tận cõi trời.
     }

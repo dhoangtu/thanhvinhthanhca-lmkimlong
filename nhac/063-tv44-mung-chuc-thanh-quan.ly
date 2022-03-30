@@ -91,8 +91,8 @@ loiPhienKhucSop = \lyrics {
       \set stanza = "1."
       Cung ngai Ngài thiên niên vạn đại,
       phủ việt Ngài vương trượng công minh,
-      Ngài yêu thích trực và ghét gian tà
-      Nên Thiên Cháu đã xức cho Ngài
+      Ngài yêu chính trực và ghét gian tà
+      Nên Thiên Chúa đã xức cho Ngài
       dầu thơm hoan lạc,
       Tôn phong Ngài trổi vượt đồng liêu.
     }

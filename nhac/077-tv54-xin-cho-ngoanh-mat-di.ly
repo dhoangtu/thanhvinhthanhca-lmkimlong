@@ -12,7 +12,7 @@
 nhacPhienKhucSop = \relative c' {
   \partial 8 e8 |
   c'4. b8 |
-  b8. c16 gs8 a |
+  b8. c16 b8 a |
   gs4 a8 f |
   e4. e8 |
   c'4 a8 a |
@@ -73,7 +73,7 @@ loiPhienKhucSop = \lyrics {
       Họ hằm hằm xông tới cáo tội con,
       Tố con những điều con chẳng biết,
       Con nghe trong mình tim đau thắt lại,
-      Bẫy từ thần kinh hoàng chụp xuống thân con.
+      Bẫy tử thần kinh hoàng chụp xuống thân con.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
@@ -81,7 +81,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Ước mong phải chi được cặp cánh chim bồ câu
 	    Và dìu dặp bay tới cõi trời xa,
-	    Lánh đi trong tận xa mạc vắng,
+	    Lánh đi trong tận sa mạc vắng,
 	    Mong sao qua thời phong ba bão bùng,
 	    Ước trông hoài mau tìm được chốn dung thân.
     }
@@ -100,7 +100,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Giá như gặp kẻ thù nhạo báng hay cười chê
 	    Lòng này đành câm nín lánh mặt đi,
-	    Chứ đây bọn bè thân tình cũ,
+	    Chứ đây bạn bè thân tình cũ,
 	    Bao phen tâm đầu chia vui sớt sầu,
 	    Giữa đô hội lên đền thờ Chúa bên nhau.
     }
@@ -121,7 +121,7 @@ loiPhienKhucSop = \lyrics {
 	    Trút cho Ngài gánh sầu,
 	    Ngài sẽ đỡ đần cho
 	    Chẳng để người công chính phải ngả nghiêng.
-	    Với quân gian tà chuyên đổ mấu,
+	    Với quân gian tà chuyên đổ máu,
 	    Đâu mong chi được an thân nửa đời,
 	    Có tôi là tin cậy vào Chúa khôn ngơi.
     }

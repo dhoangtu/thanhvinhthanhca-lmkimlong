@@ -71,7 +71,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "3."
 	    Xin tiến lên trong hoan hỉ,
 	    Bao diễm lệ vào tận chính cung.
-	    Đây con Ngài sẽ nối dùng vương phụ,
+	    Đây con Ngài sẽ nối dòng vương phụ,
 	    Ngài tấn phong công thần khắp thế gian.
     }
   >>
