@@ -20,7 +20,7 @@ nhacPhienKhucSop = \relative c' {
   f2 ~ |
   f4 \bar "||" \break
   
-  <> \tweak extra-offset #'(-5.5 . -2.5) _\markup { \bold "ĐK:" }
+  <> \tweak extra-offset #'(-6.5 . -1.8) _\markup { \bold "ĐK:" }
   c4 |
   a'4 a8 bf |
   g8. e16 f8 d |

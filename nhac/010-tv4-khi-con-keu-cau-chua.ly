@@ -10,7 +10,7 @@
 
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
-  <> \tweak extra-offset #'(-6.5 . -2.5) _\markup { \bold "ĐK:" }
+  %<> \tweak extra-offset #'(-6.5 . -2.5) _\markup { \bold "ĐK:" }
   \partial 4. a8 a a |
   e8. c'16 c8 c |
   b2 ~ |
