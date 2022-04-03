@@ -11,7 +11,7 @@
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
   \autoPageBreaksOff
-  <> \tweak extra-offset #'(-6.5 . -2.2) _\markup { \bold "ĐK:" }
+  %<> \tweak extra-offset #'(-6.5 . -2.2) _\markup { \bold "ĐK:" }
   a8 a b b |
   gs4. e8 |
   c'4 r8 c | \break

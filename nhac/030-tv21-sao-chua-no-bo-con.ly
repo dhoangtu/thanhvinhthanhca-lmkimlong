@@ -11,7 +11,7 @@
 % Nhạc phiên khúc
 nhacPhienKhucSop = \relative c'' {
   \autoPageBreaksOff
-  <> \tweak extra-offset #'(-3.5 . -2.7) _\markup { \bold "ĐK:" }
+  %<> \tweak extra-offset #'(-3.5 . -2.7) _\markup { \bold "ĐK:" }
   \partial 4.
   % thêm dấu nghỉ ẩn, vì nốt hoa mỹ ở đầu bản nhạc sẽ bị lỗi
   \once \hide r8
