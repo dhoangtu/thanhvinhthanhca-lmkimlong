@@ -26,7 +26,7 @@ nhacPhienKhucSop = \relative c'' {
   bf8 bf g bf |
   a4 r8 g16 g |
   g8 c, g' e |
-  f2 \bar "||" \break
+  f2 \bar "|." \break
   
   g8. a16 d,8 g ~ |
   g g d e16 (d) |
@@ -104,7 +104,7 @@ nhacPhienKhucSop = \relative c'' {
   \oneVoice
   e8 g |
   c,4 g'8 e |
-  f2 \bar "|."
+  f2 \bar "||"
 }
 
 nhacPhienKhucAlto = \relative c' {

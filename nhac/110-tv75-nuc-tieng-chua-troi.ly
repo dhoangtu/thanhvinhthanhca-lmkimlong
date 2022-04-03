@@ -20,7 +20,7 @@ nhacPhienKhucSop = \relative c' {
   a4 r8 bf16 a |
   g4 \tuplet 3/2 { c,8 g' a } |
   f2 ~ |
-  f4 r8 \bar "||"
+  f4 r8 \bar "|."
   
   f |
   f8. d16 \tuplet 3/2 { f8 bf a } |
@@ -46,7 +46,7 @@ nhacPhienKhucSop = \relative c' {
   c4 \tuplet 3/2 { a8 c bf } |
   \slashedGrace { bf16 _( } a8.) g16 c,8 e |
   \slashedGrace { g16 _( } f2) ~ |
-  f4 \bar "|."
+  f4 \bar "||"
 }
 
 nhacPhienKhucAlto = \relative c' {

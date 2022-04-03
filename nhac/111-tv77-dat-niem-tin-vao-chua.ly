@@ -23,7 +23,7 @@ nhacPhienKhucSop = \relative c'' {
   e4 c8 a ~ |
   a a d d |
   g,2 ~ |
-  g4 r8 \bar "|." \break
+  g4 r8 \bar "||" \break
   
   d |
   g4. g16 g |
@@ -39,7 +39,7 @@ nhacPhienKhucSop = \relative c'' {
   fs,4. e16 g |
   d8 b d a' |
   g2 ~ |
-  g8 \bar "||"
+  g8 \bar "|."
 }
 
 nhacPhienKhucAlto = \relative c'' {

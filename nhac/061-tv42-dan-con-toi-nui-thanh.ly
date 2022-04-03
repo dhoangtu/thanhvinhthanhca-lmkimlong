@@ -34,7 +34,7 @@ nhacPhienKhucSop = \relative c'' {
   c4 c8 d |
   bf4. a16 (bf) |
   d,8 d a'16 (bf) a8 |
-  g4 r8 <b! g> \bar "||"
+  g4 r8 <b! g> \bar "|."
 }
 
 nhacPhienKhucAlto = \relative c'' {
