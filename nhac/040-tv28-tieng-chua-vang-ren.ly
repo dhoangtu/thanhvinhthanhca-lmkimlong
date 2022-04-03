@@ -82,7 +82,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "4."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Hô vang trong đền thánh Chúa,
-	    muôn dân mừng hát: ''Chúa hiển danh'',
+	    muôn dân mừng hát: “Chúa hiển danh”,
 	    Đức vua uy linh luôn hiển trị,
 	    Cho con dân hưởng phúc an vui.
     }

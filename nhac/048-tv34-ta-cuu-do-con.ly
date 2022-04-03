@@ -77,7 +77,7 @@ loiPhienKhucSop = \lyrics {
   Ai đánh con, xin Ngài đánh nó.
   Cầm mộc khiên đứng lên mà trợ giúp,
   Nói với con một lời:
-  ''Rằng Ta cứu độ con''.
+  “Rằng Ta cứu độ con”.
   <<
     {
       \set stanza = "1."
@@ -162,8 +162,8 @@ loiPhienKhucSop = \lyrics {
 	    Nguyện Ngài vùng _ đứng công minh xét xử cho con,
 	    Để quân thù đừng lên mặt nữa,
 	    Đừng để họ kiêu hãnh cao rao
-	    ''Ta nay nuốt chửng nó rồi,
-	    ôi là vui sướng thay.''
+	    “Ta nay nuốt chửng nó rồi,
+	    ôi là vui sướng thay.”
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"
@@ -171,7 +171,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Còn người nào _ thấy con nay đã được giải oan,
 	    hãy vui mừng cùng xương tụng Chúa:
-	    ''Ngài vĩ đại, ôi Chúa cao quang''.
+	    “Ngài vĩ đại, ôi Chúa cao quang”.
 	    xin ban phúc lộc an bình cho người luôn tín trung.
     }
   >>
