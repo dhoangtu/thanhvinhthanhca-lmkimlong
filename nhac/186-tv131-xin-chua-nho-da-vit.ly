@@ -27,6 +27,7 @@ nhacPhienKhucSop = \relative c'' {
   c8 e g e |
   f4 r8 \bar "||" \break
   
+  <> \tweak extra-offset #'(-6.5 . -2.5) _\markup { \bold "ĐK:" }
   a |
   a4. bf16 bf |
   bf8 a g c |
@@ -113,7 +114,8 @@ loiPhienKhucSop = \lyrics {
 	    sẽ rạng ngời muôn ánh triều thiên.
     }
   >>
-  \set stanza = "ĐK:"
+  %\set stanza = "ĐK:"
+  \set stanza = ""
   Nơi đây Chúa chúc phúc cho người chính trực,
   ban bánh ăn cho người nghèo khó,
   Cho tư tế mặc ơn công chính,
@@ -145,6 +147,8 @@ TongNhip = {
   \set Timing.baseMoment = #(ly:make-moment 1/4)
 }
 
+% mã nguồn cho những chức năng chưa hỗ trợ trong phiên bản lilypond hiện tại
+% cung cấp bởi cộng đồng lilypond khi gửi email đến lilypond-user@gnu.org
 % Đổi kích thước nốt cho bè phụ
 notBePhu =
 #(define-music-function (font-size music) (number? ly:music?)
@@ -159,6 +163,88 @@ notBePhu =
            #f))
      music)
    music)
+
+% in số phiên khúc trên mỗi dòng
+#(define (add-grob-definition grob-name grob-entry)
+    (set! all-grob-descriptions
+          (cons ((@@ (lily) completize-grob-entry)
+                 (cons grob-name grob-entry))
+                all-grob-descriptions)))
+
+#(add-grob-definition
+   'StanzaNumberSpanner
+   `((direction . ,LEFT)
+     (font-series . bold)
+     (padding . 1)
+     (side-axis . ,X)
+     (stencil . ,ly:text-interface::print)
+     (X-offset . ,ly:side-position-interface::x-aligned-side)
+     (Y-extent . ,grob::always-Y-extent-from-stencil)
+     (meta . ((class . Spanner)
+              (interfaces . (font-interface
+                             side-position-interface
+                             stanza-number-interface
+                             text-interface))))))
+
+\layout {
+   \context {
+     \Global
+     \grobdescriptions #all-grob-descriptions
+   }
+   \context {
+     \Score
+     \remove Stanza_number_align_engraver
+     \consists
+       #(lambda (context)
+          (let ((texts '())
+                (syllables '()))
+            (make-engraver
+             (acknowledgers
+              ((stanza-number-interface engraver grob source-engraver)
+                 (set! texts (cons grob texts)))
+              ((lyric-syllable-interface engraver grob source-engraver)
+                 (set! syllables (cons grob syllables))))
+             ((stop-translation-timestep engraver)
+                (for-each
+                 (lambda (text)
+                   (for-each
+                    (lambda (syllable)
+                      (ly:pointer-group-interface::add-grob text
+'side-support-elements syllable))
+                    syllables))
+                 texts)
+                (set! syllables '())))))
+   }
+   \context {
+     \Lyrics
+     \remove Stanza_number_engraver
+     \consists
+       #(lambda (context)
+          (let ((text #f)
+                (last-stanza #f))
+            (make-engraver
+             ((process-music engraver)
+                (let ((stanza (ly:context-property context 'stanza #f)))
+                  (if (and stanza (not (equal? stanza last-stanza)))
+                      (let ((column (ly:context-property context
+'currentCommandColumn)))
+                        (set! last-stanza stanza)
+                        (if text
+                            (ly:spanner-set-bound! text RIGHT column))
+
+                        (set! text (ly:engraver-make-grob engraver
+'StanzaNumberSpanner '()))
+                        (ly:grob-set-property! text 'text stanza)
+                        (ly:spanner-set-bound! text LEFT column)))))
+             ((finalize engraver)
+                (if text
+                    (let ((column (ly:context-property context
+'currentCommandColumn)))
+                      (ly:spanner-set-bound! text RIGHT column)))))))
+     \override StanzaNumberSpanner.horizon-padding = 10000
+   }
+}
+% kết thúc mã nguồn
 
 \score {
   \new ChoirStaff <<
