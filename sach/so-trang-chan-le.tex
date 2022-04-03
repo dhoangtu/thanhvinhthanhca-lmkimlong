@@ -23,7 +23,7 @@
   \foreach \x in {1,...,\value{pdfpages}} {
   	\checkoddpage
 	\ifthenelse{\boolean{oddpage}}
-		{\lhead[]{} \rhead{\rmfamily\bfseries\fontsize{12pt}{12pt}\selectfont\thepage} \includepdf[pagecommand={\thispagestyle{fancy}},pages=\thepage,scale=0.93,offset=0.15cm 0cm]{nhac.pdf}}
-		{\lhead{\rmfamily\bfseries\fontsize{12pt}{12pt}\selectfont\thepage} \rhead[]{} \includepdf[pagecommand={\thispagestyle{fancy}},pages=\thepage,scale=0.93,offset=0.15cm 0cm]{nhac.pdf}}
+		{\lhead[]{} \rhead{\rmfamily\bfseries\fontsize{11pt}{11pt}\selectfont\thepage} \includepdf[pagecommand={\thispagestyle{fancy}},pages=\thepage,scale=0.93,offset=0.15cm 0cm]{nhac.pdf}}
+		{\lhead{\rmfamily\bfseries\fontsize{11pt}{11pt}\selectfont\thepage} \rhead[]{} \includepdf[pagecommand={\thispagestyle{fancy}},pages=\thepage,scale=0.93,offset=0.15cm 0cm]{nhac.pdf}}
   }
 \end{document}
