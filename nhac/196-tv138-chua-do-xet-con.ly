@@ -118,7 +118,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Ôi tư tưởng Ngài bí nhiệm thay,
 	    huyền vi khôn xiết,
-	    Nhiều quá chứng đi thôi đếm sao nổi đây,
+	    Nhiều quá chừng đi thôi đếm sao nổi đây,
 	    Nhiều hơn trăm muôn cát biển mọi nơi
 	    Tỉnh giấc con lại vẫn luôn gặp Ngài.
     }

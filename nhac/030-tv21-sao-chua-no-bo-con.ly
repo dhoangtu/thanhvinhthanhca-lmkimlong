@@ -12,9 +12,7 @@
 nhacPhienKhucSop = \relative c'' {
   \autoPageBreaksOff
   %<> \tweak extra-offset #'(-3.5 . -2.7) _\markup { \bold "ĐK:" }
-  \partial 4.
-  % thêm dấu nghỉ ẩn, vì nốt hoa mỹ ở đầu bản nhạc sẽ bị lỗi
-  \once \hide r8
+  \partial 4
   \slashedGrace { c16 ( } d8) bf |
   a4 \slashedGrace { g16 ( } a8) f |
   e4 r8 e |
@@ -47,7 +45,9 @@ nhacPhienKhucSop = \relative c'' {
 }
 
 nhacPhienKhucAlto = \relative c' {
-  
+  r4
+  R2*23
+  r4
 }
 
 % Lời phiên khúc
@@ -269,9 +269,9 @@ notBePhu =
         printPartCombineTexts = ##f
       }
       <<
-      \new Voice \TongNhip \partCombine 
+      \new Voice { \TongNhip \partCombine 
         \nhacPhienKhucSop
-        \notBePhu -1 { \nhacPhienKhucAlto }
+        \notBePhu -1 { \nhacPhienKhucAlto } }
       \new NullVoice = beSop \nhacPhienKhucSop
       \new Lyrics \lyricsto beSop \loiPhienKhucSop
       >>
