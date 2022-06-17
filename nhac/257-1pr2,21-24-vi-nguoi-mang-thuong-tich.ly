@@ -180,7 +180,7 @@ loiPhienKhucSop = \lyrics {
 	    \set stanza = "2."
       \override Lyrics.LyricText.font-shape = #'italic
 	    Bị nguyền rủa Người không rủa nguyền lại,
-	    Chịu đau đớn mà chẳng đe lời,
+	    Chịu đau đớn mà chẳng đe loi,
 	    Nhưng một bề phó thác cho Đấng xử xét công bình.
     }
     \new Lyrics {

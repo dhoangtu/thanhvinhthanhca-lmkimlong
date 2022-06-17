@@ -198,7 +198,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Này hồn tôi sao mãi u sầu,
 	    hãy tín nhiệm vào Chúa
-	    Tôi còn luôn tán tụng Danh Ngài là Chúa Trời tôi.
+	    Tôi còn luôn tán tụng Danh Ngài là Chúa trên tôi.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

@@ -188,7 +188,7 @@ loiPhienKhucSop = \lyrics {
 	    Sức mạnh công việc ngài thần dân ngắm nhìn,
 	    Ngài tặng họ sản nghiệp muôn nước,
 	    Bao uy công Ngài thực ngay chính quang minh,
-	    Ban bố huấn lệnh ngàn kiếp không đổi dời.
+	    Ban bố huấn lệnh ngàn kiếp không đổi rời.
     }
     \new Lyrics {
 	    \set associatedVoice = "beSop"

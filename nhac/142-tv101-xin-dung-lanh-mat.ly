@@ -129,7 +129,7 @@ nhacPhienKhucSop = \relative c'' {
   e8 d g g |
   a4 r8 a16 bf |
   a8 e g16 g a8 |
-  f2 \bar "||"
+  d,2 \bar "||"
   
   d8. f16 c8 a |
   d4. f16 e |
@@ -152,7 +152,7 @@ nhacPhienKhucAlto = \relative c'' {
   e8 d g g |
   a4 r8 f16 g |
   f8 a, e'16 e cs8 |
-  f2
+  d2
 }
 
 % Lời phiên khúc

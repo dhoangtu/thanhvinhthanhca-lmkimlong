@@ -185,7 +185,7 @@ loiPhienKhucSop = \lyrics {
       \override Lyrics.LyricText.font-shape = #'italic
 	    Tôi ước mong một điều và khấn nguyện luôn:
 	    ở đền thánh Chúa suốt đời,
-	    Đêm ngày được cung nghiêm Chúa rạng rỡ ánh quang,
+	    Đêm ngày được chiêm ngắm Chúa rạng rỡ ánh quang,
 	    Trông ngắm thánh điện huy hoàng.
     }
     \new Lyrics {
