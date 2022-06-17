@@ -254,23 +254,6 @@ TongNhip = {
   \set Timing.baseMoment = #(ly:make-moment 1/4)
 }
 
-% mã nguồn cho những chức năng chưa hỗ trợ trong phiên bản lilypond hiện tại
-% cung cấp bởi cộng đồng lilypond khi gửi email đến lilypond-user@gnu.org
-% Đổi kích thước nốt cho bè phụ
-notBePhu =
-#(define-music-function (font-size music) (number? ly:music?)
-   (for-some-music
-     (lambda (m)
-       (if (music-is-of-type? m 'rhythmic-event)
-           (begin
-             (set! (ly:music-property m 'tweaks)
-                   (cons `(font-size . ,font-size)
-                         (ly:music-property m 'tweaks)))
-             #t)
-           #f))
-     music)
-   music)
-
 \score {
   \new ChoirStaff <<
     \new Staff \with {
